@@ -4,7 +4,6 @@
 			key: page.path
 		}
 	});
-
 </script>
 
 <script>
@@ -12,7 +11,6 @@
 	import PageTransition from '$lib/PageTransition.svelte';
 	import '../app.css';
 	export let key;
-
 </script>
 
 <Header />
@@ -24,7 +22,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Footer</p>
 </footer>
 
 <style>
@@ -56,5 +54,4 @@
 			padding: 40px 0;
 		}
 	}
-
 </style>
