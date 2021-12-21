@@ -2610,9 +2610,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-31bcfeca.js",
+      file: "/./_app/start-7b2d4606.js",
       css: ["/./_app/assets/start-a8cd1609.css"],
-      js: ["/./_app/start-31bcfeca.js", "/./_app/chunks/vendor-f0ef093f.js"]
+      js: ["/./_app/start-7b2d4606.js", "/./_app/chunks/vendor-f0ef093f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2674,6 +2674,20 @@ var manifest = {
     },
     {
       type: "page",
+      pattern: /^\/blog\/enabling-code-coverage-in-vscode-and-gitlab\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/blog/enabling-code-coverage-in-vscode-and-gitlab.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/blog\/outputting-test-dom-to-file\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/blog/outputting-test-dom-to-file.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
       pattern: /^\/blog\/([^/]+?)\/?$/,
       params: (m) => ({ id: d(m[1]) }),
       a: ["src/routes/__layout.svelte", "src/routes/blog/[id].svelte"],
@@ -2704,11 +2718,17 @@ var module_lookup = {
   "src/routes/blog/index.svelte": () => Promise.resolve().then(function() {
     return index;
   }),
+  "src/routes/blog/enabling-code-coverage-in-vscode-and-gitlab.svelte": () => Promise.resolve().then(function() {
+    return enablingCodeCoverageInVscodeAndGitlab;
+  }),
+  "src/routes/blog/outputting-test-dom-to-file.svelte": () => Promise.resolve().then(function() {
+    return outputtingTestDomToFile;
+  }),
   "src/routes/blog/[id].svelte": () => Promise.resolve().then(function() {
     return _id_;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-f36be09c.js", "css": ["/./_app/assets/pages/__layout.svelte-cca311b6.css"], "js": ["/./_app/pages/__layout.svelte-f36be09c.js", "/./_app/chunks/vendor-f0ef093f.js", "/./_app/chunks/stores-8b5137fc.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-0d259b8f.js", "css": [], "js": ["/./_app/error.svelte-0d259b8f.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-fc5fcaec.js", "css": ["/./_app/assets/pages/index.svelte-54441fa5.css"], "js": ["/./_app/pages/index.svelte-fc5fcaec.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/codesandboxes.svelte": { "entry": "/./_app/pages/codesandboxes.svelte-5241bc65.js", "css": [], "js": ["/./_app/pages/codesandboxes.svelte-5241bc65.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/about.svelte": { "entry": "/./_app/pages/about.svelte-05e8998c.js", "css": ["/./_app/assets/pages/about.svelte-f1951de2.css"], "js": ["/./_app/pages/about.svelte-05e8998c.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/blog/index.svelte": { "entry": "/./_app/pages/blog/index.svelte-0362e0e3.js", "css": [], "js": ["/./_app/pages/blog/index.svelte-0362e0e3.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/blog/[id].svelte": { "entry": "/./_app/pages/blog/[id].svelte-01227a1e.js", "css": [], "js": ["/./_app/pages/blog/[id].svelte-01227a1e.js", "/./_app/chunks/vendor-f0ef093f.js", "/./_app/chunks/stores-8b5137fc.js"], "styles": null } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-f36be09c.js", "css": ["/./_app/assets/pages/__layout.svelte-cca311b6.css"], "js": ["/./_app/pages/__layout.svelte-f36be09c.js", "/./_app/chunks/vendor-f0ef093f.js", "/./_app/chunks/stores-8b5137fc.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-0d259b8f.js", "css": [], "js": ["/./_app/error.svelte-0d259b8f.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-fc5fcaec.js", "css": ["/./_app/assets/pages/index.svelte-54441fa5.css"], "js": ["/./_app/pages/index.svelte-fc5fcaec.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/codesandboxes.svelte": { "entry": "/./_app/pages/codesandboxes.svelte-5241bc65.js", "css": [], "js": ["/./_app/pages/codesandboxes.svelte-5241bc65.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/about.svelte": { "entry": "/./_app/pages/about.svelte-05e8998c.js", "css": ["/./_app/assets/pages/about.svelte-f1951de2.css"], "js": ["/./_app/pages/about.svelte-05e8998c.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/blog/index.svelte": { "entry": "/./_app/pages/blog/index.svelte-0362e0e3.js", "css": [], "js": ["/./_app/pages/blog/index.svelte-0362e0e3.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/blog/enabling-code-coverage-in-vscode-and-gitlab.svelte": { "entry": "/./_app/pages/blog/enabling-code-coverage-in-vscode-and-gitlab.svelte-42370147.js", "css": [], "js": ["/./_app/pages/blog/enabling-code-coverage-in-vscode-and-gitlab.svelte-42370147.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/blog/outputting-test-dom-to-file.svelte": { "entry": "/./_app/pages/blog/outputting-test-dom-to-file.svelte-28508fd6.js", "css": [], "js": ["/./_app/pages/blog/outputting-test-dom-to-file.svelte-28508fd6.js", "/./_app/chunks/vendor-f0ef093f.js"], "styles": null }, "src/routes/blog/[id].svelte": { "entry": "/./_app/pages/blog/[id].svelte-01227a1e.js", "css": [], "js": ["/./_app/pages/blog/[id].svelte-01227a1e.js", "/./_app/chunks/vendor-f0ef093f.js", "/./_app/chunks/stores-8b5137fc.js"], "styles": null } };
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -2901,6 +2921,79 @@ var index = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Blog
+});
+var EnablingCodeCoverageInVSCodeAndGitLab_svelte = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<p>Code coverage is a useful metric for seeing how much of your code has been walked by unit tests. Not going to go into further detail here!</p>
+<p>In this article, I\u2019ll describe how to turn on code coverage in VSCode and Gitlab</p>
+<p>Recently, I had to turn on code coverage</p>
+<h2>Context</h2>
+<p>We had a client project at work that\u2019s been going at such a lick, that we\u2019ve fallen very far behind on our unit/integration tests, and had never enabled code coverage either.</p>
+<p>Now, we\u2019re trying to catch up on our test coverage, and so have turned it on, and using</p>
+<p>Currently, Jest is the most popular test runner, and it\u2019s what we\u2019re using. Jest has code coverage built in (provisioned using Instanbul), which is turned with either cli flag <code>\u2014coverage</code>, or similar flag in jest config file.</p>
+<p>\u2014 running jest in vscode
+\u2014 how to toggle code coverage overlay</p>
+<p>\u2014 adding text/text-summary coverage report in jest</p>
+<p>\u2014 adding to gitlab pipeline text (provide docs link)</p>
+<p>\u2014 adding in gitlab diff view (provide docs link and github issue link)</p>
+<p>And that\u2019s where we\u2019re at now. Having it in gitlab isn\u2019t a massive benefit; I think the greatest value of code coverage is the aforementioned ability to toggle overlay in editor to direct yourself to where to add unit tests in local development, but having it in diff view for others to view it is a nice thing to have too.</p>`;
+});
+var Enabling_code_coverage_in_vscode_and_gitlab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(EnablingCodeCoverageInVSCodeAndGitLab_svelte, "EnablingCodeCoverageInVSCodeAndGitLab").$$render($$result, {}, {}, {})}`;
+});
+var enablingCodeCoverageInVscodeAndGitlab = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Enabling_code_coverage_in_vscode_and_gitlab
+});
+var OutputtingTestDomToFile_svelte = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<h2>Context</h2>
+<p>When a selector in a <code>@testing-library</code> test fails, it\u2019ll output the entirety of the dom you\u2019ve mounted to the console, to help you debug why the selector failed to find the element. On a recent project, this was printing a huge amount of markup (mainly antd\u2019s fault). This made debugging slow and painful, as scrolling up and down hundreds of lines of markup was <del>pure pain</del> rather unpleasant.</p>
+<h3>tl;dr</h3>
+<p>this experiment <em>diid</em> work\u2026 but not in a pleasant enough way to make me use it in my daily/project workflow anytime soon.</p>
+<p>I\u2019m sharing this experiment in the interest of making <a href="${"https://www.swyx.io/learn-in-public/"}" rel="${"nofollow"}">learning in public</a>, and perhaps garnering opinions on the concept.</p>
+<p>Read on for detail on what I tried, and a summary of the pros and cons with this strategy.</p>
+<h2>The problem</h2>
+<pre class="${"language-jsx"}">${`<code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>gif</span> <span class="token attr-name">of</span> <span class="token attr-name">loads</span> <span class="token attr-name">of</span> <span class="token attr-name">dom</span> <span class="token attr-name">output</span><span class="token punctuation">></span></span></code>`}</pre>
+<p>I hope you can agree, parsing so much markup over and over is painful. Especially when it\u2019s printing divs with a single classname like</p>
+<pre class="${"language-jsx"}">${`<code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>
+  <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ant-menu-item<span class="token punctuation">"</span></span>
+<span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token comment">// instead of</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ant-menu-item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code>`}</pre>
+<p>which bugs me greatly, because it feels unnecessary, and antd is bloated, so this happens a lot.</p>
+<p>Furthermore, for some reason my DOM is being printed <strong>more than once</strong>, and sometimes with css. I haven\u2019t figured out why this is (contact me if you know why please!)</p>
+<h2>The solution</h2>
+<p>Testing-library has a function called <a href="${"https://testing-library.com/docs/dom-testing-library/api-debugging/#prettydom"}" rel="${"nofollow"}">prettyDOM</a>, which is a wrapper around jest/pretty-format.</p>
+<p>We can configure testing-library to not print the DOM on error, as detailed in <a href="${"https://stackoverflow.com/a/64155473/15471471"}" rel="${"nofollow"}">this stackoverflow answer</a> (and here\u2019s <a href="${"https://testing-library.com/docs/dom-testing-library/api-configuration/"}" rel="${"nofollow"}">testing-library configuration docs</a> for reference).</p>
+<p>Then</p>
+<p>Print to a file - I placed this in project and gitignored, but could generate it anywhere really? If no process for automatic file cleanup, then keeping it in project folder would make it less likely to forget about I suppose.</p>
+<pre class="${"language-undefined"}">${`<code class="language-undefined">&lt;show code here&gt;</code>`}</pre>
+<h3>Conclusion</h3>
+<p>Overall, while I\u2019m glad I tried this, I think it\u2019s a bad idea. Whilst it solves one problem, it adds more with managing the files you\u2019re generating.</p>
+<p><strong>Pros:</strong></p>
+<ul><li><strong>compact markup</strong> - easier to scroll and debug</li>
+<li><strong>familiar syntax/theme highlighting</strong> in markup (by virtue of being viewed from code editor)</li>
+<li>DOM output printed in <strong>different location</strong> to console (I like the separation)</li></ul>
+<p><strong>Cons:</strong></p>
+<ul><li><strong>VSCode jest \u2014watch interference</strong> (could be configured differently to avoid)</li>
+<li>I don\u2019t think the flow of \u2018perform default operation of printing DOM to console\u2019 is working quite right?</li>
+<li>The process is <strong>clunky</strong> and at it\u2019s heart, a <strong>hack</strong>. Therefore, I didn\u2019t feel comfortable asking colleagues to adopt it on project</li>
+<li>DOM output printed in <strong>different location</strong> to console (the separation does introduce a whole other bunch of maintenance problems)</li></ul>
+<p>The other takeaway I have for you today, is to just not use antd. While it does bring benefits of speedy development and slick design, it\u2019s bloated to all hell, and has poor accessibility.</p>
+<p>This poor accessibility makes testing painful for another reason - it\u2019s hard to find appropriate selectors for elements. Test-ids can be added to most elements as an escape hatch, but sometimes it\u2019s impossible.</p>
+<h3>Other thoughts/ideas:</h3>
+<p>It\u2019d be great to find a way to make testing-library\u2019s prettyDOM print more compactly - perhaps I should raise a ticket for this/try this myself if the idea is liked?</p>
+<p>Print each test in a test run to a separate file, delete all files on each new test run</p>
+<p>differentiate VSCode/Manual runs</p>`;
+});
+var Outputting_test_dom_to_file = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OutputtingTestDomToFile_svelte, "OutputtingTestDomToFile").$$render($$result, {}, {}, {})}`;
+});
+var outputtingTestDomToFile = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Outputting_test_dom_to_file
 });
 var U5Bidu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let id;
