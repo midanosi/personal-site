@@ -1,9 +1,10 @@
 import netlify from '@sveltejs/adapter-netlify';
+import sveltePreprocess from 'svelte-preprocess'
 import { mdsvex } from 'mdsvex';
 
 const extensions = [`.svelte`, `.svx`, `.md`];
 
-const preprocess = [mdsvex({ extensions })];
+const preprocess = [sveltePreprocess(), mdsvex({ extensions })];
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
