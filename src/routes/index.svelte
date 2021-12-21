@@ -1,11 +1,5 @@
 <script context="module">
 	export const prerender = true;
-
-</script>
-
-<script>
-	import MarkdownExample from '$lib/MarkdownExample.svelte.md';
-
 </script>
 
 <svelte:head>
@@ -15,49 +9,39 @@
 <section>
 	<h1>Michael Hutchings</h1>
 
-	<i>site wip</i>
-	<p>Hi, I'm a front-end web developer based in Cambridge!</p>
+	<p>Hello! I'm a frontend web developer based in Cambridge, UK</p>
 
 	<article>
 		<h2>Portfolio</h2>
-		<h4>Non-ZZMT site</h4>
 	</article>
 
 	<article>
-		<h2>Old projects</h2>
-		<h4>
-			Non-ZZMT site (please don't judge (note to self: put tags here like 'php', 'mysql' etc. to
-			indicate technologies used)
-		</h4>
-		<h4>MKSC Videos</h4>
+		<h2>Stuff I've made</h2>
 	</article>
-
-	<MarkdownExample />
 </section>
 
 <style>
 	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
+		width: 600px;
+		margin: 0 auto;
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: var(--accent-color);
 		text-transform: uppercase;
 		font-size: 4rem;
 		font-weight: 100;
 		line-height: 1.1;
 		margin: 4rem auto;
-		max-width: 14rem;
+		text-align: left;
+	}
+	h2 {
+		font-size: 1.5rem;
 	}
 
 	p {
-		max-width: 14rem;
 		margin: 2rem auto;
 		line-height: 1.35;
+		font-size: 1.2rem;
 	}
-
 </style>
