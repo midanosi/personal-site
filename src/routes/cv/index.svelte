@@ -284,29 +284,27 @@
 	h3,
 	h4 {
 		color: black;
+		font-variation-settings: var(--bold);
 	}
 	h1 {
 		font-size: 1.5rem;
+		font-variation-settings: var(--regular);
 	}
 	h2 {
 		text-transform: uppercase;
 		font-size: 2rem;
 		border-bottom: 4px solid var(--accent-color);
 		margin-bottom: 0.75rem;
-		font-weight: bold;
-	}
-	h3 {
-		font-weight: bold;
 	}
 	h4 {
 		color: var(--heading-color);
-		font-weight: bold;
 	}
 
 	p,
 	li {
 		font-size: 0.8rem;
-		font-weight: 500;
+		/* font-weight: 500; */
+		font-variation-settings: var(--medium);
 		color: hsla(0, 0%, 40%, 80%);
 	}
 	article.cv {

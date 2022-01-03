@@ -30,10 +30,10 @@
 		color: var(--accent-color);
 		text-transform: uppercase;
 		font-size: 4rem;
-		font-weight: 100;
 		line-height: 1.1;
 		margin: 4rem auto;
 		text-align: left;
+		font-variation-settings: var(--regular);
 	}
 	h2 {
 		font-size: 1.5rem;
