@@ -6,8 +6,13 @@
 
 <style>
 	.chip {
-		border: 1px solid grey;
-		border-radius: 0.5rem;
-		padding: 0.25rem 0.5rem;
+		border: 1px solid #ccce;
+		border-radius: 6px;
+		padding: 3px 6px;
+		height: 20px;
+
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>
