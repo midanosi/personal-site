@@ -176,6 +176,10 @@
 		<section>
 			<h2>Education</h2>
 			<h3>University of Bath</h3>
+			<li class="period has-icon">
+				<img src="icons/calendar-regular.svg" class="list-icon" />
+				<p>Sept 2012 - June 2016</p>
+			</li>
 			<h4>
 				BSc (Hons) Mathematics <p>(with Sandwich Placement)</p>
 			</h4>
@@ -378,10 +382,6 @@
 		flex-wrap: wrap;
 		gap: 2px 0.25rem;
 		margin-bottom: 0.25rem;
-	}
-
-	.period {
-		font-style: italic;
 	}
 
 	.section-title {
