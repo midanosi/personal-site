@@ -34,9 +34,9 @@
 		</ul>
 		<p>
 			JavaScript developer with 4 years experience in building robust and slick user interfaces.
-			Whilst I specialise in frontend development, I‘m well acquainted in neighbouring disciplines;
-			automated e2e testing, backend, devops, and UI/UX design. I’m looking to join a collaborative
-			team to create great products.
+			Whilst I specialise in frontend development, I‘m both acquainted with and am comfortable
+			bleeding into neighbouring disciplines; Backend Development, Automated Testing, DevOps, and
+			UI/UX design. I’m looking to join a collaborative team to create great products.
 		</p>
 	</section>
 	<section aria-label="left-hand column" class="lhs-col">
@@ -44,9 +44,20 @@
 			<h2>Experience</h2>
 			<h3>Cambridge Consultants</h3>
 			<h4>Senior Engineer</h4>
-			<p class="period">Jan 2021 - Present</p>
+			<ul class="inline-data">
+				<li class="period">
+					<p>Jan 2021 - Ongoing</p>
+				</li>
+				<li class="location">
+					<p>Cambridge, UK</p>
+				</li>
+			</ul>
 			<h4>Engineer</h4>
-			<p class="period">Jan 2019 - Jan 2021</p>
+			<ul class="inline-data">
+				<li class="period">
+					<p>Jan 2019 - Jan 2021</p>
+				</li>
+			</ul>
 			<ul>
 				<li>
 					Delivered customised and complex UI features to specification across several client and
@@ -82,7 +93,14 @@
 		<section>
 			<h3>Luminance (startup)</h3>
 			<h4>Web Developer</h4>
-			<p class="period">Jan 2018 - Dec 2018</p>
+			<ul class="inline-data">
+				<li class="period">
+					<p>Jan 2018 - Dec 2018</p>
+				</li>
+				<li class="location">
+					<p>Cambridge, UK</p>
+				</li>
+			</ul>
 			<!-- <p>
 				Joined the Web team as a frontend developer. The application was written with Backbone.js,
 				templating with Handlebars, styling with Less.css.
@@ -111,7 +129,14 @@
 		<section>
 			<h3>CGI - Manual Software Tester ("Analyst Programmer")</h3>
 			<h4>Web Developer</h4>
-			<p class="period">Aug 2014 - Aug 2015</p>
+			<ul class="inline-data">
+				<li class="period">
+					<p>Aug 2014 - Aug 2015</p>
+				</li>
+				<li class="location">
+					<p>Leatherhead, UK</p>
+				</li>
+			</ul>
 			<ul>
 				<li>Worked on a large test team on the Galileo Satellite Navigation System project</li>
 				<li>Instilled great technical communication skills, by need of precise bug reporting</li>
@@ -174,8 +199,11 @@
 		</section>
 		<section>
 			<h2>Interests</h2>
-			<ul>
-				<li>stuff</li>
+			<ul class="interests">
+				<li class="skiing">Skiing</li>
+				<li class="running">Running</li>
+				<li class="music">Synthwave</li>
+				<li class="music">Electronic</li>
 			</ul>
 		</section>
 
@@ -327,5 +355,40 @@
 			font-weight: bold;
 			font-size: 1rem;
 		}
+	}
+	ul.inline-data {
+		display: flex;
+		gap: 0.5rem 5rem;
+		flex-wrap: wrap;
+	}
+	ul.interests {
+		display: flex;
+		justify-content: space-between;
+		gap: 0.5rem 2rem;
+		flex-wrap: wrap;
+
+		li {
+			width: 40%;
+		}
+	}
+
+	// list icons
+	li {
+		&.period {
+			list-style-image: url();
+		}
+		&.location {
+			list-style-image: url();
+		}
+		// birthday
+		// email
+		// phone
+		// linkedin
+		// location
+		// github
+		// gitlab
+		// running
+		// skiing
+		// song/music
 	}
 </style>
