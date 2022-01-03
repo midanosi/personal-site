@@ -27,23 +27,27 @@
 		<h3 class="job-title">Frontend Developer</h3>
 		<ul class="personal-info">
 			<li class="has-icon">
-				<img src="icons/at-solid.svg" class="list-icon" />mdhutchings94@gmail.com
+				<img alt="at symbol" src="icons/at-solid.svg" class="list-icon" />mdhutchings94@gmail.com
 			</li>
 			<li class="has-icon">
-				<img src="icons/phone-solid.svg" class="list-icon" />+447504605355
+				<img alt="phone" src="icons/phone-solid.svg" class="list-icon" />+447504605355
 			</li>
 			<li class="has-icon">
-				<img src="icons/map-marker-alt-solid.svg" class="list-icon" />Cambridge, UK
+				<img
+					alt="location-marker"
+					src="icons/map-marker-alt-solid.svg"
+					class="list-icon"
+				/>Cambridge, UK
 			</li>
 			<li class="has-icon icons-only">
 				<a href="https://www.linkedin.com/in/michael-hutchings-64a884104/">
-					<img src="icons/linkedin-brands.svg" class="list-icon" />
+					<img alt="linkedin logo" src="icons/linkedin-brands.svg" class="list-icon" />
 				</a>
 				<a href="https://github.com/midanosi">
-					<img src="icons/github-brands.svg" class="list-icon" />
+					<img alt="github logo" src="icons/github-brands.svg" class="list-icon" />
 				</a>
 				<a href="https://gitlab.com/midanosi">
-					<img src="icons/gitlab-brands.svg" class="list-icon" />
+					<img alt="gitlab logo" src="icons/gitlab-brands.svg" class="list-icon" />
 				</a>
 			</li>
 		</ul>
@@ -61,18 +65,18 @@
 			<h4>Senior Engineer</h4>
 			<ul class="inline-data">
 				<li class="has-icon">
-					<img src="icons/calendar-regular.svg" class="list-icon" />
+					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2021 - Ongoing</p>
 				</li>
 				<li class="has-icon">
-					<img src="icons/map-marker-alt-solid.svg" class="list-icon" />
+					<img alt="location marker icon" src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Cambridge, UK</p>
 				</li>
 			</ul>
 			<h4>Engineer</h4>
 			<ul class="inline-data">
 				<li class="has-icon">
-					<img src="icons/calendar-regular.svg" class="list-icon" />
+					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2019 - Jan 2021</p>
 				</li>
 			</ul>
@@ -115,11 +119,11 @@
 			<h4>Web Developer</h4>
 			<ul class="inline-data">
 				<li class="has-icon">
-					<img src="icons/calendar-regular.svg" class="list-icon" />
+					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2018 - Dec 2018</p>
 				</li>
 				<li class="has-icon">
-					<img src="icons/map-marker-alt-solid.svg" class="list-icon" />
+					<img alt="location marker icon" src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Cambridge, UK</p>
 				</li>
 			</ul>
@@ -155,11 +159,11 @@
 			<h4>Manual Software Tester ("Analyst Programmer")</h4>
 			<ul class="inline-data">
 				<li class="period has-icon">
-					<img src="icons/calendar-regular.svg" class="list-icon" />
+					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Aug 2014 - Aug 2015</p>
 				</li>
 				<li class="location has-icon">
-					<img src="icons/map-marker-alt-solid.svg" class="list-icon" />
+					<img alt="location marker icon" src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Leatherhead, UK</p>
 				</li>
 			</ul>
@@ -177,7 +181,7 @@
 			<h2>Education</h2>
 			<h3>University of Bath</h3>
 			<li class="period has-icon">
-				<img src="icons/calendar-regular.svg" class="list-icon" />
+				<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
 				<p>Sept 2012 - June 2016</p>
 			</li>
 			<h4>
@@ -237,16 +241,24 @@
 			<h2>Interests</h2>
 			<ul class="interests">
 				<li class="has-icon">
-					<img src="icons/skiing-solid.svg" class="list-icon" />Skiing
+					<img alt="skier icon" src="icons/skiing-solid.svg" class="list-icon" />Skiing
 				</li>
 				<li class="has-icon">
-					<img src="icons/running-solid.svg" class="list-icon" />Running
+					<img alt="jogging icon" src="icons/running-solid.svg" class="list-icon" />Running
 				</li>
 				<li class="has-icon">
-					<img src="icons/headphones-alt-solid.svg" class="list-icon" />Synthwave
+					<img
+						alt="headphones icon"
+						src="icons/headphones-alt-solid.svg"
+						class="list-icon"
+					/>Synthwave
 				</li>
 				<li class="has-icon">
-					<img src="icons/headphones-alt-solid.svg" class="list-icon" />Electronic
+					<img
+						alt="headphones icon"
+						src="icons/headphones-alt-solid.svg"
+						class="list-icon"
+					/>Electronic
 				</li>
 			</ul>
 		</section>
