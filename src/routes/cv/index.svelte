@@ -179,7 +179,11 @@
 			<h4>
 				BSc (Hons) Mathematics <p>(with Sandwich Placement)</p>
 			</h4>
-			<p>Classification: <b>1st</b></p>
+			<ul>
+				<li>
+					Classification: <b>1st</b>
+				</li>
+			</ul>
 		</section>
 		<section>
 			<h2>Key Skills</h2>
@@ -246,8 +250,7 @@
 		<section>
 			<h2>Referees</h2>
 			<ul>
-				<li>one</li>
-				<li>two</li>
+				<li>Available on request</li>
 			</ul>
 		</section>
 	</section>
