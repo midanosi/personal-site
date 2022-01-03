@@ -25,14 +25,29 @@
 	<section class="header">
 		<h1 class="my-name">MICHAEL HUTCHINGS</h1>
 		<h3 class="job-title">Frontend Developer</h3>
-		<ul class="contact-info">
-			<li class="email">mdhutchings94@gmail.com</li>
-			<li class="phone">+447504605355</li>
-			<li class="location">Cambridge, UK</li>
-			<li class="github">midanosi</li>
-			<li class="gitlab">midanosi</li>
+		<ul class="personal-info">
+			<li class="has-icon">
+				<img src="icons/at-solid.svg" class="list-icon" />mdhutchings94@gmail.com
+			</li>
+			<li class="has-icon">
+				<img src="icons/phone-solid.svg" class="list-icon" />+447504605355
+			</li>
+			<li class="has-icon">
+				<img src="icons/map-marker-alt-solid.svg" class="list-icon" />Cambridge, UK
+			</li>
+			<li class="has-icon icons-only">
+				<a href="https://www.linkedin.com/in/michael-hutchings-64a884104/">
+					<img src="icons/linkedin-brands.svg" class="list-icon" />
+				</a>
+				<a href="https://github.com/midanosi">
+					<img src="icons/github-brands.svg" class="list-icon" />
+				</a>
+				<a href="https://gitlab.com/midanosi">
+					<img src="icons/gitlab-brands.svg" class="list-icon" />
+				</a>
+			</li>
 		</ul>
-		<p>
+		<p class="summary-paragraph">
 			JavaScript developer with 4 years experience in building robust and slick user interfaces.
 			Whilst I specialise in frontend development, I‘m both acquainted with and am comfortable
 			bleeding into neighbouring disciplines; Backend Development, Automated Testing, DevOps, and
@@ -45,16 +60,19 @@
 			<h3>Cambridge Consultants</h3>
 			<h4>Senior Engineer</h4>
 			<ul class="inline-data">
-				<li class="period">
+				<li class="has-icon">
+					<img src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2021 - Ongoing</p>
 				</li>
-				<li class="location">
+				<li class="has-icon">
+					<img src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Cambridge, UK</p>
 				</li>
 			</ul>
 			<h4>Engineer</h4>
 			<ul class="inline-data">
-				<li class="period">
+				<li class="has-icon">
+					<img src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2019 - Jan 2021</p>
 				</li>
 			</ul>
@@ -90,14 +108,18 @@
 			</ul>
 		</section>
 
+		<Divider />
+
 		<section>
-			<h3>Luminance (startup)</h3>
+			<h3>Luminance</h3>
 			<h4>Web Developer</h4>
 			<ul class="inline-data">
-				<li class="period">
+				<li class="has-icon">
+					<img src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2018 - Dec 2018</p>
 				</li>
-				<li class="location">
+				<li class="has-icon">
+					<img src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Cambridge, UK</p>
 				</li>
 			</ul>
@@ -115,6 +137,8 @@
 			</ul>
 		</section>
 
+		<Divider />
+
 		<!-- <section>
 			<div class="career-gap-title-line">
 				<p class="title">Notable career gap:</p>
@@ -127,13 +151,15 @@
 		</section> -->
 
 		<section>
-			<h3>CGI - Manual Software Tester ("Analyst Programmer")</h3>
-			<h4>Web Developer</h4>
+			<h3>CGI</h3>
+			<h4>Manual Software Tester ("Analyst Programmer")</h4>
 			<ul class="inline-data">
-				<li class="period">
+				<li class="period has-icon">
+					<img src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Aug 2014 - Aug 2015</p>
 				</li>
-				<li class="location">
+				<li class="location has-icon">
+					<img src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Leatherhead, UK</p>
 				</li>
 			</ul>
@@ -202,10 +228,18 @@
 		<section>
 			<h2>Interests</h2>
 			<ul class="interests">
-				<li class="skiing">Skiing</li>
-				<li class="running">Running</li>
-				<li class="music">Synthwave</li>
-				<li class="music">Electronic</li>
+				<li class="has-icon">
+					<img src="icons/skiing-solid.svg" class="list-icon" />Skiing
+				</li>
+				<li class="has-icon">
+					<img src="icons/running-solid.svg" class="list-icon" />Running
+				</li>
+				<li class="has-icon">
+					<img src="icons/headphones-alt-solid.svg" class="list-icon" />Synthwave
+				</li>
+				<li class="has-icon">
+					<img src="icons/headphones-alt-solid.svg" class="list-icon" />Electronic
+				</li>
 			</ul>
 		</section>
 
@@ -217,6 +251,9 @@
 			</ul>
 		</section>
 	</section>
+	<footer>
+		<p>Icons by <a href="https://fontawesome.com">Font Awesome</a></p>
+	</footer>
 </article>
 
 <style lang="scss">
@@ -254,6 +291,7 @@
 		color: hsla(0, 0%, 40%, 80%);
 	}
 	article.cv {
+		position: relative;
 		background: white;
 		margin: 2rem auto;
 
@@ -280,7 +318,7 @@
 		grid-template-columns: 5fr 2fr;
 		grid-template-rows: auto 1fr;
 
-		grid-gap: 1.5rem 2rem;
+		grid-gap: 1rem 2rem;
 
 		/* aspect-ratio: 1/1.618; */
 		color: black;
@@ -290,19 +328,20 @@
 	}
 	.my-name {
 		text-align: left;
-		margin-bottom: 0.75rem;
+		margin-bottom: 0.5rem;
 
 		font-weight: 00;
 		width: fit-content;
 		border-bottom: 2px solid var(--accent-color);
 	}
-	ul.contact-info {
-		display: flex;
-		gap: 0.5rem 2.5rem;
-		flex-wrap: wrap;
+	ul.personal-info {
 		margin: 0;
-		padding-left: 1rem;
-		margin: 0.25rem 0;
+		margin-bottom: 0.25rem;
+		padding: 0;
+
+		display: flex;
+		gap: 0 2.5rem;
+		flex-wrap: wrap;
 
 		li {
 			font-size: 0.9rem;
@@ -312,7 +351,6 @@
 				color: maroon;
 			}
 		}
-		margin-bottom: 0.75rem;
 	}
 
 	.lhs-col {
@@ -320,7 +358,7 @@
 
 		display: flex;
 		flex-direction: column;
-		gap: 0.5rem;
+		gap: 0.25rem;
 	}
 
 	.rhs-col {
@@ -366,8 +404,9 @@
 	ul.interests {
 		display: flex;
 		justify-content: space-between;
-		gap: 0.5rem 2rem;
+		gap: 0.125rem 2rem;
 		flex-wrap: wrap;
+		padding: 0;
 
 		li {
 			width: 40%;
@@ -375,22 +414,31 @@
 	}
 
 	// list icons
-	li {
-		&.period {
-			list-style-image: url();
+	li.has-icon {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+
+		img.list-icon {
+			width: 12px;
 		}
-		&.location {
-			list-style-image: url();
+
+		&.icons-only {
+			gap: 1rem;
+
+			img.list-icon {
+				width: 16px;
+			}
 		}
-		// birthday
-		// email
-		// phone
-		// linkedin
-		// location
-		// github
-		// gitlab
-		// running
-		// skiing
-		// song/music
+	}
+
+	footer {
+		position: absolute;
+		bottom: 2px;
+		right: 5px;
+
+		p {
+			font-size: 0.5rem;
+		}
 	}
 </style>
