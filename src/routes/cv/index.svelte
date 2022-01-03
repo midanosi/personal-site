@@ -149,9 +149,11 @@
 	<section aria-label="right-hand column" class="rhs-col">
 		<section>
 			<h2>Education</h2>
-			<p>B.Sc Mathematics (copy wording from old cv?)</p>
-			<p>bla</p>
-			<p>bla</p>
+			<h3>University of Bath</h3>
+			<h4>
+				BSc (Hons) Mathematics <p>(with Sandwich Placement)</p>
+			</h4>
+			<p>Classification: <b>1st</b></p>
 		</section>
 		<section>
 			<h2>Key Skills</h2>
