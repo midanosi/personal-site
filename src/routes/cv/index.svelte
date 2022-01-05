@@ -310,7 +310,7 @@
 	article.cv {
 		position: relative;
 		background: white;
-		margin: 2rem auto;
+		margin: 2rem auto; // remove this when saving to pdf with puppeteer
 		padding: 2rem;
 
 		width: 793px; // a4 dimensions
