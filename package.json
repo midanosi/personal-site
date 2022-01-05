@@ -16,6 +16,7 @@
 		"node-sass": "^7.0.0",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
+		"puppeteer": "^13.0.1",
 		"svelte": "^3.44.2"
 	},
 	"type": "module",
