@@ -30,8 +30,8 @@
 	<h1 class="section-title">Internal (Public) Projects from Work</h1>
 	<article>
 		<div class="item">
-			<h2 class="name">Monumental</h2>
 			<div class="desc">
+				<h2 class="name">Monumental</h2>
 				<p>
 					This was a project to visualise the live inference of a Machine Learning algorithm,
 					applied against a custom bridge-building game, trained on real-word physics. I was very
@@ -51,15 +51,19 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<!-- <img src="pastprojects/good bridge.png" /> -->
+				<video controls width="100%">
+					<source src="/pastprojects/monumental/24thSep-JustBridge-28s.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">Complex GSAP Animation</h2>
 			<div class="desc">
+				<h2 class="name">Complex GSAP Animation</h2>
 				<p>
 					This was part of a small project to try and present some of the public-facing projects our
 					division had completed in the past. I converted a static powerpoint presentation slide
@@ -73,15 +77,21 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source
+						src="/pastprojects/wdsdemos/solace gsap animation screencap.mov"
+						type="video/mp4"
+					/>
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">Netflix Menu Clone</h2>
 			<div class="desc">
+				<h2 class="name">Netflix Menu Clone</h2>
 				<p>
 					I made this with a coworker as part of the same project to present past public-facing
 					projects. It's controllable with keyboard or mouse. Some of the animations and behaviour
@@ -94,7 +104,10 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source src="/pastprojects/wdsdemos/wds demos menu screencap.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
@@ -103,22 +116,28 @@
 
 	<article>
 		<div class="item">
-			<h2 class="name">Time Tracker</h2>
 			<div class="desc">
-				<p>Tracking time in consultancy is hard</p>
-				<p>Svelte</p>
-				<p>Not released. Few bugs, but I have been using this myself for the last 1.5 years.</p>
+				<h2 class="name">Time Tracker</h2>
+				<p>
+					In consultancy, tracking time across multiple projects is hard, especially when the
+					timesheet software is Windows-only and I'm on a Macbook.
+				</p>
+				<p>Made with Svelte, and tried out Snowpack (before Vite won).</p>
+				<p>
+					Not released. Few bugs, but I have been using this myself every week and liking it for the
+					last 1.5 years.
+				</p>
 			</div>
-			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
-			</div>
+			<figure class="content">
+				<img src="pastprojects/timetracker/timetracker.png" />
+			</figure>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">Holiday Dashboard</h2>
 			<div class="desc">
+				<h2 class="name">Holiday Dashboard</h2>
 				<p>
 					Made this out of frustration of visualising the amount of holiday I have taken/have
 					remaining.
@@ -131,39 +150,41 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<img src="pastprojects/holidaydashboard/2021.png" />
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">"MKRecords" Site</h2>
 			<div class="desc">
+				<h2 class="name">"MKRecords"</h2>
 				<p>
-					Growing up, using the Players Page sites a lot. When I heard a team was coming together to
-					try revamp them, I really wanted to be part of it to try take it in a good direction.
+					Growing up, I used the Mario Kart "Players Page" sites a lot (community time trial
+					rankings). When I heard a team was coming together to try revamp them, I asked to be part
+					of the team to help give the UI some good direction.
 				</p>
 				<p>
-					Made designs. Some of it I think is great, some of it overkill. Coded some of it too, but
-					there was no momentum and no-one else actively working on the project, and real-life was
-					kicking me in the bum without the stress of committing to doing this huge task on my own,
-					so I left the project.
+					I made some designs in Framer for different pages. Some of it was great, some of it was
+					overkill. I coded some of it too, but there was no momentum and no-one else actively
+					working on the project. On top of that, real-life was kicking me in the bum without the
+					stress of committing to doing this huge task on my own, so I left the project :(
 				</p>
 			</div>
-			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
-			</div>
+			<figure class="content">
+				<img src="pastprojects/mkrecords/mkrecords submission page ideas.png" />
+				<figcaption>Designs I made in Framer for a submission page</figcaption>
+			</figure>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">NonZZMT Site</h2>
 			<div class="desc">
+				<h2 class="name">NonZZMT Rankings Site</h2>
 				<p>
-					I made this in 2015 and 2017. It's goddawful, but it's my first website. Made using
-					JQuery, MySQL and PHP.
+					I made this in 2015 and 2017. It's godawful, but it's my first website. Made using JQuery,
+					MySQL and PHP. https://nonzzmt-site.herokuapp.com/
 				</p>
 				<p>
 					I'm not ever sharing the code because it is genuinely horrendous. Bit of fun to share
@@ -171,7 +192,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<img src="pastprojects/nonzzmt/rankingspage.png" />
 			</div>
 		</div>
 	</article>
@@ -179,8 +200,8 @@
 	<h1 class="section-title">3D/Design Experiments</h1>
 	<article>
 		<div class="item">
-			<h2 class="name">r3f flex-menu codesandbox</h2>
 			<div class="desc">
+				<h2 class="name">r3f flex-menu codesandbox</h2>
 				<p>
 					I'm constantly interested and inspired by Paul Henschel's tweets about react-three-fiber
 					(r3f) and what you can easily do with it. I'm generally interested in using r3f more,
@@ -190,78 +211,88 @@
 				</p>
 			</div>
 			<div class="content">
-				Put codesandbox here
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source src="/pastprojects/r3f/flex menu of geometry shapes.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">r3f obscuring label</h2>
 			<div class="desc">
+				<h2 class="name">r3f obscuring label</h2>
 				<p>
 					Another experiment, basically copying what was done in this Earth demo: (sandbox link)
 				</p>
 			</div>
 			<div class="content">
-				Put codesandbox here
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source src="/pastprojects/r3f/html tooltips.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">r3f exploding cube</h2>
 			<div class="desc">
+				<h2 class="name">r3f exploding cube</h2>
 				<p>
 					Making this lead me to discovering a bug in react-spring, which I raised a ticket for, and
 					eventually fixed myself! First OSS contribution I think :D
 				</p>
 			</div>
 			<div class="content">
-				Put codesandbox here
-				<img src="pastprojects/first time tracker.png" />
+				<iframe
+					src="https://codesandbox.io/embed/exploding-square-sine-forked-20qdf?fontsize=14&hidenavigation=1&theme=dark"
+					style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+					title="exploding square (sine) (forked)"
+					allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+					sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+				/>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">r3f exploding cube</h2>
 			<div class="desc">
+				<h2 class="name">Generative art thing</h2>
 				<p>Generative art, from this frontendmasters course: (link)</p>
 				<p>
 					Go do this course, it's fun and short, and shows how you can build up from nothing to
 					something with few simple techniques.
 				</p>
 			</div>
-			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
-			</div>
+			<div class="content">image soon?</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">tab menu with changing colour underline</h2>
 			<div class="desc">
+				<h2 class="name">tab menu with changing colour underline</h2>
 				<p>
 					I was trying to make a clone of the New Tab extension "moment", but got distracted and
 					only made this animation and nothing much else.
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source src="/pastprojects/noseynewtab/noseynewtab.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">CC logo animations</h2>
 			<div class="desc">
+				<h2 class="name">CC logo animations</h2>
 				<p>
 					When learning the differences and pros/cons of doing animations in CSS vs JS, I decided to
 					use company's logo as a test subject!
@@ -270,29 +301,35 @@
 					Quite happy with how these turned out, but I only showed these to my team, not the wider
 					company. Was only an experiment.
 				</p>
-				<p>
+				<!-- <p>
 					Code here: (code won't run as I haven't included the logo files for obvious reasons)
 					(link)
-				</p>
+				</p> -->
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source src="/pastprojects/cclogosanim/anims.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
 	<div class="divider" />
 	<article>
 		<div class="item">
-			<h2 class="name">Blob Menu & Button Hover effect</h2>
 			<div class="desc">
+				<h2 class="name">Blob Menu & Button Hover effect</h2>
 				<p>
 					Two random effects I made once. Never used, but just wanted to document it so it's not
 					lost to time!
 				</p>
-				<p>Code here: (link)</p>
+				<!-- <p>Code here: (link)</p> -->
 			</div>
 			<div class="content">
-				<img src="pastprojects/first time tracker.png" />
+				<video controls width="100%">
+					<source src="/pastprojects/bitsandbobs/blob menu.mov" type="video/mp4" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
 			</div>
 		</div>
 	</article>
@@ -311,40 +348,54 @@
 		margin-bottom: 1rem;
 		text-decoration: underline;
 	}
+	article {
+		margin-bottom: 5rem;
+	}
 
 	.item {
 		display: grid;
+		padding: 1rem 0;
 
 		grid-template-areas:
-			'name'
 			'desc'
 			'content';
 		grid-template-columns: 600px;
 		grid-template-rows: 2.5rem auto auto;
 		grid-gap: 0.5rem 3rem;
 
-		h2.name {
-			grid-area: name;
-			font-size: 1.5rem;
-		}
 		.desc {
 			grid-area: desc;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 
+			h2.name {
+				font-size: 2rem;
+				margin-top: 0.5rem;
+			}
 			p {
 				margin-bottom: 1rem;
 			}
 		}
 		.content {
 			grid-area: content;
-			/* padding: 5rem; */
-			padding-top: 1rem;
-			padding-bottom: 5rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			figcaption {
+				margin-top: 0.25rem;
+				font-size: 0.8rem;
+				opacity: 0.9;
+			}
 		}
 	}
 	@media screen and (min-width: 1200px) {
 		.item {
 			grid-template-areas:
-				'name content'
+				'desc content'
 				'desc content';
 			grid-template-columns: 500px 600px;
 			grid-template-rows: 2.5rem auto;
