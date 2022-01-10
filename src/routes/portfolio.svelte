@@ -1,34 +1,36 @@
 <h1 class="page-title">Stuff I've made</h1>
 
-<h2>Internal (Public) Projects from Work</h2>
-<ul>
-	<li>Monumental</li>
-	<li>WDS Demos GSAP</li>
-	<li>Netflix clone (WDS Demos)</li>
-</ul>
+<nav class="menu">
+	<h2><a href="#internal">Internal (Public) Projects from Work</a></h2>
+	<ul>
+		<li><a href="#monumental">Monumental</a></li>
+		<li><a href="#complex-gsap-anim">WDS Demos GSAP</a></li>
+		<li><a href="#netflix-menu-clone">Netflix clone (WDS Demos)</a></li>
+	</ul>
 
-<h2>Pet Project Websites</h2>
+	<h2><a href="#petproject">Pet Project Websites</a></h2>
+	<ul>
+		<li><a href="#time-tracker">Time Tracker</a></li>
+		<li><a href="#mkrecords">MKRecords (designs and site)</a></li>
+		<li><a href="#holiday-dashboard">Holiday Dashboard</a></li>
+		<li><a href="#nonzzmt">NonZZMT Site</a></li>
+	</ul>
 
-<ul>
-	<li>Time Tracker</li>
-	<li>Holiday Dashboard</li>
-	<li>MKRecords (designs and site)</li>
-	<li>NonZZMT Site</li>
-</ul>
-
-<h2>3D/Design Experiments</h2>
-<ul>
-	<li>r3f flex-menu codesandbox</li>
-	<li>r3f obscuring label</li>
-	<li>r3f exploding cube</li>
-	<li>generative art (from frontendmasters course)</li>
-	<li>new tab colour-changing selector thing</li>
-	<li>logo animations</li>
-</ul>
+	<h2><a href="#artyfarty">3D/Design Experiments</a></h2>
+	<ul>
+		<li><a href="#r3f-flexmenu">r3f flex-menu codesandbox</a></li>
+		<li><a href="#r3f-obscurelabel">r3f obscuring label</a></li>
+		<li><a href="#explodingcube">r3f exploding cube</a></li>
+		<li><a href="#tabmenu">new tab colour-changing selector thing</a></li>
+		<li><a href="#generativeartcourse">generative art (from frontendmasters course)</a></li>
+		<li><a href="#cclogosanim">logo animations</a></li>
+		<li><a href="#blobmenu">blob menu</a></li>
+	</ul>
+</nav>
 
 <div class="portfolio">
-	<h1 class="section-title">Internal (Public) Projects from Work</h1>
-	<article>
+	<h1 class="section-title" id="internal">Internal (Public) Projects from Work</h1>
+	<article id="monumental">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Monumental</h2>
@@ -60,7 +62,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="complex-gsap-anim">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Complex GSAP Animation</h2>
@@ -88,7 +90,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="netflix-menu-clone">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Netflix Menu Clone</h2>
@@ -112,9 +114,9 @@
 		</div>
 	</article>
 
-	<h1 class="section-title">Pet Project Websites</h1>
+	<h1 class="section-title" id="petproject">Pet Project Websites</h1>
 
-	<article>
+	<article id="time-tracker">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Time Tracker</h2>
@@ -134,7 +136,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="holiday-dashboard">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Holiday Dashboard</h2>
@@ -155,7 +157,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="mkrecords">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">"MKRecords"</h2>
@@ -178,7 +180,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="nonzzmt">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">NonZZMT Rankings Site</h2>
@@ -197,8 +199,8 @@
 		</div>
 	</article>
 
-	<h1 class="section-title">3D/Design Experiments</h1>
-	<article>
+	<h1 class="section-title" id="artyfarty">3D/Design/Animation Experiments</h1>
+	<article id="r3f-flexmenu">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">r3f flex-menu codesandbox</h2>
@@ -219,7 +221,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="r3f-obscurelabel">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">r3f obscuring label</h2>
@@ -236,7 +238,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="explodingcube">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">r3f exploding cube</h2>
@@ -257,7 +259,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="generativeartcourse">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Generative art thing</h2>
@@ -271,7 +273,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="tabmenu">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">tab menu with changing colour underline</h2>
@@ -289,7 +291,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="cclogo">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">CC logo animations</h2>
@@ -315,7 +317,7 @@
 		</div>
 	</article>
 	<div class="divider" />
-	<article>
+	<article id="blobmenu">
 		<div class="item">
 			<div class="desc">
 				<h2 class="name">Blob Menu & Button Hover effect</h2>
@@ -336,6 +338,14 @@
 </div>
 
 <style lang="scss">
+	nav.menu {
+		h2 > a {
+			color: var(--accent-color);
+		}
+		li > a {
+			color: white;
+		}
+	}
 	.portfolio {
 		width: fit-content;
 		margin: 0 auto;
@@ -360,7 +370,6 @@
 			'desc'
 			'content';
 		grid-template-columns: 600px;
-		grid-template-rows: 2.5rem auto auto;
 		grid-gap: 0.5rem 3rem;
 
 		.desc {
