@@ -275,8 +275,8 @@
 	</footer>
 </article>
 
-<style lang="scss">
-	:global {
+<style>
+	:global() {
 		--accent-color: maroon;
 	}
 	h1,
@@ -310,11 +310,11 @@
 	article.cv {
 		position: relative;
 		background: white;
-		margin: 2rem auto; // remove this when saving to pdf with puppeteer
+		margin: 2rem auto; /** remove this when saving to pdf with puppeteer */
 		padding: 2rem;
 
-		width: 793px; // a4 dimensions
-		height: 1122px; // a4 dimensions
+		width: 793px; /** a4 dimensions */
+		height: 1122px; /** a4 dimensions */
 		transform-origin: top left;
 
 		display: grid;
@@ -347,14 +347,13 @@
 		display: flex;
 		gap: 0 2.5rem;
 		flex-wrap: wrap;
-
-		li {
-			font-size: 0.9rem;
-			color: hsla(0, 0%, 40%, 80%);
-			&::marker {
-				color: var(--accent-color);
-				color: maroon;
-			}
+	}
+	ul.personal-info li {
+		font-size: 0.9rem;
+		color: hsla(0, 0%, 40%, 80%);
+		&::marker {
+			color: var(--accent-color);
+			color: maroon;
 		}
 	}
 
@@ -404,38 +403,34 @@
 		gap: 0.125rem 2rem;
 		flex-wrap: wrap;
 		padding: 0;
-
-		li {
-			width: 40%;
-		}
+	}
+	ul.interests li {
+		width: 40%;
 	}
 
-	// list icons
+	/** list icons */
 	li.has-icon {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+	}
+	li.has-icon img.list-icon {
+		width: 12px;
+	}
 
-		img.list-icon {
-			width: 12px;
-		}
-
-		&.icons-only {
-			gap: 1rem;
-
-			img.list-icon {
-				width: 16px;
-			}
-		}
+	li.has-icon.icons-only {
+		gap: 1rem;
+	}
+	li.has-icon.icons-only img.list-icon {
+		width: 16px;
 	}
 
 	footer {
 		position: absolute;
 		bottom: 2px;
 		right: 5px;
-
-		p {
-			font-size: 0.5rem;
-		}
+	}
+	footer p {
+		font-size: 0.5rem;
 	}
 </style>

@@ -337,19 +337,18 @@
 	</article>
 </div>
 
-<style lang="scss">
-	nav.menu {
-		h2 > a {
-			color: var(--accent-color);
-		}
-		li > a {
-			color: white;
-		}
+<style>
+	nav.menu h2 > a {
+		color: var(--accent-color);
+	}
+	nav.menu li > a {
+		color: white;
 	}
 	.portfolio {
 		width: fit-content;
 		margin: 0 auto;
 	}
+
 	h1.page-title {
 		text-decoration: underline;
 		margin-bottom: 2rem;
@@ -358,6 +357,7 @@
 		margin-bottom: 1rem;
 		text-decoration: underline;
 	}
+
 	article {
 		margin-bottom: 5rem;
 	}
@@ -371,35 +371,35 @@
 			'content';
 		grid-template-columns: 600px;
 		grid-gap: 0.5rem 3rem;
+	}
 
-		.desc {
-			grid-area: desc;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+	.item.desc {
+		grid-area: desc;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
-			h2.name {
-				font-size: 2rem;
-				margin-top: 0.5rem;
-			}
-			p {
-				margin-bottom: 1rem;
-			}
-		}
-		.content {
-			grid-area: content;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+	}
+	h2.name {
+		font-size: 2rem;
+		margin-top: 0.5rem;
+	}
+	p {
+		margin-bottom: 1rem;
+	}
+	.content {
+		grid-area: content;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
-			figcaption {
-				margin-top: 0.25rem;
-				font-size: 0.8rem;
-				opacity: 0.9;
-			}
-		}
+	}
+	figcaption {
+		margin-top: 0.25rem;
+		font-size: 0.8rem;
+		opacity: 0.9;
 	}
 	@media screen and (min-width: 1200px) {
 		.item {
