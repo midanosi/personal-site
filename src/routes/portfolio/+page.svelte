@@ -1,7 +1,19 @@
 <h1 class="page-title">Stuff I've made</h1>
 
 <nav class="menu">
-	<h2><a href="#internal">Internal (Public) Projects from Work</a></h2>
+	<p>
+		TODO TODO TODO! shorten this list to a bunch of highlights, and move the rest to an exhaustive
+		list page
+	</p>
+	<ul>
+		<li>monumental</li>
+		<li>MKRecords design</li>
+		<li>time tracker</li>
+		<li>recipe site (in progress)</li>
+		<li>spyro animated (level, enter portal, level transition, land) (in progress)</li>
+	</ul>
+	<hr />
+	<h2><a href="#ccinternal">Internal (Public) Projects whilst at Cambridge Consultants</a></h2>
 	<ul>
 		<li><a href="#monumental">Monumental</a></li>
 		<li><a href="#complex-gsap-anim">WDS Demos GSAP</a></li>
@@ -10,14 +22,19 @@
 
 	<h2><a href="#petproject">Pet Project Websites</a></h2>
 	<ul>
+		<li><a href="#recipe">TODO: recipe site</a></li>
+		<li><a href="#spyro-scene">TODO: spyro scene </a></li>
 		<li><a href="#time-tracker">Time Tracker</a></li>
 		<li><a href="#mkrecords">MKRecords (designs and site)</a></li>
+		<li><a href="#mapbox-test">TODO: mapbox test </a></li>
 		<li><a href="#holiday-dashboard">Holiday Dashboard</a></li>
 		<li><a href="#nonzzmt">NonZZMT Site</a></li>
 	</ul>
 
 	<h2><a href="#artyfarty">3D/Design Experiments</a></h2>
+	<p>TODO change this into a compact square grid with very short caption</p>
 	<ul>
+		<li><a href="#threlte-outline-maze">threlte outline maze</a></li>
 		<li><a href="#r3f-flexmenu">r3f flex-menu codesandbox</a></li>
 		<li><a href="#r3f-obscurelabel">r3f obscuring label</a></li>
 		<li><a href="#explodingcube">r3f exploding cube</a></li>
@@ -29,7 +46,7 @@
 </nav>
 
 <div class="portfolio">
-	<h1 class="section-title" id="internal">Internal (Public) Projects from Work</h1>
+	<h1 class="section-title" id="ccinternal">Internal (Public) Projects from Work</h1>
 	<article id="monumental">
 		<div class="item">
 			<div class="desc">
@@ -185,12 +202,8 @@
 			<div class="desc">
 				<h2 class="name">NonZZMT Rankings Site</h2>
 				<p>
-					I made this in 2015 and 2017. It's godawful, but it's my first website. Made using JQuery,
-					MySQL and PHP. https://nonzzmt-site.herokuapp.com/
-				</p>
-				<p>
-					I'm not ever sharing the code because it is genuinely horrendous. Bit of fun to share
-					where I started from though.
+					My first website, made in 2014, and 2017. Made using JQuery, MySQL and PHP (no longer live
+					due to server costs).
 				</p>
 			</div>
 			<div class="content">
@@ -379,7 +392,6 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-
 	}
 	h2.name {
 		font-size: 2rem;
@@ -394,7 +406,6 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-
 	}
 	figcaption {
 		margin-top: 0.25rem;

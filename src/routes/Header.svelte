@@ -6,27 +6,27 @@
 <header>
 	<nav>
 		<ul class="navbar-list">
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
-			</li>
+			</li> -->
 			<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
 				<a href="/cv">CV</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
-				<a href="/portfolio">Things I've made</a>
+				<a href="/portfolio">Portfolio</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
 				<a href="/blog">Blog</a>
-			</li>
+			</li> -->
 			<!-- <li aria-current={$page.url.pathname === '/codesandboxes' ? 'page' : undefined}>
 				<a href="/codesandboxes">CodeSandboxes</a>
 			</li> -->
 			<!-- <li aria-current={$page.url.pathname === '/outline' ? 'page' : undefined}>
 				<a href="/outline">Outline Demo</a>
 			</li> -->
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
-			</li>
+			</li> -->
 		</ul>
 
 		<div class="gap" />
@@ -97,7 +97,7 @@
 		align-items: center;
 		color: var(--color-text);
 		font-weight: 700;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;

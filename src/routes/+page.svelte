@@ -11,21 +11,17 @@
 
 <section>
 	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+		Michael Hutchings
+</h1>
+<p>Hello, welcome to my website!</p>
+You can learn more about me from the links below
 
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+<button>
+	CV
+</button>
+<button>
+	Portfolio
+</button>
 </section>
 
 <style>
