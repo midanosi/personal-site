@@ -8,6 +8,12 @@ dependencies:
   '@dimforge/rapier3d-compat':
     specifier: ^0.11.2
     version: 0.11.2
+  '@fontsource-variable/manrope':
+    specifier: ^5.0.12
+    version: 5.0.12
+  '@fontsource-variable/quicksand':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@theatre/core':
     specifier: ^0.6.1
     version: 0.6.1
@@ -374,6 +380,14 @@ packages:
     resolution: {integrity: sha512-s2UHCoiXfxMvmfzqoN+vrQ84ahUSYde9qNO1MdxmoEhyHWsfmwOpFlwYV+ePJEVc7gFnATGUi376WowX1N7tFg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource-variable/manrope@5.0.12:
+    resolution: {integrity: sha512-5tXuHU2aiTWQd6tu7K3LKu9W/eNQahG2gxskXLdo+1nz1rOoPfhIL/YoVVI4ZehyA8kZFirE8Sn9aeHSl8Xx+Q==}
+    dev: false
+
+  /@fontsource-variable/quicksand@5.0.8:
+    resolution: {integrity: sha512-q+/Rb74Jru/oxhg3cdhTTWZ6sl3utTWSHQZZz5oeWmqvNVMyEaqzEuVwKhkZgZ8p5XotzHyr8M9YEB1NsmYWjw==}
+    dev: false
 
   /@fontsource/fira-mono@4.5.10:
     resolution: {integrity: sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==}

@@ -11,7 +11,7 @@
 		padding: 0px 4px;
 		height: 20px;
 		font: 0.5rem;
-		opacity: 0.6;
+		opacity: 1;
 
 		display: inline-flex;
 		justify-content: center;

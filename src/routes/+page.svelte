@@ -1,8 +1,14 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+<script lang="ts">
+	import { Canvas } from '@threlte/core';
+	import OrbitingParticles from './OrbitingParticles.svelte';
+	import { Github, Gitlab } from 'lucide-svelte';
 </script>
+
+<div class="canvas">
+	<Canvas>
+		<!-- <OrbitingParticles /> -->
+	</Canvas>
+</div>
 
 <svelte:head>
 	<title>Home</title>
@@ -10,21 +16,29 @@
 </svelte:head>
 
 <section>
-	<h1>
-		Michael Hutchings
-</h1>
-<p>Hello, welcome to my website!</p>
-You can learn more about me from the links below
+	<h1>Michael Hutchings</h1>
+	<br />
 
-<button>
-	CV
-</button>
-<button>
-	Portfolio
-</button>
+	<p>Hello, welcome to my website!</p>
+	<p>Please follow either of the following links to learn more about me</p>
+	<br />
+
+	<div class="buttons">
+		<a href="/cv"><button>CV</button></a>
+		<a href="/portfolio"><button>Portfolio</button></a>
+	</div>
 </section>
 
 <style>
+	.canvas {
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		pointer-events: none;
+	}
 	section {
 		display: flex;
 		flex-direction: column;
@@ -37,19 +51,28 @@ You can learn more about me from the links below
 		width: 100%;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	p {
+		font-size: 1.2rem;
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	.buttons {
+		display: flex;
+		gap: 4rem;
+	}
+
+	button {
+		border: 2px solid;
+		border-color: var(--color-text);
+		border-radius: 5px;
+		padding: 6px;
+		background: transparent;
+		transition: filter 300ms;
+		cursor: pointer;
+		color: var(--color-text);
+		width: 120px;
+		font-size: 1.4rem;
+	}
+	button:hover {
+		filter: brightness(1.5);
 	}
 </style>

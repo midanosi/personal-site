@@ -5,41 +5,23 @@
 
 <header>
 	<nav>
-		<ul class="navbar-list">
-			<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
-			</li> -->
+		<ul class="navbar-list" class:hidden={$page.url.pathname === '/'}>
 			<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
 				<a href="/cv">CV</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
 				<a href="/portfolio">Portfolio</a>
 			</li>
-			<!-- <li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
-				<a href="/blog">Blog</a>
-			</li> -->
-			<!-- <li aria-current={$page.url.pathname === '/codesandboxes' ? 'page' : undefined}>
-				<a href="/codesandboxes">CodeSandboxes</a>
-			</li> -->
-			<!-- <li aria-current={$page.url.pathname === '/outline' ? 'page' : undefined}>
-				<a href="/outline">Outline Demo</a>
-			</li> -->
-			<!-- <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
-			</li> -->
+			<li aria-current={$page.url.pathname === '/etc' ? 'page' : undefined}>
+				<a href="/etc">ETC</a>
+			</li>
 		</ul>
-
-		<div class="gap" />
 
 		<ul class="repo-links">
 			<li><a href="https://github.com/midanosi" class=""><Github color="#d8bcab" /></a></li>
 			<li><a href="https://gitlab.com/midanosi" class=""><Gitlab color="#d8bcab" /></a></li>
 		</ul>
 	</nav>
-
-	<div class="corner">
-		<div class="corner-triangle" />
-	</div>
 </header>
 
 <style>
@@ -47,21 +29,10 @@
 		display: flex;
 		justify-content: space-between;
 	}
-
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
 	nav {
 		display: flex;
-		justify-content: center;
-		/* --background: rgba(255, 255, 255, 0.7); */
-		padding-right: 5px;
-	}
-
-	.gap {
-		width: 30px;
+		justify-content: space-between;
+		width: 100%;
 	}
 
 	nav ul {
@@ -81,9 +52,13 @@
 		display: flex;
 		gap: 2rem;
 	}
+	ul.navbar-list.hidden * {
+		display: none;
+	}
 	ul.repo-links {
 		display: flex;
 		gap: 1rem;
+		margin-left: auto;
 	}
 
 	li {
@@ -130,22 +105,5 @@
 	li[aria-current='page']::before {
 		transform: scale(1);
 		opacity: 1;
-	}
-
-	.corner-triangle {
-		--width: 25px;
-		--margin: 10px;
-
-		position: absolute;
-		top: var(--margin);
-		right: var(--margin);
-
-		max-height: var(--width);
-		max-width: var(--width);
-		border-top: var(--width) solid var(--accent-color);
-		border-right: var(--width) solid var(--accent-color);
-
-		border-left: var(--width) solid transparent;
-		border-bottom: var(--width) solid transparent;
 	}
 </style>

@@ -44,6 +44,8 @@
 	"type": "module",
 	"dependencies": {
 		"@dimforge/rapier3d-compat": "^0.11.2",
+		"@fontsource-variable/manrope": "^5.0.12",
+		"@fontsource-variable/quicksand": "^5.0.8",
 		"@theatre/core": "^0.6.1",
 		"@theatre/studio": "^0.6.1",
 		"@threlte/core": "6.0.0-next.9",

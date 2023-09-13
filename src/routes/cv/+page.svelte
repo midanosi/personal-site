@@ -22,7 +22,6 @@
 </svelte:head>
 
 <article class="cv" class:pdf>
-	<!-- <article class="cv"> -->
 	<section class="top-section">
 		<h1 class="my-name">MICHAEL HUTCHINGS</h1>
 		<div class="my-lists">
@@ -42,12 +41,6 @@
 				</li>
 			</ul>
 			<ul class="personal-info">
-				<!-- <li class="has-icon show-text-in-pdf">
-					<a href="https://www.linkedin.com/in/michael-hutchings-64a884104/">
-						<img alt="linkedin logo" src="icons/linkedin-brands.svg" class="list-icon" />
-					</a>
-					<p>michael-hutchings-64a884104</p>
-				</li> -->
 				<li class="has-icon show-text-in-pdf">
 					<a href="https://github.com/midanosi">
 						<img alt="github logo" src="icons/github-brands.svg" class="list-icon" />
@@ -65,10 +58,11 @@
 	</section>
 
 	<section class="summary">
-		<h3 class="job-title">Frontend TypeScript/JavaScript Developer</h3>
+		<h3 class="job-title">Frontend TS/JS Developer</h3>
 		<p class="summary-paragraph">
-			with <b>5 years</b> experience in building robust and slick user interfaces. Whilst I
-			specialise in frontend development, I am comfortable and enjoy when my work bleeds into
+			with <b>5 years</b> experience in building robust and slick user interfaces.
+			<!-- <br /> -->
+			Whilst I specialise in frontend development, I am comfortable and enjoy when my work bleeds into
 			neighbouring disciplines;
 			<b>backend development, UI design, UX design, DevOps</b> and <b>automated testing</b>.
 			<br />
@@ -319,7 +313,6 @@
 
 <style lang="scss">
 	:root {
-		// --accent-color: #d8bcab;
 		--accent-color: #a4243b99;
 	}
 	h1,
@@ -340,7 +333,6 @@
 		margin-bottom: 0.75rem;
 	}
 	h4 {
-		// color: var(--heading-color);
 		color: var(--accent-color);
 	}
 
@@ -411,6 +403,12 @@
 		grid-area: summary;
 		margin-top: -2.5rem; // hack I know, deal with it
 	}
+	// span.job-title {
+	// 	color: black;
+	// 	font-variation-settings: var(--bold);
+	// 	font-size: 1.2rem;
+	// 	margin-right: 0.4rem;
+	// }
 
 	.lhs-col {
 		grid-area: lhs-col;
@@ -466,13 +464,6 @@
 		width: 12px;
 	}
 
-	li.has-icon.icons-only {
-		gap: 1rem;
-	}
-	li.has-icon.icons-only img.list-icon {
-		width: 16px;
-	}
-
 	footer {
 		position: absolute;
 		bottom: 2px;
@@ -483,13 +474,6 @@
 	}
 
 	:not(.pdf) li.show-text-in-pdf {
-		// margin-bottom: 8px;
 		height: 22px;
-	}
-	:not(.pdf) li.show-text-in-pdf a img {
-		// width: 20px;
-	}
-	:not(.pdf) li.show-text-in-pdf p {
-		// display: none;
 	}
 </style>

@@ -1,60 +1,48 @@
 <h1 class="page-title">Stuff I've made</h1>
 
 <nav class="menu">
-	<ul>
-		<li>monumental</li>
-		<li>MKRecords design</li>
-		<li>time tracker</li>
-		<li>recipe site (in progress)</li>
-		<li>spyro animated (level, enter portal, level transition, land) (in progress)</li>
-	</ul>
-	<hr />
+	<h2><a href="#ccinternal">Internal (Public) Projects whilst at Cambridge Consultants</a></h2>
 	<ul>
 		<li><a href="#monumental">Monumental</a></li>
 	</ul>
 
+	<h2><a href="#petproject">Pet Project Websites</a></h2>
 	<ul>
 		<li><a href="#recipe">TODO: recipe site</a></li>
 		<li><a href="#spyro-scene">TODO: spyro scene </a></li>
 		<li><a href="#time-tracker">Time Tracker</a></li>
 		<li><a href="#mkrecords">MKRecords (designs and site)</a></li>
+		<li><a href="#mapbox-test">TODO: mapbox test </a></li>
+		<li><a href="#holiday-dashboard">Holiday Dashboard</a></li>
+		<li><a href="#nonzzmt">NonZZMT Site</a></li>
+	</ul>
+
+	<h2><a href="#3d">3D</a></h2>
+	<p>TODO change this into a compact square grid with very short caption</p>
+	<ul>
+		<li><a href="#threlte-outline-maze">threlte outline maze</a></li>
+		<li><a href="#spyro-intro">spyro intro fly-in</a></li>
+		<li><a href="#r3f-flexmenu">r3f flex-menu codesandbox</a></li>
+		<li><a href="#r3f-obscurelabel">r3f obscuring label</a></li>
+		<li><a href="#explodingcube">r3f exploding cube</a></li>
+	</ul>
+
+	<h2><a href="#animation">Animation</a></h2>
+	<p>TODO change this into a compact square grid with very short caption</p>
+	<ul>
+		<li><a href="#tabmenu">new tab colour-changing selector thing</a></li>
+		<li><a href="#generativeartcourse">generative art (from frontendmasters course)</a></li>
+		<li><a href="#cclogosanim">logo animations</a></li>
+		<li><a href="#blobmenu">blob menu</a></li>
+		<li><a href="#complex-gsap-anim">WDS Demos GSAP</a></li>
+		<li><a href="#netflix-menu-clone">Netflix clone (WDS Demos)</a></li>
 	</ul>
 </nav>
 
-<div class="portfolio">
-	<h1 class="section-title" id="ccinternal">Internal (Public) Projects from Work</h1>
-	<article id="monumental">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">Monumental</h2>
-				<p>
-					This was a project to visualise the live inference of a Machine Learning algorithm,
-					applied against a custom bridge-building game, trained on real-word physics. I was very
-					happy with resulting look and functionality of the demo. The (fantastic) design was done
-					by a coworker of mine. One of the images shows my first shoddy attempt, and also v1 of the
-					demo, which was completed before.
-				</p>
-				<p>
-					The animation is done directly with html5 canvas methods, and was quite a headache to
-					figure out. I used the unusual combination of Svelte, and Mobx-State-Tree for state
-					management. Exploring MST was worthwhile and fun, but I don't think I'll be using it
-					again.
-				</p>
-				<p>
-					Unfortunately the AI part of the project didn't meet the desired goals, so these several
-					months of graft didn't gain much exposure.
-				</p>
-			</div>
-			<div class="content">
-				<!-- <img src="pastprojects/good bridge.png" /> -->
-				<video controls width="100%">
-					<source src="/pastprojects/monumental/24thSep-JustBridge-28s.mov" type="video/mp4" />
-					Sorry, your browser doesn't support embedded videos.
-				</video>
-			</div>
-		</div>
-	</article>
-	<div class="divider" />
+<div class="etc">
+	<h1 class="section-title" id="ccinternal">Etc.</h1>
+	<p>This is a non-exhaustive list of all the things I've made, big and small, over the years</p>
+
 	<article id="complex-gsap-anim">
 		<div class="item">
 			<div class="desc">
@@ -107,88 +95,7 @@
 		</div>
 	</article>
 
-	<h1 class="section-title" id="petproject">Pet Project Websites</h1>
-
-	<article id="time-tracker">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">Time Tracker</h2>
-				<p>
-					In consultancy, tracking time across multiple projects is hard, especially when the
-					timesheet software is Windows-only and I'm on a Macbook.
-				</p>
-				<p>Made with Svelte, and tried out Snowpack (before Vite won).</p>
-				<p>
-					Not released. Few bugs, but I have been using this myself every week and liking it for the
-					last 1.5 years.
-				</p>
-			</div>
-			<figure class="content">
-				<img src="pastprojects/timetracker/timetracker.png" />
-			</figure>
-		</div>
-	</article>
-	<div class="divider" />
-	<article id="holiday-dashboard">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">Holiday Dashboard</h2>
-				<p>
-					Made this out of frustration of visualising the amount of holiday I have taken/have
-					remaining.
-				</p>
-				<p>Built from CRA, hence the React "blue"</p>
-				<p>
-					Once again, very custom to scrape data from company's internal data (plan was to make it
-					usable by anyone in company, but turned out impossible), and super buggy, but once again,
-					I've been using this myself for the last 2 years.
-				</p>
-			</div>
-			<div class="content">
-				<img src="pastprojects/holidaydashboard/2021.png" />
-			</div>
-		</div>
-	</article>
-	<div class="divider" />
-	<article id="mkrecords">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">"MKRecords"</h2>
-				<p>
-					Growing up, I used the Mario Kart "Players Page" sites a lot (community time trial
-					rankings). When I heard a team was coming together to try revamp them, I asked to be part
-					of the team to help give the UI some good direction.
-				</p>
-				<p>
-					I made some designs in Framer for different pages. Some of it was great, some of it was
-					overkill. I coded some of it too, but there was no momentum and no-one else actively
-					working on the project. On top of that, real-life was kicking me in the bum without the
-					stress of committing to doing this huge task on my own, so I left the project :(
-				</p>
-			</div>
-			<figure class="content">
-				<img src="pastprojects/mkrecords/mkrecords submission page ideas.png" />
-				<figcaption>Designs I made in Framer for a submission page</figcaption>
-			</figure>
-		</div>
-	</article>
-	<div class="divider" />
-	<article id="nonzzmt">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">NonZZMT Rankings Site</h2>
-				<p>
-					My first website, made in 2014, and 2017. Made using JQuery, MySQL and PHP (no longer live
-					due to server costs).
-				</p>
-			</div>
-			<div class="content">
-				<img src="pastprojects/nonzzmt/rankingspage.png" />
-			</div>
-		</div>
-	</article>
-
-	<h1 class="section-title" id="artyfarty">3D/Design/Animation Experiments</h1>
+	<h1 class="section-title" id="3d">3D/Design/Animation Experiments</h1>
 	<article id="r3f-flexmenu">
 		<div class="item">
 			<div class="desc">
@@ -314,7 +221,6 @@
 					Two random effects I made once. Never used, but just wanted to document it so it's not
 					lost to time!
 				</p>
-				<!-- <p>Code here: (link)</p> -->
 			</div>
 			<div class="content">
 				<video controls width="100%">
@@ -333,7 +239,7 @@
 	nav.menu li > a {
 		color: white;
 	}
-	.portfolio {
+	.etc {
 		width: fit-content;
 		margin: 0 auto;
 	}
