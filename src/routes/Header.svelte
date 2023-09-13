@@ -1,44 +1,41 @@
 <script>
 	import { page } from '$app/stores';
+	import { Github, Gitlab } from 'lucide-svelte';
 </script>
 
 <header>
 	<nav>
-		<ul>		
+		<ul class="navbar-list">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
-				<a href="/portfolio">Stuff I've made</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
 				<a href="/cv">CV</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
+				<a href="/portfolio">Things I've made</a>
+			</li>
 			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
 				<a href="/blog">Blog</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/codesandboxes' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/codesandboxes' ? 'page' : undefined}>
 				<a href="/codesandboxes">CodeSandboxes</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/outline' ? 'page' : undefined}>
+			</li> -->
+			<!-- <li aria-current={$page.url.pathname === '/outline' ? 'page' : undefined}>
 				<a href="/outline">Outline Demo</a>
-			</li>
+			</li> -->
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
 			</li>
 		</ul>
 
 		<div class="gap" />
 
 		<ul class="repo-links">
-			<li><a href="https://github.com/midanosi" class="">github</a></li>
-			<li><a href="https://gitlab.com/midanosi" class="">gitlab</a></li>
+			<li><a href="https://github.com/midanosi" class=""><Github color="#d8bcab" /></a></li>
+			<li><a href="https://gitlab.com/midanosi" class=""><Gitlab color="#d8bcab" /></a></li>
 		</ul>
 	</nav>
-
 
 	<div class="corner">
 		<div class="corner-triangle" />
@@ -56,20 +53,6 @@
 		height: 3em;
 	}
 
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	}
-
 	nav {
 		display: flex;
 		justify-content: center;
@@ -81,21 +64,10 @@
 		width: 30px;
 	}
 
-
-	svg {
-		width: 2em;
-		height: 3em;
-		display: block;
-	}
-
-	path {
-		fill: var(--background);
-	}
-
-	ul {
+	nav ul {
 		position: relative;
 		padding: 0;
-		margin: 0;
+		margin: 0 1rem;
 		height: 3em;
 		display: flex;
 		justify-content: center;
@@ -105,28 +77,24 @@
 		background-size: contain;
 	}
 
+	ul.navbar-list {
+		display: flex;
+		gap: 2rem;
+	}
+	ul.repo-links {
+		display: flex;
+		gap: 1rem;
+	}
+
 	li {
 		position: relative;
 		height: 100%;
-	}
-
-	li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
 	}
 
 	nav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 0.5rem;
 		color: var(--color-text);
 		font-weight: 700;
 		font-size: 0.8rem;
@@ -134,10 +102,34 @@
 		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
+		position: relative;
+		transition: filter 500ms;
 	}
 
-	a:hover {
-		color: var(--color-theme-1);
+	nav a::after,
+	li[aria-current='page']::before {
+		display: block;
+		position: absolute;
+		bottom: 8px;
+		left: 0;
+		content: '';
+		background: white;
+		width: 100%;
+		height: 1px;
+		transition: opacity 300ms, transform 300ms;
+		opacity: 0;
+		transform: scale(0.5, 1);
+	}
+
+	a:hover,
+	li[aria-current='page'] {
+		filter: brightness(1.2);
+	}
+
+	a:hover::after,
+	li[aria-current='page']::before {
+		transform: scale(1);
+		opacity: 1;
 	}
 
 	.corner-triangle {

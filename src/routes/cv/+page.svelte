@@ -1,16 +1,16 @@
 <script>
 	import Chip from './Chip.svelte';
 	import Divider from './Divider.svelte';
-	// export const ssr = false;
 
 	const skills = {
 		language: ['JavaScript', 'TypeScript', 'HTML/CSS', 'Python'],
-		frameworks: ['React', 'Svelte', 'Next.js', 'SvelteKit', '(open to using Vue)'],
+		frameworks: ['React', 'Svelte', 'SvelteKit', 'Next.js', '(open to using other frameworks)'],
 		devops: ['git', 'GitLab CI/CD', 'Firebase', 'AWS', 'Azure'],
 		libraries: {
 			state: ['Zustand', 'XState', 'Redux + Toolkit', 'Jotai'],
-			aesthetical: ['Three.js', 'React Three Fiber', 'GSAP', 'Framer', 'react-spring'],
-			test: ['Jest', 'Testing Library', 'Cypress']
+			animation_3d: ['React Three Fiber', 'GSAP', 'Threlte', 'Three.js', 'react-spring'],
+			test: ['Puppeteer', 'Vitest', 'Jest', 'Testing Library', 'Cypress'],
+			design: ['Framer', 'Figma']
 		},
 		os: ['MacOS', 'Linux', 'Windows']
 	};
@@ -52,13 +52,47 @@
 			</li>
 		</ul>
 		<p class="summary-paragraph">
-			JavaScript developer with 4 years experience in building robust and slick user interfaces.
-			Whilst I specialise in frontend development, I‘m both acquainted with and am comfortable
-			bleeding into neighbouring disciplines; Backend Development, Automated Testing, DevOps, and
-			UI/UX design. I’m looking to join a collaborative team to create great products.
+			JavaScript/TypeScript developer with 5 years experience in building robust and slick user
+			interfaces. Whilst I specialise in frontend development, I am comfortable and enjoy when my
+			work bleeds into neighbouring disciplines; Backend Development, UI design, UX design, DevOps
+			and Automated Testing. I’m looking to join a happy and collaborative team!
 		</p>
 	</section>
 	<section aria-label="left-hand column" class="lhs-col">
+		<section>
+			<h2>Experience</h2>
+			<h3>Evonetix</h3>
+			<h4>Senior Engineer</h4>
+			<ul class="inline-data">
+				<li class="has-icon">
+					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
+					<p>Apr 2022 - Mar 2023</p>
+				</li>
+				<li class="has-icon">
+					<img alt="location marker icon" src="icons/map-marker-alt-solid.svg" class="list-icon" />
+					<p>Cambridge, UK</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					Assisted development of the in-house "recipe" generation platform required for DNA
+					synthesis.
+				</li>
+				<li>
+					Created feature mockups and wireframes and iterated on designs with scientists and
+					software engineers alike.
+				</li>
+				<li>
+					Streamlined team process; fewer meetings, more meeting notes/minutes, greater use of
+					Confluence
+				</li>
+				<li>
+					Evaluated current browser automation tools and created a test suite. (tl;dr chose
+					Puppeteer over Cypress)
+				</li>
+			</ul>
+		</section>
+
 		<section>
 			<h2>Experience</h2>
 			<h3>Cambridge Consultants</h3>
@@ -66,11 +100,24 @@
 			<ul class="inline-data">
 				<li class="has-icon">
 					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
-					<p>Jan 2021 - Ongoing</p>
+					<p>Jan 2021 - Apr 2022</p>
 				</li>
 				<li class="has-icon">
 					<img alt="location marker icon" src="icons/map-marker-alt-solid.svg" class="list-icon" />
 					<p>Cambridge, UK</p>
+				</li>
+				<li>
+					Sole frontend developer on 3 client projects (team size: ~5, each project length: 3-6
+					months)
+				</li>
+				<li>
+					Successfully developed a backend for a project when no other backend developer could be
+					found.
+				</li>
+				<li>Worked with greater autonomy, proposed and developed new features for clients</li>
+				<li>
+					Greater involvement in interview process; screening CVs, revamping outdated interview
+					question content, conducting office tours for candidates, and co-running some interviews
 				</li>
 			</ul>
 			<h4>Engineer</h4>
@@ -79,36 +126,31 @@
 					<img alt="calendar icon" src="icons/calendar-regular.svg" class="list-icon" />
 					<p>Jan 2019 - Jan 2021</p>
 				</li>
+				<li class="has-icon">
+					<img alt="location marker icon" src="icons/map-marker-alt-solid.svg" class="list-icon" />
+					<p>Cambridge, UK</p>
+				</li>
 			</ul>
 			<ul>
 				<li>
 					Delivered customised and complex UI features to specification across several client and
 					internal projects
 				</li>
-				<li>Sole frontend developer on 3 projects (team size: ~5, project length: 3-6 months)</li>
 				<li>
 					Contributed to early-stage meetings to discuss project goals and outline technical
 					specifications and trade-offs
 				</li>
-				<li>Regularly presented new UI features to clients and project stakeholders</li>
+				<li>Regular presentations of UI work to clients and project stakeholders</li>
 				<li>
 					Frequently collaborated with colleagues across different disciplines (Backend, Design,
 					AI), often contributed to technical discussions outside of typical domain
 				</li>
 				<li>
-					Researched & trialled new tools that had the potential to benefit the team, e.g. Cypress,
+					Researched & trialled new tools that had the potential to benefit the team; Cypress,
 					Svelte, XState, TypeScript, Yarn, Snowpack, Vite, pnpm
 				</li>
-				<li>
-					Created and maintained automated test suites for most projects, to give confidence in each
-					release
-				</li>
+				<li>Created and maintained automated test suites for numerous projects</li>
 				<li>Acted as both buddy & mentor for a placement student in our team</li>
-				<li>
-					Assisted in the interview process; screening CVs, revamping outdated interview question
-					content, conducting office tours for candidates, and co-running the interviews themselves
-					(recently)
-				</li>
 			</ul>
 		</section>
 
