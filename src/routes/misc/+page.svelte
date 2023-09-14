@@ -60,7 +60,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source
 						src="/pastprojects/wdsdemos/solace gsap animation screencap.mov"
 						type="video/mp4"
@@ -87,7 +87,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/wdsdemos/wds demos menu screencap.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -109,7 +109,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/r3f/flex menu of geometry shapes.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -126,7 +126,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/r3f/html tooltips.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -179,7 +179,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/noseynewtab/noseynewtab.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -205,7 +205,7 @@
 				</p> -->
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/cclogosanim/anims.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -223,7 +223,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/bitsandbobs/blob menu.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>

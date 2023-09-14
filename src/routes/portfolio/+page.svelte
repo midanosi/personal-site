@@ -1,53 +1,52 @@
-<h1 class="page-title">Stuff I've made</h1>
+<script>
+	import MyCarousel from '$lib/components/MyCarousel.svelte';
+	import { Collapsible } from 'bits-ui';
+	import Carousel from 'svelte-carousel';
+	import { ChevronDown } from 'lucide-svelte';
+</script>
 
-<nav class="menu">
-	<ul>
-		<li>monumental</li>
-		<li>MKRecords design</li>
-		<li>time tracker</li>
-		<li>recipe site (in progress)</li>
-		<li>spyro animated (level, enter portal, level transition, land) (in progress)</li>
-	</ul>
-	<hr />
+<!-- <h1 class="page-title">Portfolio</h1> -->
+
+<!-- <nav class="menu">
 	<ul>
 		<li><a href="#monumental">Monumental</a></li>
-	</ul>
-
-	<ul>
-		<li><a href="#recipe">TODO: recipe site</a></li>
-		<li><a href="#spyro-scene">TODO: spyro scene </a></li>
+		<li><a href="#recipe">TODO: recipe site (in progress)</a></li>
+		<li><a href="#spyro-scene">TODO: spyro scene (level, enter portal, level transition, land) (in progress))</a></li>
 		<li><a href="#time-tracker">Time Tracker</a></li>
 		<li><a href="#mkrecords">MKRecords (designs and site)</a></li>
 	</ul>
-</nav>
+</nav> -->
 
 <div class="portfolio">
-	<h1 class="section-title" id="ccinternal">Internal (Public) Projects from Work</h1>
 	<article id="monumental">
 		<div class="item">
 			<div class="desc">
-				<h2 class="name">Monumental</h2>
-				<p>
-					This was a project to visualise the live inference of a Machine Learning algorithm,
-					applied against a custom bridge-building game, trained on real-word physics. I was very
-					happy with resulting look and functionality of the demo. The (fantastic) design was done
-					by a coworker of mine. One of the images shows my first shoddy attempt, and also v1 of the
-					demo, which was completed before.
-				</p>
-				<p>
-					The animation is done directly with html5 canvas methods, and was quite a headache to
-					figure out. I used the unusual combination of Svelte, and Mobx-State-Tree for state
-					management. Exploring MST was worthwhile and fun, but I don't think I'll be using it
-					again.
-				</p>
-				<p>
-					Unfortunately the AI part of the project didn't meet the desired goals, so these several
-					months of graft didn't gain much exposure.
-				</p>
+				<h1 class="name">Monumental</h1>
+				<p>Visualisation of real-time workings of Machine Learning model building a bridge</p>
+				<Collapsible.Root>
+					<Collapsible.Trigger
+						class="flex hover:bg-rose-800 p-1 transition border-amber-600 rounded-md"
+						>MORE <ChevronDown /></Collapsible.Trigger
+					>
+					<Collapsible.Content>
+						<p>
+							I was brought on to create a UI conveying the real-time workings of a Machine Learning
+							model trained in-house. The model was a custom bridge-building game, trained on
+							real-word physics. I was very happy with resulting look and functionality of the demo.
+							The (fantastic) design was done by a coworker.
+						</p>
+						<p>
+							The animation is done using html5 canvas, and was quite a headache to figure out. I
+							also took the opportunity to try out both Svelte, and Mobx-State-Tree (MST) for state
+							management. Exploring MST was worthwhile and fun, but I don't think I'll be using it
+							again. Svelte however was fantastic.
+						</p>
+					</Collapsible.Content>
+				</Collapsible.Root>
 			</div>
 			<div class="content">
 				<!-- <img src="pastprojects/good bridge.png" /> -->
-				<video controls width="100%">
+				<video controls muted>
 					<source src="/pastprojects/monumental/24thSep-JustBridge-28s.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -60,19 +59,17 @@
 			<div class="desc">
 				<h2 class="name">Complex GSAP Animation</h2>
 				<p>
-					This was part of a small project to try and present some of the public-facing projects our
-					division had completed in the past. I converted a static powerpoint presentation slide
-					into a complex animation using GSAP and it's great "timeline" feature. It took quite a
-					long while.
+					I was tasked with converting a static powerpoint presentation slide into an animated
+					webpage. I made heavy use of GSAP and it's timeline feature using GSAP.
 				</p>
 				<p>
-					What I learnt from this is that if you want to make a complex animation, and there's no
-					need for interactivity, then just make a static video with video editing software. Only
-					code it as a web animation if interactivity is required.
+					My takeaways: 1. GSAP is great, 100% would use it again 2. is that if you want to make a
+					complex animation <i>without interactivity</i>, then perhaps creating a video using video
+					editing software could be a more efficient method to get the desired result.
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls muted>
 					<source
 						src="/pastprojects/wdsdemos/solace gsap animation screencap.mov"
 						type="video/mp4"
@@ -99,7 +96,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls muted>
 					<source src="/pastprojects/wdsdemos/wds demos menu screencap.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -124,8 +121,24 @@
 				</p>
 			</div>
 			<figure class="content">
-				<img src="pastprojects/timetracker/timetracker.png" />
+				<img
+					src="pastprojects/timetracker/timetracker.png"
+					alt="screenshot of webpage that allows tracking time hour by hour over the course of one week, into various projects"
+				/>
 			</figure>
+			<MyCarousel />
+			<div style="width: 200px">
+				<Carousel>
+					<img
+						src="pastprojects/timetracker/timetracker.png"
+						alt="screenshot of webpage that allows tracking time hour by hour over the course of one week, into various projects"
+					/>
+					<img
+						src="pastprojects/timetracker/timetracker.png"
+						alt="screenshot of webpage that allows tracking time hour by hour over the course of one week, into various projects"
+					/>
+				</Carousel>
+			</div>
 		</div>
 	</article>
 	<div class="divider" />
@@ -145,7 +158,10 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/holidaydashboard/2021.png" />
+				<img
+					src="pastprojects/holidaydashboard/2021.png"
+					alt="webpage with a input text box top left, visualisation of remaining holiday days bottom left, and a calendar view on the whole right side, with coloured days representing planned or taken holiday days"
+				/>
 			</div>
 		</div>
 	</article>
@@ -167,7 +183,10 @@
 				</p>
 			</div>
 			<figure class="content">
-				<img src="pastprojects/mkrecords/mkrecords submission page ideas.png" />
+				<img
+					src="pastprojects/mkrecords/mkrecords submission page ideas.png"
+					alt="a design in Framer web design tool for a time submission page, with options for track, time trial mode and many other factors"
+				/>
 				<figcaption>Designs I made in Framer for a submission page</figcaption>
 			</figure>
 		</div>
@@ -183,7 +202,10 @@
 				</p>
 			</div>
 			<div class="content">
-				<img src="pastprojects/nonzzmt/rankingspage.png" />
+				<img
+					src="pastprojects/nonzzmt/rankingspage.png"
+					alt="website with black header, block purple background, title saying 'Site Records' and two columns of players and time trial records for various mario kart tracks."
+				/>
 			</div>
 		</div>
 	</article>
@@ -202,7 +224,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/r3f/flex menu of geometry shapes.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -219,7 +241,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/r3f/html tooltips.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -239,7 +261,6 @@
 			<div class="content">
 				<iframe
 					src="https://codesandbox.io/embed/exploding-square-sine-forked-20qdf?fontsize=14&hidenavigation=1&theme=dark"
-					style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
 					title="exploding square (sine) (forked)"
 					allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
 					sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
@@ -272,7 +293,7 @@
 				</p>
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/noseynewtab/noseynewtab.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -298,7 +319,7 @@
 				</p> -->
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/cclogosanim/anims.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -317,7 +338,7 @@
 				<!-- <p>Code here: (link)</p> -->
 			</div>
 			<div class="content">
-				<video controls width="100%">
+				<video controls width="100%" muted>
 					<source src="/pastprojects/bitsandbobs/blob menu.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
@@ -406,5 +427,10 @@
 		background: var(--accent-color);
 		opacity: 0.2;
 		margin: 0.5rem auto 3rem;
+	}
+	video,
+	img,
+	iframe {
+		width: 200px;
 	}
 </style>

@@ -12,8 +12,8 @@
 			<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
 				<a href="/portfolio">Portfolio</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/etc' ? 'page' : undefined}>
-				<a href="/etc">ETC</a>
+			<li aria-current={$page.url.pathname === '/misc' ? 'page' : undefined}>
+				<a href="/misc">MISC</a>
 			</li>
 		</ul>
 
@@ -88,7 +88,7 @@
 		bottom: 8px;
 		left: 0;
 		content: '';
-		background: white;
+		background: var(--color-text);
 		width: 100%;
 		height: 1px;
 		transition: opacity 300ms, transform 300ms;

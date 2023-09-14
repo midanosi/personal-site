@@ -1,6 +1,6 @@
 <script>
-	import Chip from './Chip.svelte';
-	import Divider from './Divider.svelte';
+	import Chip from '../../lib/components/Chip.svelte';
+	import Divider from '../../lib/components/Divider.svelte';
 
 	const skills = {
 		language: ['JavaScript', 'TypeScript', 'HTML/CSS', 'Python'],

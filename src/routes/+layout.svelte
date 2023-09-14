@@ -1,7 +1,8 @@
 <script>
-	import Header from './Header.svelte';
-	import { page } from '$app/stores';
+	import Header from '../lib/components/Header.svelte';
+import { page } from '$app/stores';
 	import './reset.css';
+	import './app.css';
 	import './styles.css';
 	$: {
 		console.log($page.url);
@@ -12,7 +13,7 @@
 	<slot />
 {:else}
 	<div class="app">
-		<Header />
+		<Header /> 
 
 		<main>
 			<slot />

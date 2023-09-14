@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Canvas } from '@threlte/core';
-	import OrbitingParticles from './OrbitingParticles.svelte';
-	import { Github, Gitlab } from 'lucide-svelte';
+	import OrbitingParticles from '../lib/components/OrbitingParticles.svelte';
+	import { ArrowRight, Github, Gitlab } from 'lucide-svelte';
 </script>
 
 <div class="canvas">
@@ -17,15 +17,22 @@
 
 <section>
 	<h1>Michael Hutchings</h1>
-	<br />
 
-	<p>Hello, welcome to my website!</p>
-	<p>Please follow either of the following links to learn more about me</p>
-	<br />
+	<div class="spacer" />
 
-	<div class="buttons">
-		<a href="/cv"><button>CV</button></a>
-		<a href="/portfolio"><button>Portfolio</button></a>
+	<p>Hello! I'm a frontend web developer based in Cambridge, UK</p>
+
+	<div class="spacer" />
+
+	<div class="links">
+		<a href="/cv">
+			<span>CV</span>
+			<ArrowRight />
+		</a>
+		<a href="/portfolio">
+			<span>Portfolio</span>
+			<ArrowRight /></a
+		>
 	</div>
 </section>
 
@@ -40,39 +47,68 @@
 		pointer-events: none;
 	}
 	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+		margin: 10vh auto 0;
+		max-width: 400px;
+	}
+	.spacer {
+		height: 2rem;
 	}
 
 	h1 {
 		width: 100%;
+		text-transform: uppercase;
+		font-size: 3rem;
+		line-height: 1;
 	}
 
 	p {
 		font-size: 1.2rem;
 	}
 
-	.buttons {
+	.links {
 		display: flex;
-		gap: 4rem;
+		flex-direction: column;
+		gap: 0.5rem;
 	}
 
-	button {
-		border: 2px solid;
-		border-color: var(--color-text);
-		border-radius: 5px;
-		padding: 6px;
-		background: transparent;
-		transition: filter 300ms;
-		cursor: pointer;
+	a {
+		display: flex;
+		height: 100%;
+		align-items: center;
 		color: var(--color-text);
-		width: 120px;
-		font-size: 1.4rem;
+		font-weight: 700;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		position: relative;
+		transition: filter 500ms;
+		width: fit-content;
+		gap: 0.5rem;
 	}
-	button:hover {
-		filter: brightness(1.5);
+
+	a::after {
+		display: block;
+		position: absolute;
+		bottom: 1px;
+		left: 0;
+		content: '';
+		background: var(--color-text);
+		width: 100%;
+		height: 2px;
+		transition: opacity 300ms, transform 300ms;
+		opacity: 0;
+		transform: scaleX(0.5);
+		transform-origin: center left;
+	}
+
+	a:hover {
+		filter: brightness(1.2);
+	}
+
+	a:hover::after {
+		transform: scaleX(1);
+		opacity: 1;
 	}
 </style>
