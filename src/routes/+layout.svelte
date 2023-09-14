@@ -1,18 +1,26 @@
 <script>
 	import Header from './Header.svelte';
+	import { page } from '$app/stores';
 	import './reset.css';
 	import './styles.css';
+	$: {
+		console.log($page.url);
+	}
 </script>
 
-<div class="app">
-	<Header />
+{#if $page.url.search.includes('?embed')}
+	<slot />
+{:else}
+	<div class="app">
+		<Header />
 
-	<main>
-		<slot />
-	</main>
+		<main>
+			<slot />
+		</main>
 
-	<footer />
-</div>
+		<footer />
+	</div>
+{/if}
 
 <style>
 	.app {

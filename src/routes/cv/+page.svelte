@@ -125,6 +125,7 @@
 					question content, conducting office tours for candidates, and co-running some interviews
 				</li>
 			</ul>
+			<div style="height: 6px" />
 			<h4>Engineer</h4>
 			<ul class="inline-data">
 				<li class="has-icon">
@@ -349,7 +350,6 @@
 	article.cv {
 		position: relative;
 		background: white;
-		margin: 2rem auto; /** remove this when saving to pdf with puppeteer */
 		padding: 2rem;
 
 		width: 793px; /** a4 dimensions */
@@ -441,7 +441,7 @@
 		gap: 0.5rem 5rem;
 		flex-wrap: wrap;
 		padding-left: 1rem;
-		margin-bottom: 0.2srem;
+		margin-bottom: 0.2rem;
 	}
 	ul.interests {
 		display: flex;
