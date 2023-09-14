@@ -353,7 +353,7 @@
 		padding: 2rem;
 
 		width: 793px; /** a4 dimensions */
-		height: 1122px; /** a4 dimensions */
+		// height: 1122px; /** a4 dimensions */
 		transform-origin: top left;
 
 		display: grid;

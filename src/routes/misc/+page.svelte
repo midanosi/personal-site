@@ -10,8 +10,6 @@
 	<ul>
 		<li><a href="#recipe">TODO: recipe site</a></li>
 		<li><a href="#spyro-scene">TODO: spyro scene </a></li>
-		<li><a href="#time-tracker">Time Tracker</a></li>
-		<li><a href="#mkrecords">MKRecords (designs and site)</a></li>
 		<li><a href="#mapbox-test">TODO: mapbox test </a></li>
 		<li><a href="#holiday-dashboard">Holiday Dashboard</a></li>
 		<li><a href="#nonzzmt">NonZZMT Site</a></li>
@@ -48,15 +46,13 @@
 			<div class="desc">
 				<h2 class="name">Complex GSAP Animation</h2>
 				<p>
-					This was part of a small project to try and present some of the public-facing projects our
-					division had completed in the past. I converted a static powerpoint presentation slide
-					into a complex animation using GSAP and it's great "timeline" feature. It took quite a
-					long while.
+					I was tasked with converting a static powerpoint presentation slide into an animated
+					webpage. I made heavy use of GSAP and it's timeline feature using GSAP.
 				</p>
 				<p>
-					What I learnt from this is that if you want to make a complex animation, and there's no
-					need for interactivity, then just make a static video with video editing software. Only
-					code it as a web animation if interactivity is required.
+					My takeaways: 1. GSAP is great, 100% would use it again 2. is that if you want to make a
+					complex animation <i>without interactivity</i>, then perhaps creating a video using video
+					editing software could be a more efficient method to get the desired result.
 				</p>
 			</div>
 			<div class="content">
@@ -91,6 +87,50 @@
 					<source src="/pastprojects/wdsdemos/wds demos menu screencap.mov" type="video/mp4" />
 					Sorry, your browser doesn't support embedded videos.
 				</video>
+			</div>
+		</div>
+	</article>
+
+	<div class="divider" />
+	<article id="nonzzmt">
+		<div class="item">
+			<div class="desc">
+				<h1 class="name">NonZZMT Rankings Site</h1>
+				<p>
+					My first website, made in 2014, and 2017. Made using JQuery, MySQL and PHP (no longer live
+					due to server costs).
+				</p>
+			</div>
+			<div class="content">
+				<img
+					src="pastprojects/nonzzmt/rankingspage.png"
+					alt="website with black header, block purple background, title saying 'Site Records' and two columns of players and time trial records for various mario kart tracks."
+				/>
+			</div>
+		</div>
+	</article>
+
+	<div class="divider" />
+	<article id="holiday-dashboard">
+		<div class="item">
+			<div class="desc">
+				<h1 class="name">Holiday Dashboard</h1>
+				<p>
+					Made this out of frustration of visualising the amount of holiday I have taken/have
+					remaining.
+				</p>
+				<p>Built from CRA, hence the React "blue"</p>
+				<p>
+					Once again, very custom to scrape data from company's internal data (plan was to make it
+					usable by anyone in company, but turned out impossible), and super buggy, but once again,
+					I've been using this myself for the last 2 years.
+				</p>
+			</div>
+			<div class="content">
+				<img
+					src="pastprojects/holidaydashboard/2021.ipng"
+					alt="webpage with a input text box top left, visualisation of remaining holiday days bottom left, and a calendar view on the whole right side, with coloured days representing planned or taken holiday days"
+				/>
 			</div>
 		</div>
 	</article>
@@ -233,84 +273,4 @@
 </div>
 
 <style>
-	nav.menu h2 > a {
-		color: var(--accent-color);
-	}
-	nav.menu li > a {
-		color: white;
-	}
-	.etc {
-		width: fit-content;
-		margin: 0 auto;
-	}
-
-	h1.page-title {
-		text-decoration: underline;
-		margin-bottom: 2rem;
-	}
-	h1.section-title {
-		margin-bottom: 1rem;
-		text-decoration: underline;
-	}
-
-	article {
-		margin-bottom: 5rem;
-	}
-
-	.item {
-		display: grid;
-		padding: 1rem 0;
-
-		grid-template-areas:
-			'desc'
-			'content';
-		grid-template-columns: 600px;
-		grid-gap: 0.5rem 3rem;
-	}
-
-	.item.desc {
-		grid-area: desc;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	h2.name {
-		font-size: 2rem;
-		margin-top: 0.5rem;
-	}
-	p {
-		margin-bottom: 1rem;
-	}
-	.content {
-		grid-area: content;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	figcaption {
-		margin-top: 0.25rem;
-		font-size: 0.8rem;
-		opacity: 0.9;
-	}
-	@media screen and (min-width: 1200px) {
-		.item {
-			grid-template-areas:
-				'desc content'
-				'desc content';
-			grid-template-columns: 500px 600px;
-			grid-template-rows: 2.5rem auto;
-		}
-	}
-	img {
-		width: 100%;
-	}
-	.divider {
-		width: 300px;
-		height: 2px;
-		background: var(--accent-color);
-		opacity: 0.2;
-		margin: 0.5rem auto 3rem;
-	}
 </style>

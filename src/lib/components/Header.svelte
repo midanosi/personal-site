@@ -1,21 +1,24 @@
 <script>
 	import { page } from '$app/stores';
 	import { Github, Gitlab } from 'lucide-svelte';
+	import { fade } from 'svelte/transition';
 </script>
 
 <header>
 	<nav>
-		<ul class="navbar-list" class:hidden={$page.url.pathname === '/'}>
-			<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
-				<a href="/cv">CV</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
-				<a href="/portfolio">Portfolio</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/misc' ? 'page' : undefined}>
-				<a href="/misc">MISC</a>
-			</li>
-		</ul>
+		{#if $page.url.pathname !== '/'}
+			<ul class="navbar-list" in:fade>
+				<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
+					<a href="/cv">CV</a>
+				</li>
+				<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
+					<a href="/portfolio">Portfolio</a>
+				</li>
+				<li aria-current={$page.url.pathname === '/misc' ? 'page' : undefined}>
+					<a href="/misc">MISC</a>
+				</li>
+			</ul>
+		{/if}
 
 		<ul class="repo-links">
 			<li><a href="https://github.com/midanosi" class=""><Github color="#d8bcab" /></a></li>
@@ -52,9 +55,6 @@
 		display: flex;
 		gap: 2rem;
 	}
-	ul.navbar-list.hidden * {
-		display: none;
-	}
 	ul.repo-links {
 		display: flex;
 		gap: 1rem;
@@ -64,6 +64,7 @@
 	li {
 		position: relative;
 		height: 100%;
+		list-style-type: none;
 	}
 
 	nav a {
