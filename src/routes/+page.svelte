@@ -47,10 +47,15 @@
 		pointer-events: none;
 	}
 	section {
-		margin: 10vh auto 0;
 		max-width: 400px;
+		margin: 10vh 0px 0px 50px;
 	}
-	.spacer {
+	@media (min-width: 480px) {
+		section {
+			margin: 10vh auto 0;
+		}
+	}
+	section .spacer {
 		height: 2rem;
 	}
 
