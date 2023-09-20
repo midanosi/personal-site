@@ -16,9 +16,8 @@
 					Visualisation of real-time workings of Machine Learning model building a bridge
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger
-						class="flex hover:bg-rose-800 p-1 transition border-amber-600 rounded-md"
-						>MORE <ChevronDown /></Collapsible.Trigger
+					<Collapsible.Trigger class="flex opacity-60"
+						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
 						<p>
@@ -46,7 +45,7 @@
 		</div>
 	</article>
 
-	<divider />
+	<div class="divider" />
 
 	<article id="time-tracker">
 		<div class="item">
@@ -57,9 +56,8 @@
 					saved locally to browser.
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger
-						class="flex hover:bg-rose-800 p-1 transition border-amber-600 rounded-md"
-						>MORE <ChevronDown /></Collapsible.Trigger
+					<Collapsible.Trigger class="flex opacity-60"
+						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
 						<p>
@@ -85,7 +83,9 @@
 			<MyCarousel />
 		</div>
 	</article>
+
 	<div class="divider" />
+
 	<article id="mkrecords">
 		<div class="item">
 			<div class="desc">
@@ -94,9 +94,8 @@
 					Designs and some implementation for a brand new Mario Kart community leaderboards website.
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger
-						class="flex hover:bg-rose-800 p-1 transition border-amber-600 rounded-md"
-						>MORE <ChevronDown /></Collapsible.Trigger
+					<Collapsible.Trigger class="flex opacity-60"
+						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
 						<p>
@@ -123,21 +122,9 @@
 			</figure>
 		</div>
 	</article>
+
 	<div class="divider" />
-	<article id="recipe-site">
-		<div class="item">
-			<div class="desc">
-				<h1 class="name">Spyro Scene</h1>
-				<p>
-					Have for many years had the itch to dive into 3D work. And I've always loved Spyro So I
-					challenged myself to see how best I could recreate parts of the original ps1 game!
-				</p>
-				<p>(in progress)</p>
-			</div>
-			<div class="media" />
-		</div>
-	</article>
-	<div class="divider" />
+
 	<article id="recipe-site">
 		<div class="item">
 			<div class="desc">
@@ -157,6 +144,22 @@
 			</div>
 		</div>
 	</article>
+
+	<div class="divider" />
+
+	<article id="spyro-scene">
+		<div class="item">
+			<div class="desc">
+				<h1 class="name">Spyro Scene</h1>
+				<p>
+					Have for many years had the itch to dive into 3D work. And I've always loved Spyro So I
+					challenged myself to see how best I could recreate parts of the original ps1 game!
+				</p>
+				<p>(in progress)</p>
+			</div>
+			<div class="media" />
+		</div>
+	</article>
 </div>
 
 <style>
@@ -166,21 +169,32 @@
 	}
 	h1 {
 		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.spacer {
+		height: 40px;
+		width: 100%;
 	}
 
 	article {
-		margin-bottom: 5rem;
+		/* margin-bottom: 7rem; */
 	}
 
 	.item {
 		display: flex;
+		gap: 0.5rem;
 		flex-direction: column;
 		justify-content: space-around;
-		gap: 2rem;
+		align-items: flex-start;
+
+		padding: 0 1rem;
 	}
 	@media screen and (min-width: 768px) {
 		.item {
+			gap: 2rem;
 			flex-direction: row;
+			justify-content: flex-start;
 			align-items: flex-start;
 		}
 	}
@@ -204,15 +218,15 @@
 		opacity: 0.9;
 	}
 	.divider {
-		width: 300px;
-		height: 2px;
-		background: var(--accent-color);
+		width: min(400px, 60vw);
+		height: 1px;
+		background: var(--color-text);
 		opacity: 0.2;
-		margin: 0.5rem auto 3rem;
+		margin: 4rem auto 4rem;
 	}
 	video,
 	img {
 		width: clamp(200px, 90vw, 400px);
-		height: clamp(200px, 250px, 300px);
+		/* height: clamp(200px, 250px, 300px); */
 	}
 </style>
