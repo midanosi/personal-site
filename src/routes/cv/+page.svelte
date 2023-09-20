@@ -10,9 +10,9 @@
 			state: ['Zustand', 'XState', 'Redux + Toolkit', 'Jotai', 'react-query'],
 			animation_3d: ['React Three Fiber', 'GSAP', 'Threlte', 'Three.js', 'react-spring'],
 			test: ['Playwright', 'Vitest', 'Jest', 'Testing Library', 'Cypress'],
-			design: ['Framer', 'Figma']
+			design: ['Framer', 'Figma'],
 		},
-		os: ['MacOS', 'Linux', 'Windows']
+		os: ['MacOS', 'Linux', 'Windows'],
 	};
 	const pdf = false;
 </script>
@@ -20,6 +20,10 @@
 <svelte:head>
 	<title>CV</title>
 </svelte:head>
+
+<div class="mobile-disclaimer">
+	Not optimised for mobile! Best viewed on desktop
+</div>
 
 <article class="cv" class:pdf>
 	<section class="top-section">
@@ -352,6 +356,7 @@
 		background: white;
 		padding: 2rem;
 
+		/* aspect-ratio: 1/1.618; */
 		width: 793px; /** a4 dimensions */
 		// height: 1122px; /** a4 dimensions */
 		transform-origin: top left;
@@ -366,8 +371,16 @@
 
 		grid-gap: 1.5rem 2rem;
 
-		/* aspect-ratio: 1/1.618; */
 		color: black;
+	}
+	.mobile-disclaimer {
+		font-size: 2rem;
+		padding: 2rem;
+	}
+	@media (min-width: 800px) {
+		.mobile-disclaimer {
+			display: none;
+		}
 	}
 	section.top-section {
 		grid-area: header;
