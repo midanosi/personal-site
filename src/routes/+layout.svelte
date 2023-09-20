@@ -34,7 +34,7 @@ import { page } from '$app/stores';
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: max(1rem, 15vw);
+		padding: 0;
 		width: 100%;
 		max-width: 64rem;
 		margin: 0 auto;
