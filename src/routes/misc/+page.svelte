@@ -1,6 +1,6 @@
 <h1 class="page-title">Stuff I've made</h1>
 
-<nav class="menu">
+<!-- <nav class="menu">
 	<h2><a href="#ccinternal">Internal (Public) Projects whilst at Cambridge Consultants</a></h2>
 	<ul>
 		<li><a href="#monumental">Monumental</a></li>
@@ -35,7 +35,15 @@
 		<li><a href="#complex-gsap-anim">WDS Demos GSAP</a></li>
 		<li><a href="#netflix-menu-clone">Netflix clone (WDS Demos)</a></li>
 	</ul>
-</nav>
+</nav> -->
+
+<div class="grid">
+	<div class="item"/>
+	<div class="item"/>
+	<div class="item"/>
+	<div class="item"/>
+	<div class="item"/>
+</div>
 
 <div class="etc">
 	<h1 class="section-title" id="ccinternal">Etc.</h1>

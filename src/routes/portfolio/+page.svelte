@@ -6,21 +6,8 @@
 	import { fade } from 'svelte/transition';
 </script>
 
-<nav class="menu">
-	<ul>
-		<li><a href="#monumental">Monumental</a></li>
-		<li><a href="#time-tracker">Time Tracker</a></li>
-		<li><a href="#mkrecords">MKRecords (designs and site)</a></li>
-		<li><a href="#recipe">TODO: recipe site (in progress)</a></li>
-		<li>
-			<a href="#spyro-scene"
-				>TODO: spyro scene (level, enter portal, level transition, land) (in progress))</a
-			>
-		</li>
-	</ul>
-</nav>
-
 <div class="portfolio">
+	<div class="spacer" />
 	<article id="monumental">
 		<div class="item">
 			<div class="desc">
