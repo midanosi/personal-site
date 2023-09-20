@@ -7,6 +7,9 @@
 // float random2d = random(color.xy)
 
 vec3 color = vec3(0.847,0.737,0.671);
+color.x -= 0.1;
+color.y -= 0.1;
+color.z -= 0.1;
 // color.y += distanceToCenter * 0.01;
 
 // float opacity = clamp(smoothstep(spawnRadius, spawnRadius * 0.9, distanceToCenter), 0.0, 1.0);
