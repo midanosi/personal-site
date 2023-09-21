@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Canvas } from '@threlte/core';
 	import OrbitingParticles from '../lib/components/OrbitingParticles.svelte';
-	import { ArrowRight, Github, Gitlab } from 'lucide-svelte';
+	import { ArrowRight } from 'lucide-svelte';
 </script>
 
 <div class="canvas">

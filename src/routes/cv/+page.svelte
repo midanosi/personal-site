@@ -1,4 +1,5 @@
 <script>
+	import { UserSquare2 } from 'lucide-svelte';
 	import Chip from '../../lib/components/Chip.svelte';
 	import Divider from '../../lib/components/Divider.svelte';
 
@@ -21,9 +22,7 @@
 	<title>CV</title>
 </svelte:head>
 
-<div class="mobile-disclaimer">
-	Not optimised for mobile! Best viewed on desktop
-</div>
+<div class="mobile-disclaimer">Not optimised for mobile! Best viewed on desktop</div>
 
 <article class="cv" class:pdf>
 	<section class="top-section">
@@ -46,6 +45,12 @@
 			</ul>
 			<ul class="personal-info">
 				<li class="has-icon show-text-in-pdf">
+					<a href="https://www.netlify.com/something">
+						<UserSquare2 color="black" class="list-icon w-4" />
+					</a>
+					<p>www.netlify.com/something</p>
+				</li>
+				<li class="has-icon show-text-in-pdf">
 					<a href="https://github.com/midanosi">
 						<img alt="github logo" src="icons/github-brands.svg" class="list-icon" />
 					</a>
@@ -53,7 +58,7 @@
 				</li>
 				<li class="has-icon show-text-in-pdf">
 					<a href="https://gitlab.com/midanosi">
-						<img alt="gitlab logo" src="icons/gitlab-brands.svg" class="list-icon" />
+						<img alt="gitlab logo" src="icons/gitlab-brands.svg" class="list-icon w-6" />
 					</a>
 					<p>midanosi</p>
 				</li>
@@ -66,11 +71,10 @@
 		<p class="summary-paragraph">
 			with <b>5 years</b> experience in building robust and slick user interfaces.
 			<!-- <br /> -->
-			Whilst I specialise in frontend development, I am comfortable and enjoy when my work bleeds into
-			neighbouring disciplines;
-			<b>backend development, UI design, UX design, DevOps</b> and <b>automated testing</b>.
+			I specialise in frontend development, but I do have some experience in neighbouring disciplines;
+			<b>backend development, UI design, UX design,</b> and <b>automated testing</b>.
 			<br />
-			I’m looking to join a happy and collaborative team!
+			I’m looking to join a collaborative team to build functional and engaging applications!
 		</p>
 	</section>
 
@@ -90,14 +94,20 @@
 				</li>
 			</ul>
 			<ul>
-				<li>Developed the in-house "recipe" generation site for DNA synthesis</li>
+				<li>
+					Developed the in-house "recipe" generation website used in the DNA synthesis process
+				</li>
 				<li>
 					Created feature mockups and wireframes, and iterated on designs with scientists and
 					software engineers
 				</li>
+				<li>Supported the team in programming features more robustly.</li>
 				<li>
-					Evaluated current browser automation tools and created a test suite (chose and used
-					Playwright)
+					Fostered a team habit of pragmatic documentation; avoid problems being hit twice, without
+					being overbearing on time.
+				</li>
+				<li>
+					Evaluated current browser automation tools and created a test suite (chose Playwright)
 				</li>
 			</ul>
 		</section>
@@ -473,7 +483,7 @@
 		align-items: center;
 		gap: 0.5rem;
 	}
-	li.has-icon img.list-icon {
+	li.has-icon .list-icon {
 		width: 12px;
 	}
 
