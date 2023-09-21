@@ -37,6 +37,10 @@
 	</ul>
 </nav> -->
 
+<svelte:head>
+	<title>Misc</title>
+</svelte:head>
+
 <div class="grid">
 	<div class="item"/>
 	<div class="item"/>

@@ -2,9 +2,13 @@
 	import MyCarousel from '$lib/components/MyCarousel.svelte';
 	import { Collapsible } from 'bits-ui';
 	import Carousel from 'svelte-carousel';
-	import { ChevronDown } from 'lucide-svelte';
+	import { ArrowRight, ChevronDown } from 'lucide-svelte';
 	import { fade } from 'svelte/transition';
 </script>
+
+<svelte:head>
+	<title>Portfolio</title>
+</svelte:head>
 
 <div class="portfolio">
 	<div class="spacer" />
@@ -160,6 +164,12 @@
 			<div class="media" />
 		</div>
 	</article>
+
+	<div class="h-8"/>
+	<div class="flex justify-end w-full">
+		<a href="/misc">more things<ArrowRight size="16px"/></a>
+	</div>
+	<div class="h-8"/>
 </div>
 
 <style>
@@ -228,5 +238,46 @@
 	img {
 		width: clamp(200px, 90vw, 400px);
 		/* height: clamp(200px, 250px, 300px); */
+	}
+	a {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		color: var(--color-text);
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+		position: relative;
+		transition: filter 500ms;
+		width: fit-content;
+		gap: 0.5rem;
+
+		/* font-weight: 700; */
+		font-size: 0.8rem;
+	}
+
+	a::after {
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		content: '';
+		background: var(--color-text);
+		width: 100%;
+		height: 1px;
+		transition: opacity 300ms, transform 300ms;
+		opacity: 0;
+		transform: scaleX(0.5);
+		transform-origin: center left;
+	}
+
+	a:hover {
+		filter: brightness(1.2);
+	}
+
+	a:hover::after {
+		transform: scaleX(1);
+		opacity: 1;
 	}
 </style>

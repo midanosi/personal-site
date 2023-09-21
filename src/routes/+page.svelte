@@ -11,8 +11,7 @@
 </div>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Michael Hutchings</title>
 </svelte:head>
 
 <section>

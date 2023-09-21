@@ -22,7 +22,10 @@
 	<title>CV</title>
 </svelte:head>
 
-<div class="mobile-disclaimer">Not optimised for mobile! Best viewed on desktop</div>
+<div class="mobile-disclaimer">
+	This page is not optimised for mobile! Best viewed on desktop. If you need this in pdf format,
+	please email me at mdhutchings94@gmail.com
+</div>
 
 <article class="cv" class:pdf>
 	<section class="top-section">
@@ -71,8 +74,8 @@
 		<p class="summary-paragraph">
 			with <b>5 years</b> experience in building robust and slick user interfaces.
 			<!-- <br /> -->
-			I specialise in frontend development, but I do have some experience in neighbouring disciplines;
-			<b>backend development, UI design, UX design,</b> and <b>automated testing</b>.
+			I specialise in frontend development, and also work in neighbouring disciplines;
+			<b>backend development, UI/UX design,</b> and <b>automated testing</b>.
 			<br />
 			I’m looking to join a collaborative team to build functional and engaging applications!
 		</p>
@@ -384,7 +387,7 @@
 		color: black;
 	}
 	.mobile-disclaimer {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		padding: 2rem;
 	}
 	@media (min-width: 800px) {
@@ -425,6 +428,9 @@
 	section.summary {
 		grid-area: summary;
 		margin-top: -2.5rem; // hack I know, deal with it
+	}
+	.summary-paragraph {
+		text-wrap: balance;
 	}
 	// span.job-title {
 	// 	color: black;
