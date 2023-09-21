@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	console.log(`$page`, $page);
+	// console.log(`$page`, $page);
 	$: id = $page.params.id;
 
 </script>

@@ -14,9 +14,9 @@
 				<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
 					<a href="/portfolio">Portfolio</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/misc' ? 'page' : undefined}>
+				<!-- <li aria-current={$page.url.pathname === '/misc' ? 'page' : undefined}>
 					<a href="/misc">MISC</a>
-				</li>
+				</li> -->
 			</ul>
 		{/if}
 

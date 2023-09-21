@@ -55,11 +55,13 @@
 		"@threlte/rapier": "1.0.0-next.2",
 		"@threlte/theatre": "0.1.0-next.1",
 		"@types/three": "^0.152.1",
+		"bigger-picture": "^1.1.11",
 		"bits-ui": "^0.5.7",
 		"clsx": "^2.0.0",
 		"lucide-svelte": "^0.276.0",
 		"postprocessing": "^6.32.1",
 		"svelte-carousel": "^1.0.25",
+		"svelte-photoswipe": "^0.0.2",
 		"tailwind-merge": "^1.14.0",
 		"tailwind-variants": "^0.1.14",
 		"three": "^0.153.0"

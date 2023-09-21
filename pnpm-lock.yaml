@@ -35,6 +35,9 @@ dependencies:
   '@types/three':
     specifier: ^0.152.1
     version: 0.152.1
+  bigger-picture:
+    specifier: ^1.1.11
+    version: 1.1.11
   bits-ui:
     specifier: ^0.5.7
     version: 0.5.7(svelte@4.0.0)
@@ -50,6 +53,9 @@ dependencies:
   svelte-carousel:
     specifier: ^1.0.25
     version: 1.0.25
+  svelte-photoswipe:
+    specifier: ^0.0.2
+    version: 0.0.2
   tailwind-merge:
     specifier: ^1.14.0
     version: 1.14.0
@@ -1047,6 +1053,10 @@ packages:
     resolution: {integrity: sha512-rzSy/k7WdX5zOyeHHCOixGXbCHkyogkxPKL2r8QtzHmVQDiWCXUWa18bLdMWT9CYMLOYTjWpTHawuev2ouYJVw==}
     dependencies:
       require-from-string: 2.0.2
+    dev: false
+
+  /bigger-picture@1.1.11:
+    resolution: {integrity: sha512-1snpLyAy4lgHZgG6bNAKSbOvAZfgwOArEdFsffoGdOO8M+l3UAYzMBel24VZ5EtDs93cxsaxSr7OoiZeon1qQw==}
     dev: false
 
   /binary-extensions@2.2.0:
@@ -2876,6 +2886,13 @@ packages:
       svelte: 4.0.0
     dev: true
 
+  /svelte-photoswipe@0.0.2:
+    resolution: {integrity: sha512-Pa8f3uOsxjWyAUG0VbRQT+QMz3cVt9X6FuPSw/DjR3MSD3wj2+Ng2yNaaqxut2llLO7aulXLK7Vt3JxYiemfDw==}
+    requiresBuild: true
+    dependencies:
+      photoswipe: github.com/dimsemenov/PhotoSwipe/008338268efddc55d36cfc3a8fbbb3940a6ddd23
+    dev: false
+
   /svelte-preprocess@5.0.4(postcss@8.4.29)(sass@1.66.1)(svelte@4.0.0)(typescript@5.1.5):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
@@ -3368,3 +3385,10 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  github.com/dimsemenov/PhotoSwipe/008338268efddc55d36cfc3a8fbbb3940a6ddd23:
+    resolution: {tarball: https://codeload.github.com/dimsemenov/PhotoSwipe/tar.gz/008338268efddc55d36cfc3a8fbbb3940a6ddd23}
+    name: photoswipe
+    version: 5.1.8
+    engines: {node: '>= 0.12.0'}
+    dev: false

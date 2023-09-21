@@ -1,5 +1,5 @@
 <script>
-	import { UserSquare2 } from 'lucide-svelte';
+	import { Link } from 'lucide-svelte';
 	import Chip from '../../lib/components/Chip.svelte';
 	import Divider from '../../lib/components/Divider.svelte';
 
@@ -48,22 +48,22 @@
 			</ul>
 			<ul class="personal-info">
 				<li class="has-icon show-text-in-pdf">
-					<a href="https://www.netlify.com/something">
-						<UserSquare2 color="black" class="list-icon w-4" />
+					<a href="https://main--midanosi.netlify.app">
+						<Link color="black" class="list-icon w-[12px]" />
+						<p>main--midanosi.netlify.app</p>
 					</a>
-					<p>www.netlify.com/something</p>
 				</li>
 				<li class="has-icon show-text-in-pdf">
 					<a href="https://github.com/midanosi">
 						<img alt="github logo" src="icons/github-brands.svg" class="list-icon" />
+						<p>midanosi</p>
 					</a>
-					<p>midanosi</p>
 				</li>
 				<li class="has-icon show-text-in-pdf">
 					<a href="https://gitlab.com/midanosi">
 						<img alt="gitlab logo" src="icons/gitlab-brands.svg" class="list-icon w-6" />
+						<p>midanosi</p>
 					</a>
-					<p>midanosi</p>
 				</li>
 			</ul>
 		</div>
@@ -98,19 +98,18 @@
 			</ul>
 			<ul>
 				<li>
-					Developed the in-house "recipe" generation website used in the DNA synthesis process
+					Developed in-house "recipe" generation website used in the DNA synthesis process
 				</li>
 				<li>
 					Created feature mockups and wireframes, and iterated on designs with scientists and
 					software engineers
 				</li>
-				<li>Supported the team in programming features more robustly.</li>
+				<li>Mentored junior team members in programming and team-working skills</li>
 				<li>
-					Fostered a team habit of pragmatic documentation; avoid problems being hit twice, without
-					being overbearing on time.
+					Fostered a team habit of pragmatic documentation
 				</li>
 				<li>
-					Evaluated current browser automation tools and created a test suite (chose Playwright)
+					Evaluated current browser automation tools and created a Playwright test suite
 				</li>
 			</ul>
 		</section>
@@ -164,7 +163,7 @@
 					discussions outside of my typical domain
 				</li>
 				<li>
-					Trialled emerging tools; e.g. Cypress, Svelte, XState, TypeScript, Yarn, Snowpack, Vite,
+					Trialled emerging tools; e.g. Cypress, Svelte, XState, TypeScript, Yarn, Vite,
 					pnpm
 				</li>
 				<li>Created and maintained automated test suites for numerous projects</li>
@@ -188,10 +187,10 @@
 				</li>
 			</ul>
 			<ul>
-				<li>Coded many new features of the web application, committed hundreds of bug fixes</li>
+				<li>Coded many new features of the web application, committed many bug fixes</li>
 				<li>Successfully met numerous short and intense deadlines</li>
 				<li>
-					Organised and prioritised tickets for the team onto a kanban board before each release
+					Organised and prioritised tickets onto a kanban board for each release
 				</li>
 			</ul>
 		</section>
@@ -218,7 +217,7 @@
 					suite in front of clients over a two week period
 				</li>
 				<li>
-					Greatly improved technical communication skills, driven by necessarily precise bug reports
+					Improved technical communication skills, driven by necessarily precise bug reports
 				</li>
 			</ul>
 		</section>
@@ -317,12 +316,12 @@
 			</ul>
 		</section>
 
-		<section>
+		<!-- <section>
 			<h2>Referees</h2>
 			<ul>
 				<li>Available on request</li>
 			</ul>
-		</section>
+		</section> -->
 	</section>
 	<footer>
 		<p>Icons by <a href="https://fontawesome.com">Font Awesome</a></p>
@@ -356,10 +355,10 @@
 
 	p,
 	li {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 		/* font-weight: 500; */
 		font-variation-settings: var(--medium);
-		color: hsla(0, 0%, 40%, 80%);
+		color: hsla(0, 0%, 40%, 90%);
 	}
 	p b {
 		color: hsl(0, 0%, 40%);
@@ -389,6 +388,7 @@
 	.mobile-disclaimer {
 		font-size: 1.5rem;
 		padding: 2rem;
+		display: none;
 	}
 	@media (min-width: 800px) {
 		.mobile-disclaimer {
@@ -484,7 +484,7 @@
 	}
 
 	/** list icons */
-	li.has-icon {
+	li.has-icon, li.has-icon a {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;

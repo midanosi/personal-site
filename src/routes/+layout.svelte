@@ -4,9 +4,7 @@ import { page } from '$app/stores';
 	import './reset.css';
 	import './app.css';
 	import './styles.css';
-	$: {
-		console.log($page.url);
-	}
+	import "bigger-picture/css"
 </script>
 
 {#if $page.url.search.includes('?embed')}
