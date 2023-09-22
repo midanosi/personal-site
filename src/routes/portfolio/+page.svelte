@@ -296,7 +296,7 @@
 	<article id="spyro-intro">
 		<div class="item">
 			<div class="desc">
-				<h1 class="name">Spyro Scene</h1>
+				<h1 class="name">Spyro 3D Animation</h1>
 				<p>
 					A recreation of the introductory level loading screen from Spyro 1. Built using React
 					Three Fiber (R3F). Models ripped directly from the game.
@@ -320,7 +320,7 @@
 				<li>
 					<a
 						href="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
-						data-thumb="s/pastprojects/spyro-intro/pyro-intro-thumb.png"
+						data-thumb="s/pastprojects/spyro-intro/spyro-intro-thumb.png"
 						data-sources={`[
 						{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mov", "type": "video/quicktime" }
 					]`}
