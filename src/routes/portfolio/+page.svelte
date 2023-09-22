@@ -73,7 +73,7 @@
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
-			<ul class="media">
+			<!-- <ul class="media">
 				<li>
 					<a
 						href="/pastprojects/monumental/24thSep-JustBridge-28s.mov"
@@ -87,7 +87,18 @@
 						<img src="/pastprojects/monumental/monumental-thumb.png" alt="thing" />
 					</a>
 				</li>
-			</ul>
+			</ul> -->
+			<video
+				controls
+				playsinline
+				tabindex="0"
+				muted
+			>
+				<source
+					src="/pastprojects/monumental/24thSep-JustBridge-28s.mov"
+					type="video/quicktime"
+				/>
+			</video>
 			<!-- <div class="media">
 				<img src="pastprojects/good bridge.png" /> -->
 			<!-- <video controls muted>
@@ -292,7 +303,29 @@
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
-			<ul class="media">
+			<video
+				controls
+				playsinline
+				tabindex="0"
+				muted
+			>
+				<source
+					src="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
+					type="video/quicktime"
+				/>
+			</video>
+			<video
+				controls
+				playsinline
+				tabindex="0"
+				muted
+			>
+				<source
+					src="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
+					type="video/quicktime"
+				/>
+			</video>
+			<!-- <ul class="media">
 				<li>
 					<a
 						href="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
@@ -322,7 +355,7 @@
 						/>
 					</a>
 				</li>
-			</ul>
+			</ul> -->
 		</div>
 	</article>
 
@@ -415,7 +448,7 @@
 
 	video,
 	img {
-		width: clamp(200px, 90vw, 400px);
+		width: clamp(200px, 80vw, 300px);
 		/* height: clamp(200px, 250px, 300px); */
 	}
 	a {
