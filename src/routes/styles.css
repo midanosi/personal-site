@@ -20,6 +20,13 @@ h1, h2, h3, h4 {
 	font-family: 'Manrope Variable', var(--font-body),
 }
 
+html.bp-lock {
+	overflow-y: visible !important;
+}
+html.bp-lock body {
+	overflow: scroll !important;
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;
