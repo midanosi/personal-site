@@ -73,13 +73,14 @@
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
-			<!-- <ul class="media">
+			<ul class="media">
 				<li>
 					<a
-						href="pastprojects/monumental/24thSep-JustBridge-28s.mov"
+						href="pastprojects/monumental/just-bridge.mov"
 						data-thumb="pastprojects/monumental/monumental-thumb.png"
 						data-sources={`[
-							{ "src": "pastprojects/monumental/24thSep-JustBridge-28s.mov", "type": "video/quicktime" }
+							{ "src": "pastprojects/monumental/just-bridge.mp4", "type": "video/mp4" },
+							{ "src": "pastprojects/monumental/just-bridge.mov", "type": "video/quicktime" }
 						]`}
 						data-width="1000"
 						data-height="500"
@@ -87,25 +88,11 @@
 						<img src="pastprojects/monumental/monumental-thumb.png" alt="thing" />
 					</a>
 				</li>
-			</ul> -->
-			<video
-				controls
-				tabindex="0"
-				muted
-			>
-				<source
-					src="pastprojects/monumental/just-bridge.mov"
-					type="video/quicktime"
-				/>
-			</video>
-			<!-- <div class="media">
-				<img src="pastprojects/good bridge.png" /> -->
-			<!-- <video controls muted>
-					<source src="/pastprojects/monumental/24thSep-JustBridge-28s.mov" type="video/mp4" />
-					Sorry, your browser doesn't support embedded videos.
-				</video> -->
-			<!-- </div> -->
-			<!-- <PhotoSwipeGallery {images} styling="grid" gridColumns={10} /> -->
+			</ul>
+			<!-- <video controls tabindex="0" muted>
+				<source src="pastprojects/monumental/just-bridge.mp4" type="video/mp4" />
+				<source src="pastprojects/monumental/just-bridge.mov" type="video/quicktime" />
+			</video> -->
 		</div>
 	</article>
 
@@ -302,34 +289,27 @@
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
-			<video
-				controls
-				playsinline
-				tabindex="0"
-				muted
-			>
-				<source
-					src="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
-					type="video/quicktime"
-				/>
+			<!-- <video controls playsinline tabindex="0" muted>
+				<source src="/pastprojects/spyro-intro/spyro_intro_unlit.mp4" type="video/mp4" />
+				<source src="/pastprojects/spyro-intro/spyro_intro_unlit.mov" type="video/quicktime" />
 			</video>
-			<video
-				controls
-				playsinline
-				tabindex="0"
-				muted
-			>
+			<video controls playsinline tabindex="0" muted>
+				<source
+					src="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mp4"
+					type="video/mp4"
+				/>
 				<source
 					src="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
 					type="video/quicktime"
 				/>
-			</video>
-			<!-- <ul class="media">
+			</video> -->
+			<ul class="media">
 				<li>
 					<a
 						href="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
 						data-thumb="s/pastprojects/spyro-intro/spyro-intro-thumb.png"
 						data-sources={`[
+							{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mp4", "type": "video/mp4" },
 							{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mov", "type": "video/quicktime" }
 						]`}
 					>
@@ -345,6 +325,7 @@
 						href="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
 						data-thumb="/pastprojects/spyro-intro/spyro-debug-thumb.png"
 						data-sources={`[
+							{ "src": "/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mp4", "type": "video/mp4" },
 							{ "src": "/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov", "type": "video/quicktime" }
 						]`}
 					>
@@ -354,7 +335,7 @@
 						/>
 					</a>
 				</li>
-			</ul> -->
+			</ul>
 		</div>
 	</article>
 
