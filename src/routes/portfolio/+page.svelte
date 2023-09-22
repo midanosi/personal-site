@@ -327,13 +327,14 @@
 						href="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
 						data-thumb="s/pastprojects/spyro-intro/spyro-intro-thumb.png"
 						data-sources={`[
-						{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mov", "type": "video/quicktime" }
-					]`}
-						><img
+							{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mov", "type": "video/quicktime" }
+						]`}
+					>
+						<img
 							src="/pastprojects/spyro-intro/spyro-intro-thumb.png"
 							alt="spyro flying into shot next to the words 'A new adventure begins' in gold letters"
-						/></a
-					>
+						/>
+					</a>
 				</li>
 
 				<li>
@@ -341,9 +342,14 @@
 						href="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
 						data-thumb="/pastprojects/spyro-intro/spyro-debug-thumb.png"
 						data-sources={`[
-					{ "src": "/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov", "type": "video/quicktime" }
-				]`}><img src="/pastprojects/spyro-intro/spyro-debug-thumb.png" alt="debug view of spyro intro" /></a
+							{ "src": "/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov", "type": "video/quicktime" }
+						]`}
 					>
+						<img
+							src="/pastprojects/spyro-intro/spyro-debug-thumb.png"
+							alt="debug view of spyro intro"
+						/>
+					</a>
 				</li>
 			</ul>
 		</div>
