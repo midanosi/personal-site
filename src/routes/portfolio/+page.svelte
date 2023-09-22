@@ -10,52 +10,23 @@
 		let bp = BiggerPicture({
 			target: document.body,
 		});
-		// let items = [
-		// 	{
-		// 		img: 'https://plus.unsplash.com/premium_photo-1675865393754-67eac4271eb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJhZ29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60',
-		// 		thumb:
-		// 			'https://plus.unsplash.com/premium_photo-1675865393754-67eac4271eb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJhZ29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60',
-		// 		height: '2000',
-		// 		width: '3000',
-		// 		alt: 'wildlife photography of brown bear cub',
-		// 	},
-		// 	{
-		// 		img: '/dragon.avif',
-		// 		height: '2000',
-		// 		width: '3000',
-		// 		alt: 'palm trees under clear blue sky',
-		// 	},
-		// ];
-		// let bp = BiggerPicture({
-		// 	target: document.getElementById('inline'),
-		// });
-
-		// bp.open({
-		// 	items,
-		// 	inline: true,
-		// 	scale: 1,
-		// 	intro: 'fadeup',
-		// 	// noClose: true,
-		// });
-
-		// bp.open({
-		// 	items: document.querySelectorAll('#images a'),
-		// })
 		const galleries = ["monumental", "time-tracker", "mkrecords", "recipe-site", "spyro-intro"];
 
 		for (let gallery of galleries) {
-			console.log(`gallery`, gallery);
+			// console.log(`gallery`, gallery);
 			let links = document.querySelectorAll(`#${gallery} a`);
-			console.log(`links`, links);
+			// console.log(`links`, links);
 
 			// add click listener on links to open BiggerPicture
 			for (let link of links) {
+				console.log(`gallery, link`, gallery, link);
 				link.addEventListener("click", (e) => openGallery(e, links));
 			}
 		}
 
 		// function to open BiggerPicture
 		function openGallery(e, links) {
+			// debugger;
 			console.log(`e.currentTarget`, e.currentTarget);
 			e.preventDefault();
 			bp.open({
