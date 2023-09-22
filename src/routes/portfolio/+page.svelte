@@ -19,7 +19,7 @@
 
 			// add click listener on links to open BiggerPicture
 			for (let link of links) {
-				console.log(`gallery, link`, gallery, link);
+				// console.log(`gallery, link`, gallery, link);
 				link.addEventListener("click", (e) => openGallery(e, links));
 			}
 		}
@@ -27,7 +27,7 @@
 		// function to open BiggerPicture
 		function openGallery(e, links) {
 			// debugger;
-			console.log(`e.currentTarget`, e.currentTarget);
+			// console.log(`e.currentTarget`, e.currentTarget);
 			e.preventDefault();
 			bp.open({
 				// items: e.currentTarget,
