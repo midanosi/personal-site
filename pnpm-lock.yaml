@@ -50,12 +50,6 @@ dependencies:
   postprocessing:
     specifier: ^6.32.1
     version: 6.32.1(three@0.153.0)
-  svelte-carousel:
-    specifier: ^1.0.25
-    version: 1.0.25
-  svelte-photoswipe:
-    specifier: ^0.0.2
-    version: 0.0.2
   tailwind-merge:
     specifier: ^1.14.0
     version: 1.14.0
@@ -1364,14 +1358,6 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /easy-reactive@1.0.4:
-    resolution: {integrity: sha512-dFVouegPctMf6XT5si+sRByBWUQE30n99TW0Y45Y7mccmNsbSl4uXA2sBGI8zCDZqXjhb8ouA3wVVhSSGpXk5Q==}
-    dependencies:
-      lodash.clonedeep: 4.5.0
-      lodash.get: 4.4.2
-      lodash.isequal: 4.5.0
-    dev: false
-
   /electron-to-chromium@1.4.520:
     resolution: {integrity: sha512-Frfus2VpYADsrh1lB3v/ft/WVFlVzOIm+Q0p7U7VqHI6qr7NWHYKe+Wif3W50n7JAFoBsWVsoU0+qDks6WQ60g==}
     dev: true
@@ -2033,18 +2019,6 @@ packages:
 
   /lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
-    dev: false
-
-  /lodash.clonedeep@4.5.0:
-    resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
-    dev: false
-
-  /lodash.get@4.4.2:
-    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
-    dev: false
-
-  /lodash.isequal@4.5.0:
-    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
     dev: false
 
   /lodash.merge@4.6.2:
@@ -2827,12 +2801,6 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svelte-carousel@1.0.25:
-    resolution: {integrity: sha512-vR/AbGYwlh3fgWaB5PJg+iqZFvoVCJq4JWdmlXvPtdG9TLlKJWBcoiKlMZt3MnFF7AqNW46tOH/O+uVMWQzyWQ==}
-    dependencies:
-      easy-reactive: 1.0.4
-    dev: false
-
   /svelte-check@3.4.4(postcss@8.4.29)(sass@1.66.1)(svelte@4.0.0):
     resolution: {integrity: sha512-Uys9+R65cj8TmP8f5UpS7B2xKpNLYNxEWJsA5ZoKcWq/uwvABFF7xS6iPQGLoa7hxz0DS6xU60YFpmq06E4JxA==}
     hasBin: true
@@ -2885,13 +2853,6 @@ packages:
     dependencies:
       svelte: 4.0.0
     dev: true
-
-  /svelte-photoswipe@0.0.2:
-    resolution: {integrity: sha512-Pa8f3uOsxjWyAUG0VbRQT+QMz3cVt9X6FuPSw/DjR3MSD3wj2+Ng2yNaaqxut2llLO7aulXLK7Vt3JxYiemfDw==}
-    requiresBuild: true
-    dependencies:
-      photoswipe: github.com/dimsemenov/PhotoSwipe/008338268efddc55d36cfc3a8fbbb3940a6ddd23
-    dev: false
 
   /svelte-preprocess@5.0.4(postcss@8.4.29)(sass@1.66.1)(svelte@4.0.0)(typescript@5.1.5):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
@@ -3385,10 +3346,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  github.com/dimsemenov/PhotoSwipe/008338268efddc55d36cfc3a8fbbb3940a6ddd23:
-    resolution: {tarball: https://codeload.github.com/dimsemenov/PhotoSwipe/tar.gz/008338268efddc55d36cfc3a8fbbb3940a6ddd23}
-    name: photoswipe
-    version: 5.1.8
-    engines: {node: '>= 0.12.0'}
-    dev: false
