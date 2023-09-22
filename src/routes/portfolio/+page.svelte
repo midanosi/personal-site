@@ -106,10 +106,15 @@
 				<li>
 					<a
 						href="/pastprojects/monumental/24thSep-JustBridge-28s.mov"
+						data-thumb="pastprojects/monumental/monumental-thumb.png"
 						data-sources={`[
-						{ "src": "/pastprojects/monumental/24thSep-JustBridge-28s.mov", "type": "video/quicktime" }
-					]`}><img src="/pastprojects/monumental/monumental-thumb.png" alt="thing" /></a
+							{ "src": "/pastprojects/monumental/24thSep-JustBridge-28s.mov", "type": "video/quicktime" }
+						]`}
+						data-width="1000"
+						data-height="500"
 					>
+						<img src="/pastprojects/monumental/monumental-thumb.png" alt="thing" />
+					</a>
 				</li>
 			</ul>
 			<!-- <div class="media">
