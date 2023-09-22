@@ -76,26 +76,25 @@
 			<!-- <ul class="media">
 				<li>
 					<a
-						href="/pastprojects/monumental/24thSep-JustBridge-28s.mov"
+						href="pastprojects/monumental/24thSep-JustBridge-28s.mov"
 						data-thumb="pastprojects/monumental/monumental-thumb.png"
 						data-sources={`[
-							{ "src": "/pastprojects/monumental/24thSep-JustBridge-28s.mov", "type": "video/quicktime" }
+							{ "src": "pastprojects/monumental/24thSep-JustBridge-28s.mov", "type": "video/quicktime" }
 						]`}
 						data-width="1000"
 						data-height="500"
 					>
-						<img src="/pastprojects/monumental/monumental-thumb.png" alt="thing" />
+						<img src="pastprojects/monumental/monumental-thumb.png" alt="thing" />
 					</a>
 				</li>
 			</ul> -->
 			<video
 				controls
-				playsinline
 				tabindex="0"
 				muted
 			>
 				<source
-					src="/pastprojects/monumental/24thSep-JustBridge-28s.mov"
+					src="pastprojects/monumental/just-bridge.mov"
 					type="video/quicktime"
 				/>
 			</video>
