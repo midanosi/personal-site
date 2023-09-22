@@ -1,19 +1,19 @@
 <script>
-	import { Link } from 'lucide-svelte';
-	import Chip from '../../lib/components/Chip.svelte';
-	import Divider from '../../lib/components/Divider.svelte';
+	import { Link } from "lucide-svelte";
+	import Chip from "../../lib/components/Chip.svelte";
+	import Divider from "../../lib/components/Divider.svelte";
 
 	const skills = {
-		language: ['JavaScript', 'TypeScript', 'HTML/CSS', 'Python'],
-		frameworks: ['React', 'Svelte', 'SvelteKit', 'Next.js', 'open to other frameworks'],
-		devops: ['git', 'GitLab CI/CD', 'Firebase', 'AWS', 'Azure'],
+		language: ["JavaScript", "TypeScript", "HTML/CSS", "Python"],
+		frameworks: ["React", "Svelte", "SvelteKit", "Next.js", "open to other frameworks"],
+		devops: ["git", "GitLab CI/CD", "Firebase", "AWS", "Azure"],
 		libraries: {
-			state: ['Zustand', 'XState', 'Redux + Toolkit', 'Jotai', 'react-query'],
-			animation_3d: ['React Three Fiber', 'GSAP', 'Threlte', 'Three.js', 'react-spring'],
-			test: ['Playwright', 'Vitest', 'Jest', 'Testing Library', 'Cypress'],
-			design: ['Framer', 'Figma'],
+			state: ["Zustand", "XState", "Redux + Toolkit", "Jotai", "react-query"],
+			animation_3d: ["React Three Fiber", "GSAP", "Threlte", "Three.js", "react-spring"],
+			test: ["Playwright", "Vitest", "Jest", "Testing Library", "Cypress"],
+			design: ["Framer", "Figma"],
 		},
-		os: ['MacOS', 'Linux', 'Windows'],
+		os: ["MacOS", "Linux", "Windows"],
 	};
 	const pdf = false;
 </script>
@@ -48,9 +48,9 @@
 			</ul>
 			<ul class="personal-info">
 				<li class="has-icon show-text-in-pdf">
-					<a href="https://main--midanosi.netlify.app">
+					<a href="https://midanosi.netlify.app">
 						<Link color="black" class="list-icon w-[12px]" />
-						<p>main--midanosi.netlify.app</p>
+						<p>midanosi.netlify.app</p>
 					</a>
 				</li>
 				<li class="has-icon show-text-in-pdf">
@@ -97,20 +97,14 @@
 				</li>
 			</ul>
 			<ul>
-				<li>
-					Developed in-house "recipe" generation website used in the DNA synthesis process
-				</li>
+				<li>Developed in-house "recipe" generation website used in the DNA synthesis process</li>
 				<li>
 					Created feature mockups and wireframes, and iterated on designs with scientists and
 					software engineers
 				</li>
 				<li>Mentored junior team members in programming and team-working skills</li>
-				<li>
-					Fostered a team habit of pragmatic documentation
-				</li>
-				<li>
-					Evaluated current browser automation tools and created a Playwright test suite
-				</li>
+				<li>Fostered a team habit of pragmatic documentation</li>
+				<li>Evaluated current browser automation tools and created a Playwright test suite</li>
 			</ul>
 		</section>
 
@@ -162,10 +156,7 @@
 					Collaborated across different disciplines (Backend, Design, AI), contributed to technical
 					discussions outside of my typical domain
 				</li>
-				<li>
-					Trialled emerging tools; e.g. Cypress, Svelte, XState, TypeScript, Yarn, Vite,
-					pnpm
-				</li>
+				<li>Trialled emerging tools; e.g. Cypress, Svelte, XState, TypeScript, Yarn, Vite, pnpm</li>
 				<li>Created and maintained automated test suites for numerous projects</li>
 				<li>Acted as both buddy & mentor for a placement student in our team</li>
 			</ul>
@@ -189,9 +180,7 @@
 			<ul>
 				<li>Coded many new features of the web application, committed many bug fixes</li>
 				<li>Successfully met numerous short and intense deadlines</li>
-				<li>
-					Organised and prioritised tickets onto a kanban board for each release
-				</li>
+				<li>Organised and prioritised tickets onto a kanban board for each release</li>
 			</ul>
 		</section>
 
@@ -216,9 +205,7 @@
 					Became a thorough and exact manual software tester. At end of year, performed a full test
 					suite in front of clients over a two week period
 				</li>
-				<li>
-					Improved technical communication skills, driven by necessarily precise bug reports
-				</li>
+				<li>Improved technical communication skills, driven by necessarily precise bug reports</li>
 			</ul>
 		</section>
 	</section>
@@ -375,9 +362,9 @@
 
 		display: grid;
 		grid-template-areas:
-			'header header'
-			'summary summary'
-			'lhs-col rhs-col';
+			"header header"
+			"summary summary"
+			"lhs-col rhs-col";
 		grid-template-columns: 6fr 2fr;
 		grid-template-rows: auto 1fr;
 
@@ -484,7 +471,8 @@
 	}
 
 	/** list icons */
-	li.has-icon, li.has-icon a {
+	li.has-icon,
+	li.has-icon a {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
