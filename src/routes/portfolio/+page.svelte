@@ -13,25 +13,19 @@
 		const galleries = ["monumental", "time-tracker", "mkrecords", "recipe-site", "spyro-intro"];
 
 		for (let gallery of galleries) {
-			// console.log(`gallery`, gallery);
 			let links = document.querySelectorAll(`#${gallery} a`);
-			// console.log(`links`, links);
 
 			// add click listener on links to open BiggerPicture
 			for (let link of links) {
-				// console.log(`gallery, link`, gallery, link);
 				link.addEventListener("click", (e) => openGallery(e, links));
 			}
 		}
 
 		// function to open BiggerPicture
 		function openGallery(e, links) {
-			// debugger;
-			// console.log(`e.currentTarget`, e.currentTarget);
 			e.preventDefault();
 			bp.open({
-				// items: e.currentTarget,
-				items: links,
+				items: links, // open all links in group
 				el: e.currentTarget,
 			});
 		}
@@ -89,10 +83,6 @@
 					</a>
 				</li>
 			</ul>
-			<!-- <video controls tabindex="0" muted>
-				<source src="pastprojects/monumental/just-bridge.mp4" type="video/mp4" />
-				<source src="pastprojects/monumental/just-bridge.mov" type="video/quicktime" />
-			</video> -->
 		</div>
 	</article>
 
@@ -133,10 +123,41 @@
 						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
 						data-width="3000"
 						data-height="1400"
+						data-caption="screenshot of the webpage I used every day at work"
 					>
 						<img
 							src="pastprojects/timetracker/timetracker.png"
 							alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						/>
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/timetracker/timetracker-framer-designs-1.png"
+						data-img="pastprojects/timetracker/timetracker-framer-designs-1.png"
+						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						data-width="3000"
+						data-height="1400"
+						data-caption="I first used Framer to mock up what the app would look like"
+					>
+						<img
+							src="pastprojects/timetracker/timetracker-framer-designs-1.png"
+							alt="screenshot of Framer design of the main page of timetracker app"
+						/>
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/timetracker/timetracker-framer-designs-2.png"
+						data-img="pastprojects/timetracker/timetracker-framer-designs-2.png"
+						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						data-width="3000"
+						data-height="1400"
+						data-caption="For some ui elements, I mocked a few variations in Framer prior to coding it"
+					>
+						<img
+							src="pastprojects/timetracker/timetracker-framer-designs-2.png"
+							alt="screenshot of Framer design of the some ui elements of timetracker app"
 						/>
 					</a>
 				</li>
@@ -185,6 +206,96 @@
 							src="pastprojects/mkrecords/submission-page-design.png"
 							alt="a design in Framer web design tool for a time submission page, with options for track, time trial mode and many other factors"
 						/>
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-rankinglist-designs.png"
+						data-img="pastprojects/mkrecords/mkrecords-rankinglist-designs.png"
+						data-alt=""
+					>
+						<img src="pastprojects/mkrecords/mkrecords-rankinglist-designs.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png"
+						data-img="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png"
+						data-alt=""
+					>
+						<img src="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-track-select-designs.png"
+						data-img="pastprojects/mkrecords/mkrecords-track-select-designs.png"
+						data-alt=""
+						data-width="3000"
+						data-height="3200"
+					>
+						<img src="pastprojects/mkrecords/mkrecords-track-select-designs.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png"
+						data-img="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png"
+						data-alt=""
+					>
+						<img src="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png"
+						data-img="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png"
+						data-alt=""
+					>
+						<img src="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
+						data-img="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
+						data-alt=""
+					>
+						<img
+							src="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
+							alt=""
+						/>
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-profile-page-designs.png"
+						data-img="pastprojects/mkrecords/mkrecords-profile-page-designs.png"
+						data-alt=""
+					>
+						<img src="pastprojects/mkrecords/mkrecords-profile-page-designs.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-profile-page-implemented.png"
+						data-img="pastprojects/mkrecords/mkrecords-profile-page-implemented.png"
+						data-alt=""
+					>
+						<img src="pastprojects/mkrecords/mkrecords-profile-page-implemented.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/mkrecords/mkrecords-site-tour.mp4"
+						data-thumb="pastprojects/mkrecords/mkrecords-thumb.png"
+						data-sources={`[
+							{ "src": "pastprojects/mkrecords/mkrecords-site-tour.mp4", "type": "video/mp4" }
+						]`}
+						data-width="1000"
+						data-height="500"
+					>
+						<img src="pastprojects/mkrecords/mkrecords-site-tour-thumb.png" alt="" />
 					</a>
 				</li>
 			</ul>
@@ -260,6 +371,18 @@
 						/>
 					</a>
 				</li>
+				<li>
+					<a
+						href="pastprojects/recipe-site/recipe-site-old.png"
+						data-img="pastprojects/recipe-site/recipe-site-old.png"
+						data-alt="an old design of the recipe webpage"
+					>
+						<img
+							src="pastprojects/recipe-site/recipe-site-old.png"
+							alt="an old design of the recipe webpage"
+						/>
+					</a>
+				</li>
 			</ul>
 		</div>
 	</article>
@@ -289,20 +412,6 @@
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
-			<!-- <video controls playsinline tabindex="0" muted>
-				<source src="/pastprojects/spyro-intro/spyro_intro_unlit.mp4" type="video/mp4" />
-				<source src="/pastprojects/spyro-intro/spyro_intro_unlit.mov" type="video/quicktime" />
-			</video>
-			<video controls playsinline tabindex="0" muted>
-				<source
-					src="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mp4"
-					type="video/mp4"
-				/>
-				<source
-					src="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
-					type="video/quicktime"
-				/>
-			</video> -->
 			<ul class="media">
 				<li>
 					<a
@@ -340,7 +449,7 @@
 	</article>
 
 	<div class="h-8" />
-	<!-- <div class="flex justify-end w-full">
+	<!-- <div class="flex justify-end w-full link">
 		<a href="/misc">more things<ArrowRight size="16px" /></a>
 	</div>
 	<div class="h-8" /> -->
@@ -348,7 +457,8 @@
 
 <style>
 	.portfolio {
-		width: fit-content;
+		/* width: fit-content; */
+		width: clamp(200px, 80vw, 1600px);
 		margin: 0 auto;
 	}
 	h1 {
@@ -402,36 +512,61 @@
 		opacity: 0.2;
 		margin: 4rem auto 4rem;
 	}
-	.media {
+	ul.media {
 		grid-area: content;
+		width: 100%;
 
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		gap: 2rem;
+		gap: 1rem;
 	}
-	.media li {
+	ul.media li {
 		list-style: none;
 	}
-	.media li a {
-		max-width: 300px;
+
+	ul.media li a {
+		display: inline-block;
+		width: clamp(200px, 80vw, 300px);
+
+		position: relative;
+		width: 500px;
 	}
-	@media screen and (min-width: 768px) {
-		.item {
-			gap: 2rem;
-			flex-direction: row;
-			justify-content: flex-start;
-			align-items: flex-start;
-		}
+	img, video {
+		width: 100%;
+	}
+	ul.media li a[data-sources]:after {
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		content: '';
+
+		/* background-size: 125px 125px;
+		background-image: url("play.svg");
+		background-repeat: no-repeat;
+		background-position: 50% 50%; */
+		background: no-repeat center/125px  url("play.svg");
+		opacity: 80%;
+		transition: background-size 300ms, opacity 300ms;
+		/* transition: transform 300ms, opacity 300ms; */
+		box-shadow: inset 0 0 10px 3px black;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;;
+	}
+	ul.media li a[data-sources]:hover:after {
+		background-size: 140px;
+		opacity: 100%;
 	}
 
-	video,
-	img {
-		width: clamp(200px, 80vw, 300px);
-		/* height: clamp(200px, 250px, 300px); */
-	}
-	a {
+	.link a {
 		display: flex;
 		height: 100%;
 		align-items: center;
@@ -449,7 +584,7 @@
 		font-size: 0.8rem;
 	}
 
-	a::after {
+	.link a::after {
 		display: block;
 		position: absolute;
 		bottom: 0px;
@@ -464,11 +599,11 @@
 		transform-origin: center left;
 	}
 
-	a:hover {
+	.link a:hover {
 		filter: brightness(1.2);
 	}
 
-	a:hover::after {
+	.link a:hover::after {
 		transform: scaleX(1);
 		opacity: 1;
 	}
