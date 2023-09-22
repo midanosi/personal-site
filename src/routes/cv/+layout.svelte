@@ -4,6 +4,6 @@
 
 <style>
 	.cv-container {
-		/* margin-top: 2rem; */
+		margin-top: 2rem;
 	}
 </style>

@@ -375,7 +375,6 @@
 	.mobile-disclaimer {
 		font-size: 1.5rem;
 		padding: 2rem;
-		display: none;
 	}
 	@media (min-width: 800px) {
 		.mobile-disclaimer {
