@@ -43,23 +43,25 @@
 			<div class="desc">
 				<h1 class="name">Monumental</h1>
 				<p in:fade>
-					Visualisation of real-time workings of Machine Learning model building a bridge
+					A public-facing web experience I built whilst at Cambridge Consultants to advertise and
+					demonstrate it's machine-learning capabilities.
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger class="flex opacity-60"
+					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
 						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
 						<div class="more-content">
 							<p>
-								I was brought on to create a UI conveying the real-time workings of a Machine
-								Learning model trained in-house. The model was a custom bridge-building game,
-								trained on real-word physics. I was very happy with resulting look and functionality
-								of the demo. The (fantastic) design was done by a coworker.
+								A visualisation of the real-time workings of a Machine Learning model trained
+								in-house. The model was a custom bridge-building game, trained on real-word physics.
+								The fantastic base design was provided by a coworker, and everything else was
+								designed and implemented by myself.
 							</p>
 							<p>
-								The animation is done using <i>html5 canvas</i>, and was quite a headache to figure
-								out. I also took the opportunity to try out both <i>Svelte</i>, and
+								The bridge animations are <i>canvas animations</i> (for performance purposes), and
+								were quite a headache to figure out. I also took the opportunity to try out both
+								<i>Svelte</i>, and
 								<i>Mobx-State-Tree (MST)</i> for state management. Exploring MST was worthwhile and fun,
 								but I don't think I'll be using it again. Svelte however was fantastic.
 							</p>
@@ -69,97 +71,78 @@
 			</div>
 			<ul class="media">
 				<li>
-					<a
-						href="pastprojects/monumental/just-bridge.mov"
-						data-thumb="pastprojects/monumental/monumental-thumb.png"
-						data-sources={`[
+					<figure>
+						<a
+							href="pastprojects/monumental/hero-title-monumental.png"
+							data-img="pastprojects/monumental/hero-title-monumental.png"
+							data-caption="Title screen"
+						>
+							<img
+								src="pastprojects/monumental/hero-title-monumental.png"
+								alt="Title screen, with large text 'Monumental'"
+							/>
+						</a>
+						<figcaption>Title screen</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a
+							href="pastprojects/monumental/tutorial_beginning.mp4"
+							data-thumb="pastprojects/monumental/tutorial-thumb.png"
+							data-sources={`[
+							{ "src": "pastprojects/monumental/tutorial_beginning.mp4", "type": "video/mp4" },
+							{ "src": "pastprojects/monumental/tutorial_beginning.mov", "type": "video/quicktime" }
+						]`}
+							data-caption="A tutorial, contains canvas animation of the coloured 'playout' bridges"
+							data-width="1000"
+							data-height="450"
+						>
+							<img src="pastprojects/monumental/tutorial-thumb.png" alt="thing" />
+						</a>
+
+						<figcaption>
+							A tutorial, contains canvas animation of the coloured 'playout' bridges
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a
+							href="pastprojects/monumental/end_transition_animations.mp4"
+							data-thumb="pastprojects/monumental/end_transition_thumb.png"
+							data-sources={`[
+							{ "src": "pastprojects/monumental/end_transition_animations.mp4", "type": "video/mp4" },
+							{ "src": "pastprojects/monumental/end_transition_animations.mov", "type": "video/quicktime" }
+						]`}
+							data-caption="Complex CSS transitions; fading out, focusing, and transitioning many UI elements"
+							data-width="1000"
+							data-height="450"
+						>
+							<img src="pastprojects/monumental/end_transition_thumb.png" alt="thing" />
+						</a>
+
+						<figcaption>Complex CSS transitions</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<a
+							href="pastprojects/monumental/just-bridge.mp4"
+							data-thumb="pastprojects/monumental/monumental-thumb.png"
+							data-sources={`[
 							{ "src": "pastprojects/monumental/just-bridge.mp4", "type": "video/mp4" },
 							{ "src": "pastprojects/monumental/just-bridge.mov", "type": "video/quicktime" }
 						]`}
-						data-width="1000"
-						data-height="500"
-					>
-						<img src="pastprojects/monumental/monumental-thumb.png" alt="thing" />
-					</a>
-				</li>
-			</ul>
-		</div>
-	</article>
+							data-caption="A complete bridge building, with playout (the coloured bridge blocks) visualisation turned off"
+							data-width="1000"
+							data-height="500"
+						>
+							<img src="pastprojects/monumental/monumental-thumb.png" alt="thing" />
+						</a>
 
-	<div class="divider" />
-
-	<article id="time-tracker">
-		<div class="item">
-			<div class="desc">
-				<h1 class="name">Time Tracker</h1>
-				<p>
-					A site to track my time committed to different client projects during each week. Data
-					saved locally to browser.
-				</p>
-				<Collapsible.Root>
-					<Collapsible.Trigger class="flex opacity-60"
-						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
-					>
-					<Collapsible.Content>
-						<p>
-							In consultancy, tracking time across multiple projects is hard, especially when the
-							timesheet software is Windows-only and I'm on a Macbook. And to me, running a VM all
-							day to quickly update your hours as-and-when needed is a non-option.
-						</p>
-						<p>
-							Made with <i>Svelte</i>, and tried out <i>Snowpack</i> (before Vite won). The design is
-							heavily lifted from one I found on dribbble.
-						</p>
-						<p>The data is saved locally to browser storage using <i>PouchDB</i></p>
-						<p>Not released, but I used this myself almost every day for 1.5 years.</p>
-					</Collapsible.Content>
-				</Collapsible.Root>
-			</div>
-			<ul class="media">
-				<li>
-					<a
-						href="pastprojects/timetracker/timetracker.png"
-						data-img="pastprojects/timetracker/timetracker.png"
-						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						data-width="3000"
-						data-height="1400"
-						data-caption="screenshot of the webpage I used every day at work"
-					>
-						<img
-							src="pastprojects/timetracker/timetracker.png"
-							alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						/>
-					</a>
-				</li>
-				<li>
-					<a
-						href="pastprojects/timetracker/timetracker-framer-designs-1.png"
-						data-img="pastprojects/timetracker/timetracker-framer-designs-1.png"
-						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						data-width="3000"
-						data-height="1400"
-						data-caption="I first used Framer to mock up what the app would look like"
-					>
-						<img
-							src="pastprojects/timetracker/timetracker-framer-designs-1.png"
-							alt="screenshot of Framer design of the main page of timetracker app"
-						/>
-					</a>
-				</li>
-				<li>
-					<a
-						href="pastprojects/timetracker/timetracker-framer-designs-2.png"
-						data-img="pastprojects/timetracker/timetracker-framer-designs-2.png"
-						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						data-width="3000"
-						data-height="1400"
-						data-caption="For some ui elements, I mocked a few variations in Framer prior to coding it"
-					>
-						<img
-							src="pastprojects/timetracker/timetracker-framer-designs-2.png"
-							alt="screenshot of Framer design of the some ui elements of timetracker app"
-						/>
-					</a>
+						<figcaption>A complete bridge build</figcaption>
+					</figure>
 				</li>
 			</ul>
 		</div>
@@ -175,7 +158,7 @@
 					Designs and some implementation for a brand new Mario Kart community leaderboards website.
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger class="flex opacity-60"
+					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
 						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
@@ -304,6 +287,85 @@
 
 	<div class="divider" />
 
+	<article id="time-tracker">
+		<div class="item">
+			<div class="desc">
+				<h1 class="name">Time Tracker</h1>
+				<p>
+					A site to track my time committed to different client projects during each week. Data
+					saved locally to browser.
+				</p>
+				<Collapsible.Root>
+					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
+						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
+					>
+					<Collapsible.Content>
+						<p>
+							In consultancy, tracking time across multiple projects is hard, especially when the
+							timesheet software is Windows-only and I'm on a Macbook. And to me, running a VM all
+							day to quickly update your hours as-and-when needed is a non-option.
+						</p>
+						<p>
+							Made with <i>Svelte</i>, and tried out <i>Snowpack</i> (before Vite won). The design is
+							heavily lifted from one I found on dribbble.
+						</p>
+						<p>The data is saved locally to browser storage using <i>PouchDB</i></p>
+						<p>Not released, but I used this myself almost every day for 1.5 years.</p>
+					</Collapsible.Content>
+				</Collapsible.Root>
+			</div>
+			<ul class="media">
+				<li>
+					<a
+						href="pastprojects/timetracker/timetracker.png"
+						data-img="pastprojects/timetracker/timetracker.png"
+						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						data-width="3000"
+						data-height="1400"
+						data-caption="screenshot of the webpage I used every day at work"
+					>
+						<img
+							src="pastprojects/timetracker/timetracker.png"
+							alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						/>
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/timetracker/timetracker-framer-designs-1.png"
+						data-img="pastprojects/timetracker/timetracker-framer-designs-1.png"
+						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						data-width="3000"
+						data-height="1400"
+						data-caption="I first used Framer to mock up what the app would look like"
+					>
+						<img
+							src="pastprojects/timetracker/timetracker-framer-designs-1.png"
+							alt="screenshot of Framer design of the main page of timetracker app"
+						/>
+					</a>
+				</li>
+				<li>
+					<a
+						href="pastprojects/timetracker/timetracker-framer-designs-2.png"
+						data-img="pastprojects/timetracker/timetracker-framer-designs-2.png"
+						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+						data-width="3000"
+						data-height="1400"
+						data-caption="For some ui elements, I mocked a few variations in Framer prior to coding it"
+					>
+						<img
+							src="pastprojects/timetracker/timetracker-framer-designs-2.png"
+							alt="screenshot of Framer design of the some ui elements of timetracker app"
+						/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</article>
+
+	<div class="divider" />
+
 	<article id="recipe-site">
 		<div class="item">
 			<div class="desc">
@@ -316,7 +378,7 @@
 					Aim: use this in my daily life, with recipes imported and adapted from online and cookbooks.
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger class="flex opacity-60"
+					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
 						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
@@ -398,7 +460,7 @@
 					Three Fiber (R3F). Models ripped directly from the game.
 				</p>
 				<Collapsible.Root>
-					<Collapsible.Trigger class="flex opacity-60"
+					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
 						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
@@ -486,7 +548,8 @@
 	}
 
 	p {
-		margin-bottom: 0.2rem;
+		margin-bottom: 1rem;
+		opacity: 75%;
 	}
 	.desc {
 		max-width: 450px;
@@ -520,19 +583,30 @@
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		gap: 1rem;
 	}
 	ul.media li {
 		list-style: none;
+		width: clamp(200px, 80vw, 300px);
+	}
+	ul.media li figure {
+		margin: 0 auto;
+		width: 100%;
+	}
+	ul.media li figcaption {
+		margin: -2px auto 4px auto;
+		text-align: center;
+		max-width: 80%;
 	}
 
 	ul.media li a {
 		display: inline-block;
-		width: clamp(200px, 80vw, 300px);
+		/* width: clamp(200px, 80vw, 300px); */
+		/* width: 500px; */
+		width: 100%;
 
 		position: relative;
-		width: 500px;
 		overflow: hidden;
 	}
 	ul.media li a[data-img] img {
@@ -541,7 +615,8 @@
 	ul.media li a[data-img]:hover img {
 		transform: scale(1.05);
 	}
-	img, video {
+	img,
+	video {
 		width: 100%;
 	}
 	ul.media li a[data-sources]:after {
@@ -552,13 +627,13 @@
 		width: 100%;
 		height: 100%;
 
-		content: '';
+		content: "";
 
 		/* background-size: 125px 125px;
 		background-image: url("play.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 50%; */
-		background: no-repeat center/125px  url("/play.svg");
+		background: no-repeat center/50px url("/play.svg");
 		opacity: 80%;
 		transition: background-size 200ms, opacity 200ms;
 		/* transition: transform 300ms, opacity 300ms; */
@@ -566,10 +641,10 @@
 
 		display: flex;
 		justify-content: center;
-		align-items: center;;
+		align-items: center;
 	}
 	ul.media li a[data-sources]:hover:after {
-		background-size: 140px;
+		background-size: 60px;
 		opacity: 100%;
 	}
 
