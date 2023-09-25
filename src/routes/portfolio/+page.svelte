@@ -551,7 +551,7 @@
 		background-image: url("play.svg");
 		background-repeat: no-repeat;
 		background-position: 50% 50%; */
-		background: no-repeat center/125px  url("play.svg");
+		background: no-repeat center/125px  url("/play.svg");
 		opacity: 80%;
 		transition: background-size 300ms, opacity 300ms;
 		/* transition: transform 300ms, opacity 300ms; */
