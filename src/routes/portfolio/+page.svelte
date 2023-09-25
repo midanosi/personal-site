@@ -536,7 +536,7 @@
 		overflow: hidden;
 	}
 	ul.media li a[data-img] img {
-		transition: transform 500ms;
+		transition: transform 150ms;
 	}
 	ul.media li a[data-img]:hover img {
 		transform: scale(1.05);
@@ -560,7 +560,7 @@
 		background-position: 50% 50%; */
 		background: no-repeat center/125px  url("/play.svg");
 		opacity: 80%;
-		transition: background-size 300ms, opacity 300ms;
+		transition: background-size 200ms, opacity 200ms;
 		/* transition: transform 300ms, opacity 300ms; */
 		box-shadow: inset 0 0 10px 3px black;
 
