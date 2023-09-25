@@ -1,5 +1,5 @@
 <script>
-	import { Link } from "lucide-svelte";
+	import { Download, Link } from "lucide-svelte";
 	import Chip from "../../lib/components/Chip.svelte";
 	import Divider from "../../lib/components/Divider.svelte";
 
@@ -25,6 +25,12 @@
 <div class="mobile-disclaimer">
 	This page is not optimised for mobile! Best viewed on desktop. If you need this in pdf format,
 	please email me at mdhutchings94@gmail.com
+</div>
+
+<div class="mb-8 w-fit">
+	<a href="/MichaelHutchingsCV.pdf" download class="flex gap-2 hover:underline hover:brightness-125">
+		Download PDF <Download /> 
+	</a>
 </div>
 
 <article class="cv" class:pdf>
@@ -310,6 +316,7 @@
 			</ul>
 		</section> -->
 	</section>
+
 	<footer>
 		<p>Icons by <a href="https://fontawesome.com">Font Awesome</a></p>
 	</footer>
