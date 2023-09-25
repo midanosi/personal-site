@@ -140,7 +140,6 @@
 						>
 							<img src="pastprojects/monumental/monumental-thumb.png" alt="thing" />
 						</a>
-
 						<figcaption>A complete bridge build</figcaption>
 					</figure>
 				</li>
@@ -153,7 +152,7 @@
 	<article id="mkrecords">
 		<div class="item">
 			<div class="desc">
-				<h1 class="name">"MKRecords"</h1>
+				<h1 class="name">MKRecords</h1>
 				<p>
 					Designs and some implementation for a brand new Mario Kart community leaderboards website.
 				</p>
@@ -162,124 +161,158 @@
 						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
-						<p>
-							Growing up, I was part of the Mario Kart time-trialing community, on "Players Page"
-							ranking webpages. When I heard a team was coming together to try revamp them, I asked
-							to be part of the team to help give the UI some good direction.
-						</p>
-						<p>
-							I made some designs in <i>Framer</i> for different pages. Some of it was great, some of
-							it was overkill. I coded some of it too, but there was no momentum and no-one else actively
-							working on the project. On top real-time pressures, I eventually lost all motivation, and
-							stopped work on the projects. I'm still really proud of my designs though.
-						</p>
+						<div class="more-content">
+							<p>
+								Growing up, I was part of the Mario Kart time-trialing community, on "Players Page"
+								ranking webpages. When I heard a team was coming together to try revamp them, I
+								asked to be part of the team to help give the UI some good direction.
+							</p>
+							<p>
+								I made some designs in <i>Framer</i> for different pages, and shared them with the community
+								for feedback, and made a few iterations. I tackling different key aspects like page layout,
+								course ranking lists, and profile pages. I coded some ideas into the beginning of a website,
+								but there was little momentum and I was the only one doing any programming (no-one on
+								backend), so unfortunately I stopped work on it once real-life pressures built up. However,
+								I'm really proud of my designs, and how the website was beginning to look.
+							</p>
+						</div>
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
 			<ul class="media">
 				<li>
-					<a
-						href="pastprojects/mkrecords/submission-page-design.png"
-						data-img="pastprojects/mkrecords/submission-page-design.png"
-						data-alt="a design in Framer web design tool for a time submission page, with options for track, time trial mode and many other factors"
-						data-width="3000"
-						data-height="3200"
-					>
-						<img
-							src="pastprojects/mkrecords/submission-page-design.png"
-							alt="a design in Framer web design tool for a time submission page, with options for track, time trial mode and many other factors"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/submission-page-design.png"
+							data-img="pastprojects/mkrecords/submission-page-design.png"
+							data-alt="a design in Framer web design tool for a time submission page, with options for track, time trial mode and many other factors"
+							data-width="3000"
+							data-height="3200"
+						>
+							<img
+								src="pastprojects/mkrecords/submission-page-design.png"
+								alt="a design in Framer web design tool for a time submission page, with options for track, time trial mode and many other factors"
+							/>
+						</a>
+						<figcaption>Submission page</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-rankinglist-designs.png"
-						data-img="pastprojects/mkrecords/mkrecords-rankinglist-designs.png"
-						data-alt=""
-					>
-						<img src="pastprojects/mkrecords/mkrecords-rankinglist-designs.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-rankinglist-designs.png"
+							data-img="pastprojects/mkrecords/mkrecords-rankinglist-designs.png"
+							data-alt=""
+						>
+							<img src="pastprojects/mkrecords/mkrecords-rankinglist-designs.png" alt="" />
+						</a>
+						<figcaption>Ranking list</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png"
-						data-img="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png"
-						data-alt=""
-					>
-						<img src="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png"
+							data-img="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png"
+							data-alt=""
+						>
+							<img src="pastprojects/mkrecords/mkrecords-rankinglist-designs-2.png" alt="" />
+						</a>
+						<figcaption>Ranking list 2</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-track-select-designs.png"
-						data-img="pastprojects/mkrecords/mkrecords-track-select-designs.png"
-						data-alt=""
-						data-width="3000"
-						data-height="3200"
-					>
-						<img src="pastprojects/mkrecords/mkrecords-track-select-designs.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-track-select-designs.png"
+							data-img="pastprojects/mkrecords/mkrecords-track-select-designs.png"
+							data-alt=""
+							data-width="3000"
+							data-height="3200"
+						>
+							<img src="pastprojects/mkrecords/mkrecords-track-select-designs.png" alt="" />
+						</a>
+						<figcaption>Track select</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png"
-						data-img="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png"
-						data-alt=""
-					>
-						<img src="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png"
+							data-img="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png"
+							data-alt=""
+						>
+							<img src="pastprojects/mkrecords/mkrecords-track-select-mobile-designs.png" alt="" />
+						</a>
+						<figcaption>Track select mobile</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png"
-						data-img="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png"
-						data-alt=""
-					>
-						<img src="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png"
+							data-img="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png"
+							data-alt=""
+						>
+							<img src="pastprojects/mkrecords/mkrecords-flat-page-layout-designs.png" alt="" />
+						</a>
+						<figcaption>Top-level navigation</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
-						data-img="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
-						data-alt=""
-					>
-						<img
-							src="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
-							alt=""
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
+							data-img="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
+							data-alt=""
+						>
+							<img
+								src="pastprojects/mkrecords/mkrecords-rankinglist-shadow-variation-designs.png"
+								alt=""
+							/>
+						</a>
+						<figcaption>Rankings list drop-shadow</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-profile-page-designs.png"
-						data-img="pastprojects/mkrecords/mkrecords-profile-page-designs.png"
-						data-alt=""
-					>
-						<img src="pastprojects/mkrecords/mkrecords-profile-page-designs.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-profile-page-designs.png"
+							data-img="pastprojects/mkrecords/mkrecords-profile-page-designs.png"
+							data-alt=""
+						>
+							<img src="pastprojects/mkrecords/mkrecords-profile-page-designs.png" alt="" />
+						</a>
+						<figcaption>Profile page</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-profile-page-implemented.png"
-						data-img="pastprojects/mkrecords/mkrecords-profile-page-implemented.png"
-						data-alt=""
-					>
-						<img src="pastprojects/mkrecords/mkrecords-profile-page-implemented.png" alt="" />
-					</a>
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-profile-page-implemented.png"
+							data-img="pastprojects/mkrecords/mkrecords-profile-page-implemented.png"
+							data-alt=""
+						>
+							<img src="pastprojects/mkrecords/mkrecords-profile-page-implemented.png" alt="" />
+						</a>
+						<figcaption>Profile page (screenshot of webpage)</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/mkrecords/mkrecords-site-tour.mp4"
-						data-thumb="pastprojects/mkrecords/mkrecords-thumb.png"
-						data-sources={`[
+					<figure>
+						<a
+							href="pastprojects/mkrecords/mkrecords-site-tour.mp4"
+							data-thumb="pastprojects/mkrecords/mkrecords-thumb.png"
+							data-sources={`[
 							{ "src": "pastprojects/mkrecords/mkrecords-site-tour.mp4", "type": "video/mp4" }
 						]`}
-						data-width="1000"
-						data-height="500"
-					>
-						<img src="pastprojects/mkrecords/mkrecords-site-tour-thumb.png" alt="" />
-					</a>
+							data-width="1000"
+							data-height="500"
+						>
+							<img src="pastprojects/mkrecords/mkrecords-site-tour-thumb.png" alt="" />
+						</a>
+						<figcaption>Site tour of website WIP</figcaption>
+					</figure>
 				</li>
 			</ul>
 		</div>
@@ -300,65 +333,76 @@
 						>MORE DETAILS<ChevronDown /></Collapsible.Trigger
 					>
 					<Collapsible.Content>
-						<p>
-							In consultancy, tracking time across multiple projects is hard, especially when the
-							timesheet software is Windows-only and I'm on a Macbook. And to me, running a VM all
-							day to quickly update your hours as-and-when needed is a non-option.
-						</p>
-						<p>
-							Made with <i>Svelte</i>, and tried out <i>Snowpack</i> (before Vite won). The design is
-							heavily lifted from one I found on dribbble.
-						</p>
-						<p>The data is saved locally to browser storage using <i>PouchDB</i></p>
-						<p>Not released, but I used this myself almost every day for 1.5 years.</p>
+						<div class="more-content">
+							<p>
+								In consultancy, tracking time across multiple projects is hard, especially when the
+								timesheet software is Windows-only and I'm on a Macbook. And to me, running a VM all
+								day to quickly update your hours as-and-when needed is a non-option.
+							</p>
+							<p>
+								Made with <i>Svelte</i>, and tried out <i>Snowpack</i> (before Vite won). The design
+								is heavily lifted from one I found on dribbble.
+							</p>
+							<p>The data is saved locally to browser storage using <i>PouchDB</i></p>
+							<p>Not released, but I used this myself almost every day for 1.5 years.</p>
+						</div>
 					</Collapsible.Content>
 				</Collapsible.Root>
 			</div>
 			<ul class="media">
 				<li>
-					<a
-						href="pastprojects/timetracker/timetracker.png"
-						data-img="pastprojects/timetracker/timetracker.png"
-						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						data-width="3000"
-						data-height="1400"
-						data-caption="screenshot of the webpage I used every day at work"
-					>
-						<img
-							src="pastprojects/timetracker/timetracker.png"
-							alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/timetracker/timetracker.png"
+							data-img="pastprojects/timetracker/timetracker.png"
+							data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+							data-width="3000"
+							data-height="1400"
+							data-caption="screenshot of the webpage I used every day at work"
+						>
+							<img
+								src="pastprojects/timetracker/timetracker.png"
+								alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+							/>
+						</a>
+						<figcaption>Screenshot of the web app</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/timetracker/timetracker-framer-designs-1.png"
-						data-img="pastprojects/timetracker/timetracker-framer-designs-1.png"
-						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						data-width="3000"
-						data-height="1400"
-						data-caption="I first used Framer to mock up what the app would look like"
-					>
-						<img
-							src="pastprojects/timetracker/timetracker-framer-designs-1.png"
-							alt="screenshot of Framer design of the main page of timetracker app"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/timetracker/timetracker-framer-designs-1.png"
+							data-img="pastprojects/timetracker/timetracker-framer-designs-1.png"
+							data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+							data-width="3000"
+							data-height="1400"
+							data-caption="I first used Framer to mock up what the app would look like"
+						>
+							<img
+								src="pastprojects/timetracker/timetracker-framer-designs-1.png"
+								alt="screenshot of Framer design of the main page of timetracker app"
+							/>
+						</a>
+						<figcaption>Initial design of app made in Framer</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/timetracker/timetracker-framer-designs-2.png"
-						data-img="pastprojects/timetracker/timetracker-framer-designs-2.png"
-						data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
-						data-width="3000"
-						data-height="1400"
-						data-caption="For some ui elements, I mocked a few variations in Framer prior to coding it"
-					>
-						<img
-							src="pastprojects/timetracker/timetracker-framer-designs-2.png"
-							alt="screenshot of Framer design of the some ui elements of timetracker app"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/timetracker/timetracker-framer-designs-2.png"
+							data-img="pastprojects/timetracker/timetracker-framer-designs-2.png"
+							data-alt="webpage that allows tracking time hour by hour over the course of one week, into various projects"
+							data-width="3000"
+							data-height="1400"
+							data-caption="For some ui elements, I mocked a few variations in Framer prior to coding it"
+						>
+							<img
+								src="pastprojects/timetracker/timetracker-framer-designs-2.png"
+								alt="screenshot of Framer design of the some ui elements of timetracker app"
+							/>
+						</a>
+						<figcaption>Popover design variations</figcaption>
+					</figure>
 				</li>
 			</ul>
 		</div>
@@ -371,11 +415,11 @@
 			<div class="desc">
 				<h1 class="name">Recipe Site</h1>
 				<p>
-					A fun project to shake off the designing and programming rust. I've had a focus on
-					improving my cooking skills this year, so tackling my own recipe website felt like a good
-					design challenge.
-					<br />
-					Aim: use this in my daily life, with recipes imported and adapted from online and cookbooks.
+					I've been working a lot on improving my cooking skills this year, so tackling my own
+					recipe website felt like a good design challenge.
+				</p>
+				<p>
+					<i>Aim</i> - use this in my daily life, with recipes imported and adapted from online and cookbooks.
 				</p>
 				<Collapsible.Root>
 					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
@@ -384,25 +428,33 @@
 					<Collapsible.Content>
 						<div class="more-content">
 							<p>
-								The standard format of recipes has caused me friction. The cooking instructions are
-								in prose, all in the same font and style. But when one cooks, you are constantly
-								looking back and forth between the instructions and your cooking.
+								My problem with the standard way that cooking instructions are presented, is that
+								they are all in prose, with an unchanging font and
+								style. But when you cook, you are constantly having to look between the
+								instructions and your cooking. And having to do this
+								back-and-forth all whilst actually performing the cooking causes me anxiety and
+								stress, and I just feel like I could make it better for myself.
 							</p>
 							<p>
 								Hellofresh and Gousto opened my eyes as to how a better designed recipe format could
-								aid me in my cooking. One simple thing was simply making highlighting each
+								aid me in my cooking. One simple thing they do is simply highlighting each
 								ingredient in bold.
 							</p>
 							<p>
-								I came across cooklang that was doing roughly what I wanted, which has the clever
-								idea of annotating your ingredients within the instructions steps, which 1. allows
-								automatic creation of the ingredients list 2. allows for highlighting ingredients
-								within the text, like in the hellofresh and gousto recipes.
+								In my exploration of existing work, I came across <i>cooklang</i>, which ticks a lot of my
+								boxes. It has the clever idea of annotating your ingredients within the instruction
+								step text, which 1. allows automatic creation of the ingredients list, rather than
+								having to write it in addition, and 2. allows for highlighting ingredients within
+								the text, like in the hellofresh and gousto recipes.
 							</p>
 							<p>
 								But, cooklang was missing a lot of features I wanted, like newline support,
 								miscellaneous highlighting and few other things, so I've hacked on top of it to get
-								the functionality I want.
+								the functionality I want. Such as; preserving newlines, alternative wording for
+								ingredients (e.g. 'parsley stalks' is grouped under 'parsley'), ingredient
+								specifications (e.g. de-seeded and chopped), miscellaneous highlighting (e.g.
+								'roasted veg', made in a previous step), providing alternative quantity unit types
+								(e.g. 1 cup, or 230ml).
 							</p>
 						</div>
 					</Collapsible.Content>
@@ -410,40 +462,49 @@
 			</div>
 			<ul class="media">
 				<li>
-					<a
-						href="pastprojects/recipe-site/recipe-site.png"
-						data-img="pastprojects/recipe-site/recipe-site.png"
-						data-alt="website displaying a recipe for roasted feijoada"
-					>
-						<img
-							src="pastprojects/recipe-site/recipe-site.png"
-							alt="website displaying a recipe for roasted feijoada"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/recipe-site/recipe-site.png"
+							data-img="pastprojects/recipe-site/recipe-site.png"
+							data-alt="website displaying a recipe for roasted feijoada"
+						>
+							<img
+								src="pastprojects/recipe-site/recipe-site.png"
+								alt="website displaying a recipe for roasted feijoada"
+							/>
+						</a>
+						<figcaption>Recipe page WIP</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/recipe-site/recipe-cooklang-example.png"
-						data-img="pastprojects/recipe-site/recipe-cooklang-example.png"
-						data-alt="text editor containing raw cooklang string used to render the recipe"
-					>
-						<img
-							src="pastprojects/recipe-site/recipe-cooklang-example.png"
-							alt="text editor containing raw cooklang string used to render the recipe"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/recipe-site/recipe-cooklang-example.png"
+							data-img="pastprojects/recipe-site/recipe-cooklang-example.png"
+							data-alt="text editor containing raw cooklang string used to render the recipe"
+						>
+							<img
+								src="pastprojects/recipe-site/recipe-cooklang-example.png"
+								alt="text editor containing raw cooklang string used to render the recipe"
+							/>
+						</a>
+						<figcaption>Cooklang text file</figcaption>
+					</figure>
 				</li>
 				<li>
-					<a
-						href="pastprojects/recipe-site/recipe-site-old.png"
-						data-img="pastprojects/recipe-site/recipe-site-old.png"
-						data-alt="an old design of the recipe webpage"
-					>
-						<img
-							src="pastprojects/recipe-site/recipe-site-old.png"
-							alt="an old design of the recipe webpage"
-						/>
-					</a>
+					<figure>
+						<a
+							href="pastprojects/recipe-site/recipe-site-old.png"
+							data-img="pastprojects/recipe-site/recipe-site-old.png"
+							data-alt="an old design of the recipe webpage"
+						>
+							<img
+								src="pastprojects/recipe-site/recipe-site-old.png"
+								alt="an old design of the recipe webpage"
+							/>
+						</a>
+						<figcaption>Prior recipe page desing, using a skeumorphic notepad view</figcaption>
+					</figure>
 				</li>
 			</ul>
 		</div>
@@ -456,8 +517,8 @@
 			<div class="desc">
 				<h1 class="name">Spyro 3D Animation</h1>
 				<p>
-					A recreation of the introductory level loading screen from Spyro 1. Built using React
-					Three Fiber (R3F). Models ripped directly from the game.
+					A recreation of the introductory level loading screen from Spyro 1. Built using <i>React
+					Three Fiber (R3F)</i>. Models ripped directly from the game.
 				</p>
 				<Collapsible.Root>
 					<Collapsible.Trigger class="flex opacity-90 font-medium hover:opacity-100"
@@ -468,7 +529,6 @@
 							<p>
 								For many years had the itch to dive into 3D work. And I've always loved Spyro! So I
 								challenged myself to see how best I could recreate parts of the original ps1 game.
-								This is the first somewhat complete thing I've made.
 							</p>
 						</div>
 					</Collapsible.Content>
@@ -476,35 +536,41 @@
 			</div>
 			<ul class="media">
 				<li>
-					<a
-						href="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
-						data-thumb="s/pastprojects/spyro-intro/spyro-intro-thumb.png"
-						data-sources={`[
+					<figure>
+						<a
+							href="/pastprojects/spyro-intro/spyro_intro_unlit.mov"
+							data-thumb="s/pastprojects/spyro-intro/spyro-intro-thumb.png"
+							data-sources={`[
 							{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mp4", "type": "video/mp4" },
 							{ "src": "/pastprojects/spyro-intro/spyro_intro_unlit.mov", "type": "video/quicktime" }
 						]`}
-					>
-						<img
-							src="/pastprojects/spyro-intro/spyro-intro-thumb.png"
-							alt="spyro flying into shot next to the words 'A new adventure begins' in gold letters"
-						/>
-					</a>
+						>
+							<img
+								src="/pastprojects/spyro-intro/spyro-intro-thumb.png"
+								alt="spyro flying into shot next to the words 'A new adventure begins' in gold letters"
+							/>
+						</a>
+						<figcaption>Spyro Intro Animation</figcaption>
+					</figure>
 				</li>
 
 				<li>
-					<a
-						href="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
-						data-thumb="/pastprojects/spyro-intro/spyro-debug-thumb.png"
-						data-sources={`[
+					<figure>
+						<a
+							href="/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov"
+							data-thumb="/pastprojects/spyro-intro/spyro-debug-thumb.png"
+							data-sources={`[
 							{ "src": "/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mp4", "type": "video/mp4" },
 							{ "src": "/pastprojects/spyro-intro/spyro_intro_loading_screen_with_debug.mov", "type": "video/quicktime" }
 						]`}
-					>
-						<img
-							src="/pastprojects/spyro-intro/spyro-debug-thumb.png"
-							alt="debug view of spyro intro"
-						/>
-					</a>
+						>
+							<img
+								src="/pastprojects/spyro-intro/spyro-debug-thumb.png"
+								alt="debug view of spyro intro"
+							/>
+						</a>
+						<figcaption>"Debug" view, showing the behind-the-scenes of the animation</figcaption>
+					</figure>
 				</li>
 			</ul>
 		</div>
