@@ -29,7 +29,7 @@
 
 <div class="mb-8 w-fit">
 	<a href="/MichaelHutchingsCV.pdf" download class="flex gap-2 hover:underline hover:brightness-125">
-		Download PDF <Download /> 
+		Download as PDF <Download /> 
 	</a>
 </div>
 
