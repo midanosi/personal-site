@@ -533,6 +533,13 @@
 
 		position: relative;
 		width: 500px;
+		overflow: hidden;
+	}
+	ul.media li a[data-img] img {
+		transition: transform 500ms;
+	}
+	ul.media li a[data-img]:hover img {
+		transform: scale(1.05);
 	}
 	img, video {
 		width: 100%;
