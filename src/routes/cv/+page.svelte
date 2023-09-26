@@ -27,7 +27,7 @@
 	please email me at mdhutchings94@gmail.com
 </div>
 
-<div class="mb-8 w-fit sm:mx-auto">
+<div class="mb-8 w-fit mx-auto lg:mx-0">
 	<a
 		href="/MichaelHutchingsCV.pdf"
 		download
