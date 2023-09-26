@@ -1,17 +1,17 @@
 <script>
-	import Header from '../lib/components/Header.svelte';
-import { page } from '$app/stores';
-	import './reset.css';
-	import './app.css';
-	import './styles.css';
-	import "bigger-picture/css"
+	import Header from "../lib/components/Header.svelte";
+	import { page } from "$app/stores";
+	import "./reset.css";
+	import "./app.css";
+	import "./styles.css";
+	import "bigger-picture/css";
 </script>
 
-{#if $page.url.search.includes('?embed')}
+{#if $page.url.search.includes("?embed")}
 	<slot />
 {:else}
 	<div class="app">
-		<Header /> 
+		<Header />
 
 		<main>
 			<slot />
@@ -34,7 +34,7 @@ import { page } from '$app/stores';
 		flex-direction: column;
 		padding: 0;
 		width: 100%;
-		max-width: 64rem;
+		max-width: 55rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
