@@ -1,58 +1,10 @@
-<h1 class="page-title">Stuff I've made</h1>
-
-<!-- <nav class="menu">
-	<h2><a href="#ccinternal">Internal (Public) Projects whilst at Cambridge Consultants</a></h2>
-	<ul>
-		<li><a href="#monumental">Monumental</a></li>
-	</ul>
-
-	<h2><a href="#petproject">Pet Project Websites</a></h2>
-	<ul>
-		<li><a href="#recipe">TODO: recipe site</a></li>
-		<li><a href="#spyro-scene">TODO: spyro scene </a></li>
-		<li><a href="#mapbox-test">TODO: mapbox test </a></li>
-		<li><a href="#holiday-dashboard">Holiday Dashboard</a></li>
-		<li><a href="#nonzzmt">NonZZMT Site</a></li>
-	</ul>
-
-	<h2><a href="#3d">3D</a></h2>
-	<p>TODO change this into a compact square grid with very short caption</p>
-	<ul>
-		<li><a href="#threlte-outline-maze">threlte outline maze</a></li>
-		<li><a href="#spyro-intro">spyro intro fly-in</a></li>
-		<li><a href="#r3f-flexmenu">r3f flex-menu codesandbox</a></li>
-		<li><a href="#r3f-obscurelabel">r3f obscuring label</a></li>
-		<li><a href="#explodingcube">r3f exploding cube</a></li>
-	</ul>
-
-	<h2><a href="#animation">Animation</a></h2>
-	<p>TODO change this into a compact square grid with very short caption</p>
-	<ul>
-		<li><a href="#tabmenu">new tab colour-changing selector thing</a></li>
-		<li><a href="#generativeartcourse">generative art (from frontendmasters course)</a></li>
-		<li><a href="#cclogosanim">logo animations</a></li>
-		<li><a href="#blobmenu">blob menu</a></li>
-		<li><a href="#complex-gsap-anim">WDS Demos GSAP</a></li>
-		<li><a href="#netflix-menu-clone">Netflix clone (WDS Demos)</a></li>
-	</ul>
-</nav> -->
-
 <svelte:head>
 	<title>Misc</title>
 </svelte:head>
 
-<div class="grid">
-	<div class="item"/>
-	<div class="item"/>
-	<div class="item"/>
-	<div class="item"/>
-	<div class="item"/>
-</div>
+<h1 class="text-center text-bold">MISC.</h1>
 
-<div class="etc">
-	<h1 class="section-title" id="ccinternal">Etc.</h1>
-	<p>This is a non-exhaustive list of all the things I've made, big and small, over the years</p>
-
+<div class="misc">
 	<article id="complex-gsap-anim">
 		<div class="item">
 			<div class="desc">
@@ -78,7 +30,9 @@
 			</div>
 		</div>
 	</article>
+
 	<div class="divider" />
+
 	<article id="netflix-menu-clone">
 		<div class="item">
 			<div class="desc">
@@ -104,6 +58,7 @@
 	</article>
 
 	<div class="divider" />
+
 	<article id="nonzzmt">
 		<div class="item">
 			<div class="desc">
@@ -123,6 +78,7 @@
 	</article>
 
 	<div class="divider" />
+
 	<article id="holiday-dashboard">
 		<div class="item">
 			<div class="desc">
@@ -140,14 +96,43 @@
 			</div>
 			<div class="content">
 				<img
-					src="pastprojects/holidaydashboard/2021.ipng"
+					src="pastprojects/holidaydashboard/2021.png"
 					alt="webpage with a input text box top left, visualisation of remaining holiday days bottom left, and a calendar view on the whole right side, with coloured days representing planned or taken holiday days"
 				/>
 			</div>
 		</div>
 	</article>
 
+	<div class="divider" />
+
+	<article id="mapbox-test-run">
+		<div class="item">
+			<div class="desc">
+				<h1 class="name">Mapbox Test Run</h1>
+				<p>
+					Ahead of a work client project that involved using maps, I whipped up a quick app to demo mapbox, and an associated react-mapbox-gl library and test it's functionality.
+				</p>
+				<p>This basic app checked the following things:</p>
+				<ul>
+					<li>Smooth navigation animation to different locations and zooms</li>
+					<li>Can select item from a virtualised list to navigate to and select a location on map</li>
+					<li>Perform the opposite behaviour; click item on map to scroll to and focus item in list</li>
+					<li>Map type (dark/streets) switcher</li>
+				</ul>
+			</div>
+			<div class="content">
+				<video controls width="100%" muted>
+					<source src="/pastprojects/mapboxtestrun/mapbox-test-run-recording.mov" type="video/quicktime" />
+					Sorry, your browser doesn't support embedded videos.
+				</video>
+			</div>
+		</div>
+	</article>
+
+	<div class="divider" />
+
 	<h1 class="section-title" id="3d">3D/Design/Animation Experiments</h1>
+
 	<article id="r3f-flexmenu">
 		<div class="item">
 			<div class="desc">
@@ -168,24 +153,9 @@
 			</div>
 		</div>
 	</article>
+
 	<div class="divider" />
-	<article id="r3f-obscurelabel">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">r3f obscuring label</h2>
-				<p>
-					Another experiment, basically copying what was done in this Earth demo: (sandbox link)
-				</p>
-			</div>
-			<div class="content">
-				<video controls width="100%" muted>
-					<source src="/pastprojects/r3f/html tooltips.mov" type="video/mp4" />
-					Sorry, your browser doesn't support embedded videos.
-				</video>
-			</div>
-		</div>
-	</article>
-	<div class="divider" />
+
 	<article id="explodingcube">
 		<div class="item">
 			<div class="desc">
@@ -206,21 +176,9 @@
 			</div>
 		</div>
 	</article>
+
 	<div class="divider" />
-	<article id="generativeartcourse">
-		<div class="item">
-			<div class="desc">
-				<h2 class="name">Generative art thing</h2>
-				<p>Generative art, from this frontendmasters course: (link)</p>
-				<p>
-					Go do this course, it's fun and short, and shows how you can build up from nothing to
-					something with few simple techniques.
-				</p>
-			</div>
-			<div class="content">image soon?</div>
-		</div>
-	</article>
-	<div class="divider" />
+
 	<article id="tabmenu">
 		<div class="item">
 			<div class="desc">
@@ -238,7 +196,9 @@
 			</div>
 		</div>
 	</article>
+
 	<div class="divider" />
+
 	<article id="cclogo">
 		<div class="item">
 			<div class="desc">
@@ -251,10 +211,6 @@
 					Quite happy with how these turned out, but I only showed these to my team, not the wider
 					company. Was only an experiment.
 				</p>
-				<!-- <p>
-					Code here: (code won't run as I haven't included the logo files for obvious reasons)
-					(link)
-				</p> -->
 			</div>
 			<div class="content">
 				<video controls width="100%" muted>
@@ -264,7 +220,9 @@
 			</div>
 		</div>
 	</article>
+
 	<div class="divider" />
+
 	<article id="blobmenu">
 		<div class="item">
 			<div class="desc">
@@ -285,4 +243,40 @@
 </div>
 
 <style>
+	.misc {
+		margin: 4rem auto;
+	}
+	h1 {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	h2 {
+		font-weight: bold;
+	}
+	p, li {
+		font-size: 0.6rem;
+		max-width: 400px;
+		opacity: 80%;
+	}
+	li {
+		margin-left: 1rem;
+	}
+	img,
+	video,
+	iframe {
+		max-width: 300px;
+		max-height: 200px;
+	}
+
+	/* .divider {
+		width: min(400px, 60vw);
+		height: 1px;
+		background: var(--color-text);
+		opacity: 0.2;
+		margin: 4rem auto 4rem;
+	} */
+
+	article {
+		margin-bottom: 2rem;
+	}
 </style>
