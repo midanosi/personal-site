@@ -42,7 +42,7 @@
 	nav ul {
 		position: relative;
 		padding: 0;
-		margin: 0 1rem 0 min(12vw, 6rem);
+		margin: 0 1rem 0 10vw;
 		height: 3em;
 		display: flex;
 		justify-content: center;
