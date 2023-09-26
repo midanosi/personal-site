@@ -11,7 +11,7 @@
 			state: ["Zustand", "XState", "Redux + Toolkit", "Jotai", "react-query"],
 			animation_3d: ["React Three Fiber", "GSAP", "Threlte", "Three.js", "react-spring"],
 			test: ["Playwright", "Vitest", "Jest", "Testing Library", "Cypress"],
-			design: ["Framer", "Figma"],
+			design: ["Framer", "Balsamiq", "Figma"],
 		},
 		os: ["MacOS", "Linux", "Windows"],
 	};
@@ -28,8 +28,12 @@
 </div>
 
 <div class="mb-8 w-fit">
-	<a href="/MichaelHutchingsCV.pdf" download class="flex gap-2 hover:underline hover:brightness-125">
-		Download as PDF <Download /> 
+	<a
+		href="/MichaelHutchingsCV.pdf"
+		download
+		class="flex gap-2 hover:underline hover:brightness-125"
+	>
+		Download as PDF <Download />
 	</a>
 </div>
 
