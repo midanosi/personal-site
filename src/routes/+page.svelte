@@ -1,14 +1,6 @@
 <script lang="ts">
-	import { Canvas } from '@threlte/core';
-	import OrbitingParticles from '../lib/components/OrbitingParticles.svelte';
 	import { ArrowRight } from 'lucide-svelte';
 </script>
-
-<div class="canvas">
-	<Canvas>
-		<OrbitingParticles />
-	</Canvas>
-</div>
 
 <svelte:head>
 	<title>Michael Hutchings</title>
@@ -36,15 +28,6 @@
 </section>
 
 <style>
-	.canvas {
-		position: fixed;
-		width: 100vw;
-		height: 100vh;
-		top: 0;
-		left: -45vw;
-		z-index: -1;
-		pointer-events: none;
-	}
 	section {
 		max-width: 400px;
 		margin: 10vh 0px 0px 50px;

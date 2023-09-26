@@ -27,7 +27,7 @@
 	please email me at mdhutchings94@gmail.com
 </div>
 
-<div class="mb-8 w-fit">
+<div class="mb-8 w-fit sm:mx-auto">
 	<a
 		href="/MichaelHutchingsCV.pdf"
 		download
@@ -385,7 +385,7 @@
 	}
 	.mobile-disclaimer {
 		font-size: 1.5rem;
-		padding: 2rem;
+		padding: 0 4rem 2rem;
 	}
 	@media (min-width: 800px) {
 		.mobile-disclaimer {

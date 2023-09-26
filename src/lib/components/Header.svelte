@@ -1,17 +1,17 @@
 <script>
-	import { page } from '$app/stores';
-	import { Github, Gitlab } from 'lucide-svelte';
-	import { fade } from 'svelte/transition';
+	import { page } from "$app/stores";
+	import { Github, Gitlab } from "lucide-svelte";
+	import { fade } from "svelte/transition";
 </script>
 
 <header>
 	<nav>
-		{#if $page.url.pathname !== '/'}
+		{#if $page.url.pathname !== "/"}
 			<ul class="navbar-list" in:fade>
-				<li aria-current={$page.url.pathname === '/cv' ? 'page' : undefined}>
+				<li aria-current={$page.url.pathname === "/cv" ? "page" : undefined}>
 					<a href="/cv">CV</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
+				<li aria-current={$page.url.pathname === "/portfolio" ? "page" : undefined}>
 					<a href="/portfolio">Portfolio</a>
 				</li>
 				<!-- <li aria-current={$page.url.pathname === '/misc' ? 'page' : undefined}>
@@ -36,12 +36,13 @@
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+
 	}
 
 	nav ul {
 		position: relative;
 		padding: 0;
-		margin: 0 1rem;
+		margin: 0 1rem 0 min(12vw, 6rem);
 		height: 3em;
 		display: flex;
 		justify-content: center;
@@ -80,15 +81,17 @@
 		transition: color 0.2s linear;
 		position: relative;
 		transition: filter 500ms;
+
+		/* text-shadow: 0 0 1em black, 0 0 0.1em #d8bcab; */
 	}
 
 	nav a::after,
-	li[aria-current='page']::before {
+	li[aria-current="page"]::before {
 		display: block;
 		position: absolute;
 		bottom: 8px;
 		left: 0;
-		content: '';
+		content: "";
 		background: var(--color-text);
 		width: 100%;
 		height: 1px;
@@ -98,12 +101,12 @@
 	}
 
 	a:hover,
-	li[aria-current='page'] {
+	li[aria-current="page"] {
 		filter: brightness(1.2);
 	}
 
 	a:hover::after,
-	li[aria-current='page']::before {
+	li[aria-current="page"]::before {
 		transform: scale(1);
 		opacity: 1;
 	}

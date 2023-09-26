@@ -5,11 +5,19 @@
 	import "./app.css";
 	import "./styles.css";
 	import "bigger-picture/css";
+	import { Canvas } from "@threlte/core";
+	import OrbitingParticles from "$lib/components/OrbitingParticles.svelte";
 </script>
 
 {#if $page.url.search.includes("?embed")}
 	<slot />
 {:else}
+	<div class="canvas">
+		<Canvas>
+			<OrbitingParticles />
+		</Canvas>
+		<div class="fadeout" />
+	</div>
 	<div class="app">
 		<Header />
 
@@ -51,5 +59,16 @@
 		footer {
 			padding: 12px 0;
 		}
+	}
+
+	.canvas {
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left: -45vw;
+		bottom: 0;
+		z-index: -1;
+		pointer-events: none;
 	}
 </style>
