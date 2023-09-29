@@ -135,14 +135,13 @@
 			</ul>
 			<ul>
 				<li>
-					Sole frontend developer on 3 client projects (team size: ~5, each project length: 3-6
-					months)
+					Led frontend development on three client projects of length 3-6 months
 				</li>
-				<li>Proposed and developed new features for clients</li>
-				<li>Stepped in to also develop the backend for one project when it was required</li>
+				<li>Proposed and developed new functionality to meet client needs</li>
+				<li>Demonstrated versatility by taking on backend development responsibilities for one client project</li>
 				<li>
-					Greater involvement in interview process; screening CVs, revamping outdated interview
-					question content, conducting office tours for candidates, and co-running some interviews
+					Greater involvement in the interview process; screening CVs, revamping outdated interview
+					question content, conducting office tours for candidates, and co-running interviews
 				</li>
 			</ul>
 			<div style="height: 6px" />
@@ -161,14 +160,14 @@
 				<li>
 					Delivered customised and complex UI features across several client and internal projects
 				</li>
-				<li>Regular presentations of UI work to clients and project stakeholders</li>
+				<li>Presented UI work to clients and project stakeholders on a regular basis</li>
 				<li>
 					Collaborated across different disciplines (Backend, Design, AI), contributed to technical
 					discussions outside of my typical domain
 				</li>
-				<li>Trialled emerging tools; e.g. Cypress, Svelte, XState, TypeScript, Yarn, Vite, pnpm</li>
-				<li>Created and maintained automated test suites for numerous projects</li>
-				<li>Acted as both buddy & mentor for a placement student in our team</li>
+				<li>Evaluated emerging tools such as Cypress, Svelte, XState, TypeScript, Yarn, Vite, pnpm</li>
+				<li>Developed and maintained automated test suites for multiple projects</li>
+				<li>Mentored and supported a placement student within our team</li>
 			</ul>
 		</section>
 
